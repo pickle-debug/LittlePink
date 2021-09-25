@@ -16,6 +16,7 @@
 		F8A5A3BE26FF22B8000446D3 /* LittlePinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A3BD26FF22B8000446D3 /* LittlePinkTests.swift */; };
 		F8A5A3C826FF22B8000446D3 /* LittlePinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A3C726FF22B8000446D3 /* LittlePinkUITests.swift */; };
 		F8A5A3CA26FF22B8000446D3 /* LittlePinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A3C926FF22B8000446D3 /* LittlePinkUITestsLaunchTests.swift */; };
+		F8A5A3D926FF588B000446D3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F8A5A3D826FF588B000446D3 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F8A5A3C326FF22B8000446D3 /* LittlePinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittlePinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A5A3C726FF22B8000446D3 /* LittlePinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkUITests.swift; sourceTree = "<group>"; };
 		F8A5A3C926FF22B8000446D3 /* LittlePinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8A5A3D826FF588B000446D3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F8A5A39A26FF22A2000446D3 = {
 			isa = PBXGroup;
 			children = (
+				F8A5A3D826FF588B000446D3 /* .gitignore */,
 				F8A5A3A526FF22A2000446D3 /* LittlePink */,
 				F8A5A3BC26FF22B8000446D3 /* LittlePinkTests */,
 				F8A5A3C626FF22B8000446D3 /* LittlePinkUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A5A3D926FF588B000446D3 /* .gitignore in Resources */,
 				F8A5A3B326FF22B8000446D3 /* LaunchScreen.storyboard in Resources */,
 				F8A5A3B026FF22B8000446D3 /* Assets.xcassets in Resources */,
 				F8A5A3AE26FF22A2000446D3 /* Main.storyboard in Resources */,
