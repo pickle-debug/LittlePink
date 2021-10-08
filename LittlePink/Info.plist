@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>权限用于存储照片</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.heself.LittlePink</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>权限用于录制视频声音</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>该权限用于访问相册选取照片与视频</string>
+	<key>NSCameraUsageDescription</key>
+	<string>该权限用于拍摄照片与视频</string>
+	<key>CFBundleDisplayName</key>
+	<string>Pink</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

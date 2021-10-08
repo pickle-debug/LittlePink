@@ -13,11 +13,19 @@ let kFollowVCID = "FollowVCID"
 let kNearByVCID = "NearByVCID"
 let kDiscoveryVCID = "DiscoveryVCID"
 let kWaterfallVCID = "WaterfallVCID"
+let kNoteEditVCID = "NoteEditVCID"
 //MARK: CellID
 let kWaterfallCellID = "WaterfallCellID"
 
 
+
+//MARK: -业务逻辑相关
+//瀑布流
 let kWaterfallPadding: CGFloat = 4
-
-
 let kChannels = ["推荐","旅行","运动健身","娱乐","家居家装","职场","才艺","美妆","美食","萌宠"]
+
+
+//YPImagePicker
+let kMaxCameraZoomFactor: CGFloat = 5
+let kMaxPhotoCounts = 9
+let kSpacingBetweenItems: CGFloat = 2

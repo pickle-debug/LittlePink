@@ -1,0 +1,21 @@
+
+/* Class = "UITabBarItem"; title = "Me"; ObjectID = "3HA-aF-hNX"; */
+"3HA-aF-hNX.title" = "我";
+
+/* Class = "UITabBarItem"; title = "Post"; ObjectID = "AVF-n5-epu"; */
+"AVF-n5-epu.title" = "发布";
+
+/* Class = "UILabel"; text = "前面的区域，以后再来探索吧"; ObjectID = "FSt-hi-T6N"; */
+"FSt-hi-T6N.text" = "前面的区域，以后再来探索吧";
+
+/* Class = "UITabBarItem"; title = "Stopping"; ObjectID = "Q1x-rT-RUQ"; */
+"Q1x-rT-RUQ.title" = "商店";
+
+/* Class = "UITabBarItem"; title = "Message"; ObjectID = "Yyt-oZ-KMf"; */
+"Yyt-oZ-KMf.title" = "消息";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "dtp-WE-IiT"; */
+"dtp-WE-IiT.title" = "主页";
+
+/* Class = "UILabel"; text = "“附近页”代码施工中"; ObjectID = "f4I-5X-J9H"; */
+"f4I-5X-J9H.text" = "“附近页”代码施工中";

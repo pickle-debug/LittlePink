@@ -16,7 +16,7 @@ class NearByVC: UIViewController, IndicatorInfoProvider{
         // Do any additional setup after loading the view.
     }
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        IndicatorInfo(title: "附近")
+        IndicatorInfo(title: NSLocalizedString("NearBy", comment: "首页上方的附近标签"))
     }
     
     

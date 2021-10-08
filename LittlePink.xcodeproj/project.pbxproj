@@ -14,6 +14,8 @@
 		F8000CF427048BA700A7DC4C /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8000CF327048BA700A7DC4C /* DiscoveryVC.swift */; };
 		F8000CF627048BC200A7DC4C /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8000CF527048BC200A7DC4C /* NearByVC.swift */; };
 		F8000CF827048D4200A7DC4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8000CF727048D4200A7DC4C /* Constants.swift */; };
+		F84A511D270B1CA5004BB2ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A511C270B1CA5004BB2ED /* Extensions.swift */; };
+		F84A5121270E8FCD004BB2ED /* NoteEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A5120270E8FCD004BB2ED /* NoteEditVC.swift */; };
 		F8A5A3A726FF22A2000446D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A3A626FF22A2000446D3 /* AppDelegate.swift */; };
 		F8A5A3A926FF22A2000446D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A3A826FF22A2000446D3 /* SceneDelegate.swift */; };
 		F8A5A3AE26FF22A2000446D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A5A3AC26FF22A2000446D3 /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 		F8AB2447270494490082458F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB2446270494490082458F /* HomeVC.swift */; };
 		F8AB2449270590F20082458F /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB2448270590F20082458F /* WaterfallVC.swift */; };
 		F8AB244B270599D80082458F /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB244A270599D80082458F /* WaterfallCell.swift */; };
+		F8AB244F270AA0870082458F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8AB244E270AA0870082458F /* README.md */; };
+		F8AB245E270AB51C0082458F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8AB245C270AB51C0082458F /* Localizable.strings */; };
+		F8AB2461270AB9A90082458F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8AB2463270AB9A90082458F /* InfoPlist.strings */; };
+		F8AB2467270AD5440082458F /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB2466270AD5440082458F /* TabBarC.swift */; };
+		F8AB246B270ADEED0082458F /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB246A270ADEED0082458F /* PostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,9 @@
 		F8000CF327048BA700A7DC4C /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
 		F8000CF527048BC200A7DC4C /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
 		F8000CF727048D4200A7DC4C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F84A511C270B1CA5004BB2ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F84A511F270C0528004BB2ED /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F84A5120270E8FCD004BB2ED /* NoteEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditVC.swift; sourceTree = "<group>"; };
 		F8A5A3A326FF22A2000446D3 /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A5A3A626FF22A2000446D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8A5A3A826FF22A2000446D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +84,13 @@
 		F8AB2446270494490082458F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F8AB2448270590F20082458F /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
 		F8AB244A270599D80082458F /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
+		F8AB244E270AA0870082458F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8AB2451270AA39B0082458F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F8AB2453270AAA8B0082458F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F8AB245D270AB51C0082458F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F8AB2462270AB9A90082458F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F8AB2466270AD5440082458F /* TabBarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
+		F8AB246A270ADEED0082458F /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 		FB934F4C41149781C14F844E /* Pods-LittlePinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePinkTests.release.xcconfig"; path = "Target Support Files/Pods-LittlePinkTests/Pods-LittlePinkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,9 +156,19 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		F84A511E270BF50C004BB2ED /* Demo + press hold */ = {
+			isa = PBXGroup;
+			children = (
+				F84A511F270C0528004BB2ED /* MyPlayground.playground */,
+				F8AB246A270ADEED0082458F /* PostVC.swift */,
+			);
+			path = "Demo + press hold";
+			sourceTree = "<group>";
+		};
 		F8A5A39A26FF22A2000446D3 = {
 			isa = PBXGroup;
 			children = (
+				F8AB244E270AA0870082458F /* README.md */,
 				F8A5A3D826FF588B000446D3 /* .gitignore */,
 				F8A5A3A526FF22A2000446D3 /* LittlePink */,
 				F8A5A3BC26FF22B8000446D3 /* LittlePinkTests */,
@@ -165,12 +192,16 @@
 		F8A5A3A526FF22A2000446D3 /* LittlePink */ = {
 			isa = PBXGroup;
 			children = (
+				F8AB2466270AD5440082458F /* TabBarC.swift */,
 				F8A5A3A626FF22A2000446D3 /* AppDelegate.swift */,
 				F8A5A3A826FF22A2000446D3 /* SceneDelegate.swift */,
 				F8A5A3AC26FF22A2000446D3 /* Main.storyboard */,
+				F84A5120270E8FCD004BB2ED /* NoteEditVC.swift */,
 				F8000CF927048E9C00A7DC4C /* Home */,
 				F8AB244C270A9F590082458F /* Waterfall */,
 				F8AB244D270A9F6A0082458F /* Common */,
+				F84A511E270BF50C004BB2ED /* Demo + press hold */,
+				F8AB2464270ABD650082458F /* Resources */,
 				F8A5A3AF26FF22B8000446D3 /* Assets.xcassets */,
 				F8A5A3B126FF22B8000446D3 /* LaunchScreen.storyboard */,
 				F8A5A3B426FF22B8000446D3 /* Info.plist */,
@@ -208,8 +239,18 @@
 			isa = PBXGroup;
 			children = (
 				F8000CF727048D4200A7DC4C /* Constants.swift */,
+				F84A511C270B1CA5004BB2ED /* Extensions.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		F8AB2464270ABD650082458F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8AB2463270AB9A90082458F /* InfoPlist.strings */,
+				F8AB245C270AB51C0082458F /* Localizable.strings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +344,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = F8A5A39A26FF22A2000446D3;
 			productRefGroup = F8A5A3A426FF22A2000446D3 /* Products */;
@@ -322,7 +364,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A5A3D926FF588B000446D3 /* .gitignore in Resources */,
+				F8AB2461270AB9A90082458F /* InfoPlist.strings in Resources */,
+				F8AB245E270AB51C0082458F /* Localizable.strings in Resources */,
 				F8A5A3B326FF22B8000446D3 /* LaunchScreen.storyboard in Resources */,
+				F8AB244F270AA0870082458F /* README.md in Resources */,
 				F8A5A3B026FF22B8000446D3 /* Assets.xcassets in Resources */,
 				F8A5A3AE26FF22A2000446D3 /* Main.storyboard in Resources */,
 			);
@@ -458,9 +503,13 @@
 				F8AB244B270599D80082458F /* WaterfallCell.swift in Sources */,
 				F8000CF227048B8500A7DC4C /* FollowVC.swift in Sources */,
 				F8000CF827048D4200A7DC4C /* Constants.swift in Sources */,
+				F84A5121270E8FCD004BB2ED /* NoteEditVC.swift in Sources */,
 				F8A5A3A726FF22A2000446D3 /* AppDelegate.swift in Sources */,
+				F84A511D270B1CA5004BB2ED /* Extensions.swift in Sources */,
+				F8AB2467270AD5440082458F /* TabBarC.swift in Sources */,
 				F8A5A3A926FF22A2000446D3 /* SceneDelegate.swift in Sources */,
 				F8AB2449270590F20082458F /* WaterfallVC.swift in Sources */,
+				F8AB246B270ADEED0082458F /* PostVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +550,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F8A5A3AD26FF22A2000446D3 /* Base */,
+				F8AB2453270AAA8B0082458F /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -509,8 +559,25 @@
 			isa = PBXVariantGroup;
 			children = (
 				F8A5A3B226FF22B8000446D3 /* Base */,
+				F8AB2451270AA39B0082458F /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F8AB245C270AB51C0082458F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8AB245D270AB51C0082458F /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F8AB2463270AB9A90082458F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8AB2462270AB9A90082458F /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -520,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -581,6 +649,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -643,14 +712,14 @@
 				DEVELOPMENT_TEAM = K3ZFZ6NBNT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LittlePink/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "小粉书";
+				INFOPLIST_KEY_CFBundleDisplayName = Pink;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -675,14 +744,14 @@
 				DEVELOPMENT_TEAM = K3ZFZ6NBNT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LittlePink/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "小粉书";
+				INFOPLIST_KEY_CFBundleDisplayName = Pink;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

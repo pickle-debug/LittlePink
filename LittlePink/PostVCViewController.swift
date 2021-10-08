@@ -1,22 +1,18 @@
 //
-//  FollowVC.swift
+//  PostVCViewController.swift
 //  LittlePink
 //
-//  Created by 何纪栋 on 2021/9/29.
+//  Created by 何纪栋 on 2021/10/4.
 //
 
 import UIKit
-import XLPagerTabStrip
 
-class FollowVC: UIViewController, IndicatorInfoProvider{
+class PostVCViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        IndicatorInfo(title: NSLocalizedString("Follow", comment: "首页上方的关注标签"))
     }
     
 
