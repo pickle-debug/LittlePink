@@ -1,0 +1,2553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0082E1ACE44243425205A150E43C78C7 /* YPAlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3643BDB5C21DE90460983AAD9A0B01E8 /* YPAlbumVC.swift */; };
+		0279BF6F2DE1F4367AC70E54B4058ABA /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2C094B44D042AE5DB3B88E9961FD3E85 /* ru.lproj */; };
+		031BE281773927DC4C370A915A43426E /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6DA8372BC22A4F1AD696887632C84 /* ButtonBarPagerTabStripViewController.swift */; };
+		054A6601A5A8275DC73A700EE335D4BF /* YPFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68A8030D52E5A11D751551A626055E /* YPFonts.swift */; };
+		05951171482DA12CC8CC190BBDAF0140 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A8265F7DD127A51143EE262662EDC /* SegmentedPagerTabStripViewController.swift */; };
+		05F496C6B78E2637D9DEA9FBEA5C6022 /* YPSelectionsGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6186FAB0D9B66AB0275543710833C8D /* YPSelectionsGalleryCell.swift */; };
+		063A685E3FDBA1CD85925F6AF5E07FF9 /* AVAsset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4D74CA9B1BCBDEB9E8AB4C935CA46 /* AVAsset+Extensions.swift */; };
+		064ADECF3E34F08C5AD8FE4D903BABA3 /* YPLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0116192C66948B16D27233B6334C8222 /* YPLoadingView.swift */; };
+		07392E6D87C116916EDF3912930F5C7E /* YPLibrarySelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D5E30EFD2701E1A901B8503125766 /* YPLibrarySelection.swift */; };
+		07A943FE1D200ADFB15B1F055CBBC370 /* Pods-LittlePink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 810DDFDE79F9F4C9AB7789B76B8836D6 /* Pods-LittlePink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A44219F4F0FC351F4B18F25F00003CE /* AssetVideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8286A58F5EC072963F81820DCF7565 /* AssetVideoScrollView.swift */; };
+		0BCA889F7FF8B97FBAC423B586D1AC8C /* Stevia+Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73FD36EEE2C1648F4B5DFB94B51FDB2 /* Stevia+Equation.swift */; };
+		0C95C886CFC1DCF70C848DE5DE74D125 /* YPSelectionsGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0D213CDF0916DD54E1C497C4028726 /* YPSelectionsGalleryView.swift */; };
+		0CE99A7C09DA39254559642D078A62F8 /* YPDragDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF1D63E7782729B571114019BDCADC /* YPDragDirection.swift */; };
+		0ED61E628F29E492DE69AC60DE634EFE /* Stevia+DoubleDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C138138A4CCBFA832E915C898D1B9AF /* Stevia+DoubleDash.swift */; };
+		1000ACC97983245C9853269F9A49CD42 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAA195496A312E427874ABB0659F46 /* UIColor+Extensions.swift */; };
+		117AEBDDC7C4513ADD52C679F73DE4FF /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 947516BF6D26A8BFCBC08F351E44D33E /* ar.lproj */; };
+		12A297ECFCF5AACB2E9461CC23336BCF /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E79C4AF2ADC5723BD169233215E5E6 /* FXPageControl.m */; };
+		12B7C3C0A692129CACF27A8188D62829 /* Stevia+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725AF6910232E3E8BEDEA1DF8667DE0 /* Stevia+LayoutAnchors.swift */; };
+		15C23E13AA9DF750A5C42A614B58923B /* AVCaptureDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC8483B141B4C6B77C71D9FF76FB4D /* AVCaptureDevice+Extensions.swift */; };
+		17F43D337EF9CC8A617B7ECB5534EC1B /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CC6A32FB3C43DEBE55E933750EF96F85 /* cs.lproj */; };
+		18BF77A1E17A6732FD583DEA562F4612 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D395D038908425C95F9C804FC32ACB /* Bundle+Extensions.swift */; };
+		1A4660EC309EF0512B242E482C943624 /* YPVideoCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A565D64F3C571CE59849239DF48C2 /* YPVideoCaptureVC.swift */; };
+		1BCC1949F045258AB0BBA3155214808D /* ThumbSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214D7CBB732747AB5D9705B6EBD73B6B /* ThumbSelectorView.swift */; };
+		1C371C9CC9A0CFC8447EE3DDE7F3BEF3 /* YPMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5988CA4D6B7D008E41F5D9596A7CB6 /* YPMediaItem.swift */; };
+		1D581A3F8EB36D9CA7812DE6BA797185 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1A0422D40FDD7F872D4C34B6333AEB /* IndicatorInfo.swift */; };
+		1D6289E3B50B2193DF4303710CA494CF /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4410E064601215D8D7C7E9495FEBCC36 /* pl.lproj */; };
+		219B70516852BD067E0B569A265E1A53 /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467111183669BC7E57FCE25BD7BB981D /* CHTCollectionViewWaterfallLayout.swift */; };
+		2259BF6E5F599ED2E19F3B5A534F12EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2503B430D9C2E1C021A0BD48742EF153 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AB39363854592538396DFBA89A4E149E /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A8B42879CE277A31532F1966DD6594 /* CHTCollectionViewWaterfallLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44BA2D0BF11D428424F018EC1F0B2A39 /* CHTCollectionViewWaterfallLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27DBDF1EB7BFE1C34806D26D95B8BF67 /* YPFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC14598D67A38B99782A454935C470E /* YPFilter.swift */; };
+		286461FCEE6A504B44099D7A3DB6CE9E /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 31B067BB430B768B3A4684E675705B04 /* de.lproj */; };
+		302B68E8CC775312CDD15CCD5FF5D1B8 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DF2C4B23CE20DC81E62FFAF8C7C83 /* ButtonBarViewCell.swift */; };
+		311C3D57615E20522F2B816D0C77CCE3 /* Stevia+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E8AA64DD44A5A3FD560F2052F5FC93 /* Stevia+Alignment.swift */; };
+		31B7CD329462A3773F372D382E155F1E /* Stevia+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92499E2A326EDFFC1C0F07E65B8E1882 /* Stevia+Content.swift */; };
+		31E0E731CC816AD64B8A8611833F1775 /* YPImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34676D693CC67795E35DE2793D97FF93 /* YPImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FE3124A45351AABE19EFE9A6A74C45 /* Stevia+FlexibleMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82B1068F15907BB5D5C4C206EFF2920 /* Stevia+FlexibleMargin.swift */; };
+		359240A6CC6FB0C4BCD065DF41F0FC98 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E37BDAC3306B8EF1D2FE911549E3D49 /* SwipeDirection.swift */; };
+		368CE087A067F0111384F463A77FAA96 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CBBF84554C98B7FCA127C3B011AA36DA /* da.lproj */; };
+		3AF0828C679A70363619B23F25A4DA04 /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A9F7C53807576210BCC4EF2999B06B0C /* nb.lproj */; };
+		3D3D1D76BEAF34FCB9DE0C133F540C44 /* YPLibraryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF1EB719D00E91E836483BD1C04ECDD9 /* YPLibraryView.xib */; };
+		3EBFA96E13B47ECED0B9164D8FE19ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3EC8FA79E44D7A30740614D3EB2C70AC /* AVCaptureSession+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A905420B7B61E66B936E3DB3DB1DC28 /* AVCaptureSession+Extensions.swift */; };
+		3FC3F4C88224D52C57A05E0AA837D270 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8ECB4488FD9E57ADF05A34F25C718D /* ButtonCell.xib */; };
+		4088B7326845A93BF3407E899E67E0FF /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C353318E32AF95F4C47D6EC10801C2 /* UICollectionView+Extensions.swift */; };
+		410E76809C0FCCDECA1CFDA9623F2B74 /* PryntTrimmerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2BCD9B718356958FF05838313A4AF5 /* PryntTrimmerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41792255F0563C9001C53A4566FA6D66 /* YPImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBF42BE06A3BE8845E832F59F8DF7B0 /* YPImagePicker.swift */; };
+		42F92AB18880E24EEA45CB3CFE8A1F24 /* VideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3103F9D9C9FD736407967C2DD925A /* VideoScrollView.swift */; };
+		45481AA03CBFB7D1EBBFB659B6F7CCBC /* YPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A01DE6446C3782EEF5694253BCEF7A /* YPHelper.swift */; };
+		482F3B884C1C3886048A135082BAACE1 /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3183AB77A113F3016EB3467BF4CD2BB2 /* CGRect+Extensions.swift */; };
+		495FEE51715DA3BD66D1070BBBB07BBE /* YPCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7302704E6C46CD8B83B38C7820C7B65 /* YPCameraVC.swift */; };
+		499740DB06FC804E4BA23732A9230E32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		4A66AEE4EBCDDC8A24FB4DAE758783BE /* YPAlbumsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F145206BDB3F2EC86CFF506645DFB19 /* YPAlbumsManager.swift */; };
+		4B981BFFCE25334B63B7DC1D891312AE /* YPFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3857607DE0D94E32DDB5E3483BE05 /* YPFiltersView.swift */; };
+		4BED578A718C912B74C420BD4EB831D2 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F7AD06B582BFB586E567B1FB28AF4 /* PagerTabStripError.swift */; };
+		4C22149DD47CD02824FE8BB28CF7727D /* YPVideoFiltersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0B7762B47AE7DFC8A2FB2704629959 /* YPVideoFiltersVC.xib */; };
+		4CF1772030D9AD7AEDE67C5403A12348 /* YPCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B442EE1B460AE4696D6C3B86E15A6 /* YPCameraView.swift */; };
+		4DD5885941546BF213524ABE1FCA32B0 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F3CFB091790A1AD1F77F5FE7F6DC99E9 /* zh-Hant.lproj */; };
+		4FEF18030E88C9A0A165FE1426E4135F /* YPAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432B801232BE4B061572D4874391DAA /* YPAlerts.swift */; };
+		50244DFE30E45EDFF1B311D1929F1F80 /* YPAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAD4921CF0988B92B5C66C74982F06 /* YPAlbumCell.swift */; };
+		53B81CFCB67FD2E0C1BEA9190BA79F65 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3D46F5C1F714A4F39410C34F73E2EC3F /* it.lproj */; };
+		54F3AEA8DEC112BC9B57F6ECCCC4C0EB /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BDBAEB153F5364813DC2C24BD3EF83AE /* th.lproj */; };
+		56FC44403EC0F4EB339945AB5DC0FEB1 /* YPPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776FB8364AAB9976AE6A48825F1E3FE /* YPPickerVC.swift */; };
+		5F9B5AD65D239BF28D407A94E7A843FA /* YPWordings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D64DD7D2DF50766C948105A0DAFDE /* YPWordings.swift */; };
+		601EE5C2F1B721FABBBF3715FED2D470 /* YPIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0060259DD465943C0A34E4AA406A362A /* YPIcons.swift */; };
+		629DF7E0F7B1573C0FB2D1ADC256D494 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E858D498C9085BAECB0F0AB1A2D0D /* TwitterPagerTabStripViewController.swift */; };
+		6615820457303D46BAA9A2C70EEB4182 /* PHFetchResult+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B3E7471CF97094D19925BF2DB64113 /* PHFetchResult+Extensions.swift */; };
+		66FA0893BC64415965DE8904438A95E6 /* YPAssetZoomableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FCC9147748D5CB9CEA880B49F8958E /* YPAssetZoomableView.swift */; };
+		67C55EDDCF27833787FC294954C8191A /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D293FB4966F47F8AD5AE4F2A60B50B /* UIButton+Extensions.swift */; };
+		68816292F4660DF48C34629F746947E1 /* YPPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835E4DD345FFC13824DE4A6C9EE1BC56 /* YPPickerScreen.swift */; };
+		6886B48E5FB83C0A729545A5D0A2DDA9 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6520F8A7EA32841B89CB5B112F67F /* ButtonBarView.swift */; };
+		69B68AD3FE8162AA8D74546C89224118 /* VideoCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F078629C04F60FC24E10EAB4275C9C /* VideoCropView.swift */; };
+		6A4ADAEF664397EB58BC3E36FB8FB333 /* YPAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C3FF8AA658F0839349FDDA0C19BEB /* YPAlbum.swift */; };
+		6A65B8782A3736015A769CF37F3E8372 /* LibraryMediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E473CFCF070C17F552F3CC55BD9E564 /* LibraryMediaManager.swift */; };
+		6B577A8A8C8A9F1556667CAF3BA1DFA6 /* Stevia+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3BC344862E24E1CB82ED7AD7CB45E /* Stevia+Size.swift */; };
+		6C1EC60D0BCF62A797A2E36D91AF01A0 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ADBD06B8004E7541375E87774859F26E /* fr.lproj */; };
+		6D95C8BE9E39668D775DFDF93572D9B3 /* Pods-LittlePinkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703D676D67A958EE25FC331A4C73B61 /* Pods-LittlePinkTests-dummy.m */; };
+		7143658ED4C610590FDE589F45567880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		751F9B759A15AA6709BE458E9DC6F2BF /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D9B677C517D71D55E3E3F446F542F /* BarPagerTabStripViewController.swift */; };
+		75F27DFFF4A92C44277084DDCD6DF97D /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 54DCF565D57B98D895732EC11C645C0A /* ro.lproj */; };
+		760203943D829BFA1D0606EF66CF8BB3 /* YPLibrary+LibraryChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C65CA2E1367CE80A618895661F5FFD /* YPLibrary+LibraryChange.swift */; };
+		7672CE50C94EF52D25032A8293BA17D6 /* YPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444F6EA4A3799BAA8F29EBCB00E5D060 /* YPColors.swift */; };
+		7690B53A9C8711A0F7D620760C25993E /* YPAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3C84839A93E6DE020475597BCBB59 /* YPAlbumView.swift */; };
+		76FEF8EFCCDFE3BCDA75A8B6EB049E6D /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024184B09CC270FD8D6AD4BC13F89529 /* URL+Extensions.swift */; };
+		7BAC73412BD39D2071B1E05C5D3265EE /* pt-PT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DAD70821198E73E47216BFB67AC56 /* pt-PT.lproj */; };
+		7C2507EED9CF62943A43AEBD135A3683 /* Stevia+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062E73AFA1A302D4C9A00499CF3A5BE6 /* Stevia+Operators.swift */; };
+		7CE3CB2754E69F69D9D815E2139DB306 /* Stevia+Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D52836EDC547F1CDEA207B0400FE5 /* Stevia+Stacks.swift */; };
+		7CF0FC820F457F617CA5B2B15B7D06F9 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E05F11697D9C53D39D1B6DD4A861EC9C /* es.lproj */; };
+		7D6533AA7E911EC19BE804F1E35F84B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		7D6AAE94CDF803A5F4265E5382379664 /* YPTrimError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717BA262BBDB5937A6D53AF34C4F20F0 /* YPTrimError.swift */; };
+		7D6B4DEA21B65F441428F145D2B7A6D0 /* CIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A6F1E42FB41558366F520B3954174 /* CIImage+Extensions.swift */; };
+		7FC105E8DC038A490DF2F86DDCD2B66F /* YPLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6F6316CD35178A4AA6747C707475D /* YPLibraryVC.swift */; };
+		7FCECDE88CA51F7FB01DD9E782A509FC /* Pods-LittlePink-LittlePinkUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 220B2991435315484D70692CED6B9838 /* Pods-LittlePink-LittlePinkUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8268CBB289118B63830E3698D0BCF7BD /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB20635F3B9448B4775783A1BB4E232 /* HandlerView.swift */; };
+		83FB07BCBDA31CA0915642BA9B58A41A /* CropMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18609F5900B0FE76BA931DD4163B24F0 /* CropMaskView.swift */; };
+		840F5F3A1DC99104C70DDDE418DB9672 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC31C7ECBA6DDAA9BCA3493241D21F /* BaseButtonBarPagerTabStripViewController.swift */; };
+		84B58BEF39F952F8014335D9AB46874D /* NSFileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803241ED99855B02FD27E42DE7866C60 /* NSFileManager+Extensions.swift */; };
+		86FFDF1646F2BF827AAC505853101C18 /* Stevia+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE24D26AFC627CC271B9ED2B7A03C2D /* Stevia+Style.swift */; };
+		87F724F90946388388FE4B9E36E9B1D4 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7D7516FEDFF07EE2B25FE13DBBD0F090 /* vi.lproj */; };
+		884271EE96EE59D27CE15BE379FE0FAF /* YPGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F27A420970563695FB1B677396F36 /* YPGridView.swift */; };
+		8A08A6DD50A708947407D00A60A9BB72 /* YPImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1D05DEF838EAB97B3BB55694ADC6D /* YPImagePicker-dummy.m */; };
+		8C04EF27CB55A56872339745CF13AEDB /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 770246CE5E561273581D49BD73BBE615 /* nl.lproj */; };
+		8C0D6EAE40F58914CF7729C31C571F7D /* YPCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288242954F54FFAA77557591657A910E /* YPCropView.swift */; };
+		8F1FDBECA8DEE06562639BBD744BC882 /* Pods-LittlePink-LittlePinkUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CBDC23ABCF055193A2F4F176C884DE /* Pods-LittlePink-LittlePinkUITests-dummy.m */; };
+		8FC52A6A02AA76A102985011AB6703FE /* AVFoundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B23D5F639B6400F38558EADF14D660 /* AVFoundation+Extensions.swift */; };
+		908CFB9B6773A79A782532FA2CD40D41 /* YPLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270AB47E8DA2374E4E824484A6B81D2 /* YPLibraryView.swift */; };
+		935BAC1B6EC1EA920687F068610AF9AF /* UINavigationBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C115C4D0202B29A1C9E9E12E0737D /* UINavigationBar+Extensions.swift */; };
+		944BBF1B3E027766BC191935DA92543C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		948FD7DC39A3C252A0237279EF945C3C /* Stevia+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468F77B1DE4C89DCBD949514E125386 /* Stevia+Notifications.swift */; };
+		95A0D64480A774F7BE5F5A798C1492FD /* Stevia+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A106245242AC6B3F586BCCADE922ECA /* Stevia+Constraints.swift */; };
+		985E86035328E060DC3DBDC430B05938 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8BEA944EBD7A80BA9667445861A7BB /* BarView.swift */; };
+		9B06F1AB828E639BDEE2022CB881734A /* XLPagerTabStrip-XLPagerTabStrip in Resources */ = {isa = PBXBuildFile; fileRef = 78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip-XLPagerTabStrip */; };
+		9B2D01E565B84641D1FFABDB8DBB783E /* Stevia+GetConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFD3ECDC41B942A685CA4C4468CFBBD /* Stevia+GetConstraint.swift */; };
+		9B517BA5209325B9ABBCB3C63971CE3E /* Pods-LittlePinkTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7A931CBDB6AA8C152A7365E40FAF123 /* Pods-LittlePinkTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B7E71F5F29A209ED1C7DCA8D1782CC1 /* YPPhotoCaptureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A168F685DC00092A6671350FA253C01 /* YPPhotoCaptureHelper.swift */; };
+		9E363928539AD4823DB6032750FD59CF /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07E0466CAB3EA94FF269A4B292F38F5 /* PagerTabStripBehaviour.swift */; };
+		A0D2E9B27E5FB250FC604F8C595019F1 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 71A15D586A901664BFACD303726846E7 /* ja.lproj */; };
+		A0F6419E0B2954CD17B8C0281E245A35 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 755423C9551192D1882E51A80AF74992 /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A483389A0E37CF430224BFE77EE42E33 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988CDB0B03BFDAE95649E1A85B37763 /* CGFloat+Extensions.swift */; };
+		A5B89E2140FA135EE7A6BF73D38D8E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517DA0BC5A33C16EC9C1E1DE485599B3 /* Assets.xcassets */; };
+		A6037197A1428F38288BF3D61EB6141C /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6029CCB4B3DBA8AD9BB655E3250CCCD6 /* sv.lproj */; };
+		A69B44D838E63CC9943FBCE228C07AE4 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EB55E8E1AF177D4CAB8E5AB6B355A691 /* id.lproj */; };
+		A88CDA9FBEFDB1C327089BF6F035F72C /* YPLibraryVC+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548AACAED3F70B94A3467E7C76B9706 /* YPLibraryVC+CollectionView.swift */; };
+		AA265F19A9175814EE9D20216D5C4CB9 /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 066B82B28D5809F8528EE2E352B3CA9D /* pt-BR.lproj */; };
+		AA6260F7E6D70C387BC99D181082F75E /* YPBottomPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D474230BFD10E2B9EDC34E6367C0424 /* YPBottomPager.swift */; };
+		B0F8C8B08E5B552B0C1CD644D4639935 /* YPPermissionCheckable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0442180A8A691199468C4E5D1E087 /* YPPermissionCheckable.swift */; };
+		B26B56114E52905EBF3947B5AF7C3B0F /* Stevia+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872259B45493C8FB3BF7720ACCF8567 /* Stevia+Position.swift */; };
+		B2FD86230CE7CBC4F1DCF3787E15BC9E /* Stevia+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E54D45B4123347C13978BE207CC245E /* Stevia+Percentage.swift */; };
+		B3E81600A12AA36C02A85263866CF38F /* YPLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7060D9DD0440D2C6A0612DFBA87938BA /* YPLog.swift */; };
+		B51B1E697CCB5CD3192E093EFC3F6384 /* Stevia+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74907138FFDDEE4224C08708E5B0E04A /* Stevia+Fill.swift */; };
+		B6743E57926B36B9330AA1C193105AB2 /* PryntTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EA2F838756E9E74C7258BBBF9BFF41 /* PryntTrimmerView.swift */; };
+		B791EE83A35D57D5FF2696BAB9A66EE5 /* YPImagePickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613A8F4F099E1F44A028E5E6E1221972 /* YPImagePickerConfiguration.swift */; };
+		BA7A7DDD1F238195DF869D50F6EB300C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BF6AF5846B5DF59AE0CE31C0FE83DC55 /* YPPhotoSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AEC83F98CCC71587F723E2B0928859 /* YPPhotoSaver.swift */; };
+		C160AB4705E40C6C2197C7757D7E1B13 /* YPFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86AA9566EF17E7011CE1337B68D8A5 /* YPFilterCollectionViewCell.swift */; };
+		C1ACCC1BE1B2B89CA60A894A1125C704 /* YPImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88037B1E4836EF7CBEA7D70ECAC667 /* YPImageSize.swift */; };
+		C294B7F00BDB95848DCD66513C273CB7 /* AVFileType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214DF57DCD31F6DE58182FFC06E4B140 /* AVFileType+Extensions.swift */; };
+		C3AE035DDC4F70A808846616E02E9063 /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4AFB72FF3214E776975FC2C3672EDB /* XLPagerTabStrip-dummy.m */; };
+		C4BA6D57348E1AEAAA624F66859447EA /* PHCachingImageManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CBC09FDEE7570A00B39551162A79B3 /* PHCachingImageManager+Extensions.swift */; };
+		CBEEEAC4F5B09A27ADB3A0B28D734392 /* YPAssetViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF87A2F93374BAF0958264BF3E171D5 /* YPAssetViewContainer.swift */; };
+		CDB3C74579A90AFEE34149E2CBC81C64 /* YPLibraryVC+PanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DB74EC8668B8ACCA6CFE0AF0DC42F /* YPLibraryVC+PanGesture.swift */; };
+		CDC84FABB38072CAE31E334E947D0D92 /* YPPermissionDeniedPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898B8A798DD5B5BFAF4578115B15957 /* YPPermissionDeniedPopup.swift */; };
+		CE6F49134BDD9F7322C34F70D31E8D73 /* YPCropVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D5E314EE73289AF4B427FB3EE17E9 /* YPCropVC.swift */; };
+		CEB22ED2AC722D60205D1DB35C9649F9 /* km-KH.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 50EFE1D20486FCC0C118CFAE5E03C74D /* km-KH.lproj */; };
+		D289AFE088E875F0E1A85DAB305CD138 /* YPVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B404B29821597821DA1F35AE19938A /* YPVideoView.swift */; };
+		D42666C01AED00E509F7A0EEC274FC29 /* AVAssetTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1529F557D0C6CECBA4D32E57DCD9188D /* AVAssetTimeSelector.swift */; };
+		D5A633EF27194650622A2DE3FAF5DE8D /* YPFlashMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1545FD281AC3930A73E8A599C9374BC /* YPFlashMode.swift */; };
+		D6DD1D4760AAAA7E70964371E3045262 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D7F0115723FEF0AE3680701459FF9974 /* YPVideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448271C2F1B509F012908C981F0FCCC /* YPVideoProcessor.swift */; };
+		DA49EE3BB14665318CA969F77C5B2839 /* YPMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C4791C9B9BC5AB5B513C4871C5EB1F /* YPMenuItem.swift */; };
+		DBDF1136B55B5085CE5C63057EE209D5 /* YPVideoCaptureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4221A3086F64E108919EEC128EECD /* YPVideoCaptureHelper.swift */; };
+		DD7A26205AE8190BA854C961DE12965D /* SteviaLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7D79C072F51E45FA5056CD09C1987A /* SteviaLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDDBBD829234FF57A30810F340C52D06 /* YPPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704279D8AF254C7597F9ABC2F158C5D2 /* YPPermissionManager.swift */; };
+		DEA165B6ACCCC74A8A8C21036853AC3C /* YPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A280417C1A577282A25130B4C8110E13 /* YPError.swift */; };
+		DEFDF541D1C25C44E152CA7F02F54B59 /* YPLibraryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C13264637AFFB0E6EF976EF83D2249 /* YPLibraryViewCell.swift */; };
+		E0483E6B38C5846672B0A64C9F15963F /* fa.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B0DB2E9E6B5CEF17F7F175964DE89FD5 /* fa.lproj */; };
+		E0E7774AB0CE0CF65838348788C90B97 /* YPLibraryViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21BA7B611F831D497075C09CA304916 /* YPLibraryViewDelegate.swift */; };
+		E19CB9A154246789DEF0DC3A541AA444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E29229C716842EE13B13F57996AF8916 /* YPVideoFiltersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7169F360C0495283A8A86661F3A16530 /* YPVideoFiltersVC.swift */; };
+		E2BC50DA3EABAFE4DD6EBE14119691DA /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93427466D6FC9AFBC4244DE016B319A9 /* UIBarButtonItem+Extensions.swift */; };
+		E4F453DE0781BD565804397E8502F5F2 /* YPPagerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34462080BFB3EF6F5CBA52C87BCD894 /* YPPagerMenu.swift */; };
+		E760788E2392A0BFB4875CDA650BEBCA /* AVMutableComposition+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CADE7DDD46B824260DD7B4C8A0F0065 /* AVMutableComposition+Extensions.swift */; };
+		EBBBBFFA845FE424D18D260FD156636B /* YPSelectionsGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D48067F2260989DDCA4A100CDE013D /* YPSelectionsGalleryVC.swift */; };
+		EC71BCCCC0469ABC38328635FBD2FF22 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 37F7BF477BFF8722EDC9D0210A0E9474 /* ko.lproj */; };
+		ED2AFEC08C9F045FBB1F867EC1BC1D78 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E28A7731DB26D2EB62D3827E18CF1254 /* zh-Hans.lproj */; };
+		EE359141EC4E2A97FDE8DD19C22AE779 /* bg.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2B051B6B09E1FADE6ADEFA95969F4C8E /* bg.lproj */; };
+		EF2C68C13DF442E4C2241D9DC2A1118D /* YPLoaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A493EB04920F91702103CAFA4525B65 /* YPLoaders.swift */; };
+		EF3DF3B2840BE02F6E6CADEDF4317D14 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C82FC813B33A1A8EE155B0CFF076A /* CHTCollectionViewWaterfallLayout-dummy.m */; };
+		EFEAADC57D308C080F488C57B7C653BE /* PryntTrimmerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2213A2588DC90D43977975E4FDFF785B /* PryntTrimmerView-dummy.m */; };
+		F0D114F3197ACD72BCF0D4921DCEBBA5 /* km.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 448EA97122EE475E99D210F5D9A9CDE7 /* km.lproj */; };
+		F324715D2D41F637337B6BC94C88DAD7 /* IndexSet+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0708104E4D837460ADA9032EE71586B2 /* IndexSet+Extensions.swift */; };
+		F3BC99DC82A29F04B3E42A3893FAF163 /* Pods-LittlePink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F20E4BD525E499C6B52A733F57C1D1 /* Pods-LittlePink-dummy.m */; };
+		F585D4F34DE8325378A316DF397D8467 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A88AF277D5F77EC7689E0FFACAEB9 /* UIImage+Extensions.swift */; };
+		F64C39BABBBD60F3B5FEE1EC10E23900 /* YPPhotoFiltersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C355D5C270D03CCC718113075FA84 /* YPPhotoFiltersVC.swift */; };
+		F76656744C030C0F05B53A8C6388E1F2 /* AVPlayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E119C74DC657A5E9D694227CFAAE91 /* AVPlayer+Extensions.swift */; };
+		F7D920DDA483BF38B1EC2A21EA363DC4 /* Stevia+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD71721447F05699D286717A3CC3A59 /* Stevia+Center.swift */; };
+		F86C2A2AFB966C3BFF5866BC97509E84 /* Stevia+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE9AEC06E7938E9E42938A9266F047C /* Stevia+Hierarchy.swift */; };
+		F988DAFE91072A2A9BF3EEF8617D671D /* YPDeviceOrientationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EFF7EFF736EE8A9852CE7F8FDA4BA5 /* YPDeviceOrientationHelper.swift */; };
+		FA86BBE01A629F9461503C0AF054E47B /* SteviaLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B5E71AA3068228BE15BEE9A47698DA /* SteviaLayout-dummy.m */; };
+		FAE18E910F3DDCDE7095DD009343D4AA /* YPBottomPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8907C057ADFE1659414E1668B8E48 /* YPBottomPagerView.swift */; };
+		FB443D851AF1305E9A0BF2898095C098 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB35F6AB9DE32DCDA5E773B7465E9 /* PagerTabStripViewController.swift */; };
+		FCB89ED6FE3B27CEFF4619463FD0A8A4 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7D43C0DF5EB39FDAA23AABB5DAD85387 /* en.lproj */; };
+		FD650A0FE031EFDE9E79A706CDFB1461 /* Stevia+Baselines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343C36F249B3BD1165B6E85769F313A /* Stevia+Baselines.swift */; };
+		FFED2DB83A8FA273C033C1109BC90340 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8624AF6028F2E866DC1F581D64EA6684 /* tr.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147D2A31214EB4DFC183C8B91E7E2328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5C3A7662FFA04D04D29F4657D032CE;
+			remoteInfo = XLPagerTabStrip;
+		};
+		17767A5A351D003B07DBFDA234DEC458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF263AB023E40C4315ED4A97C6D7829F;
+			remoteInfo = SteviaLayout;
+		};
+		1FDB8130FB7B1EF9B8EF1EE007B9F2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF90A3A56D4C5830C212D000AB67BC1;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		638550838334CC5EF5552AEE291DFBB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492A3F539D36426FFCED62F4F58F688B;
+			remoteInfo = PryntTrimmerView;
+		};
+		725FA3543B29B9A4861409F0BB1EF528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492A3F539D36426FFCED62F4F58F688B;
+			remoteInfo = PryntTrimmerView;
+		};
+		7AACAF37B21C9C0ABF729A437F0DF355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF263AB023E40C4315ED4A97C6D7829F;
+			remoteInfo = SteviaLayout;
+		};
+		8386284125A30A94E5A18C048E6A841E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492A3F539D36426FFCED62F4F58F688B;
+			remoteInfo = PryntTrimmerView;
+		};
+		88AC44854FEC42EA6C41D4E8B0CDA236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031EC6716B0AE84A37919C3814AA103F;
+			remoteInfo = YPImagePicker;
+		};
+		AC62F7CDA5458D3F8542378B2EF25E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF263AB023E40C4315ED4A97C6D7829F;
+			remoteInfo = SteviaLayout;
+		};
+		CEFE03E6BE3B40811A5030EF1871028C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D185DC913D045063CEAD5E6B1504E7;
+			remoteInfo = CHTCollectionViewWaterfallLayout;
+		};
+		D568D771E1B4AC2E1299011E28A89AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D185DC913D045063CEAD5E6B1504E7;
+			remoteInfo = CHTCollectionViewWaterfallLayout;
+		};
+		D58D4DE10D12FF66379D3A116A89018E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5C3A7662FFA04D04D29F4657D032CE;
+			remoteInfo = XLPagerTabStrip;
+		};
+		E4900A6CDC18165D3DCC561A468A0BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4285BE751D5EBA97DE901537003DF80C;
+			remoteInfo = "Pods-LittlePink";
+		};
+		F20CCC0602E58A770E4F7B57B64D22B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031EC6716B0AE84A37919C3814AA103F;
+			remoteInfo = YPImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0060259DD465943C0A34E4AA406A362A /* YPIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPIcons.swift; path = Source/Configuration/YPIcons.swift; sourceTree = "<group>"; };
+		00A6F6316CD35178A4AA6747C707475D /* YPLibraryVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPLibraryVC.swift; path = Source/Pages/Gallery/YPLibraryVC.swift; sourceTree = "<group>"; };
+		0116192C66948B16D27233B6334C8222 /* YPLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPLoadingView.swift; path = Source/Helpers/YPLoadingView.swift; sourceTree = "<group>"; };
+		01AA7CFC0A9D1D5519E35A4B23A2183B /* YPImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YPImagePicker.modulemap; sourceTree = "<group>"; };
+		024184B09CC270FD8D6AD4BC13F89529 /* URL+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Extensions.swift"; path = "Source/Helpers/Extensions/URL+Extensions.swift"; sourceTree = "<group>"; };
+		02E8AA64DD44A5A3FD560F2052F5FC93 /* Stevia+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Alignment.swift"; path = "Source/Stevia+Alignment.swift"; sourceTree = "<group>"; };
+		03B23D5F639B6400F38558EADF14D660 /* AVFoundation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVFoundation+Extensions.swift"; path = "Source/Helpers/Extensions/AVFoundation+Extensions.swift"; sourceTree = "<group>"; };
+		0468F77B1DE4C89DCBD949514E125386 /* Stevia+Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Notifications.swift"; path = "Source/Stevia+Notifications.swift"; sourceTree = "<group>"; };
+		04D293FB4966F47F8AD5AE4F2A60B50B /* UIButton+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Extensions.swift"; path = "Source/Helpers/Extensions/UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		062E73AFA1A302D4C9A00499CF3A5BE6 /* Stevia+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Operators.swift"; path = "Source/Stevia+Operators.swift"; sourceTree = "<group>"; };
+		066B82B28D5809F8528EE2E352B3CA9D /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-BR.lproj"; path = "Source/Resources/pt-BR.lproj"; sourceTree = "<group>"; };
+		06CA865633B03FC4F31F0B9F404D4775 /* Pods-LittlePinkTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LittlePinkTests-Info.plist"; sourceTree = "<group>"; };
+		0708104E4D837460ADA9032EE71586B2 /* IndexSet+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexSet+Extensions.swift"; path = "Source/Helpers/Extensions/IndexSet+Extensions.swift"; sourceTree = "<group>"; };
+		07E79C4AF2ADC5723BD169233215E5E6 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		07FAD4921CF0988B92B5C66C74982F06 /* YPAlbumCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPAlbumCell.swift; path = Source/Pages/Gallery/Album/YPAlbumCell.swift; sourceTree = "<group>"; };
+		0898B8A798DD5B5BFAF4578115B15957 /* YPPermissionDeniedPopup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPPermissionDeniedPopup.swift; path = Source/Helpers/Permissions/YPPermissionDeniedPopup.swift; sourceTree = "<group>"; };
+		08AEC83F98CCC71587F723E2B0928859 /* YPPhotoSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPPhotoSaver.swift; path = Source/Helpers/YPPhotoSaver.swift; sourceTree = "<group>"; };
+		0A493EB04920F91702103CAFA4525B65 /* YPLoaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPLoaders.swift; path = Source/Helpers/YPLoaders.swift; sourceTree = "<group>"; };
+		0B0D213CDF0916DD54E1C497C4028726 /* YPSelectionsGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPSelectionsGalleryView.swift; path = Source/SelectionsGallery/YPSelectionsGalleryView.swift; sourceTree = "<group>"; };
+		0B8C82FC813B33A1A8EE155B0CFF076A /* CHTCollectionViewWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTCollectionViewWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
+		0F5ACAF0FB2BD5E1D0B01F392AA0CDD0 /* Pods-LittlePink-LittlePinkUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LittlePink-LittlePinkUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0F9D6F63C9014A5709BF865DD9DED089 /* Pods-LittlePinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LittlePinkTests.release.xcconfig"; sourceTree = "<group>"; };
+		13D48067F2260989DDCA4A100CDE013D /* YPSelectionsGalleryVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPSelectionsGalleryVC.swift; path = Source/SelectionsGallery/YPSelectionsGalleryVC.swift; sourceTree = "<group>"; };
+		1529F557D0C6CECBA4D32E57DCD9188D /* AVAssetTimeSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetTimeSelector.swift; path = Sources/PryntTrimmerView/Parents/AVAssetTimeSelector.swift; sourceTree = "<group>"; };
+		1776FB8364AAB9976AE6A48825F1E3FE /* YPPickerVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPPickerVC.swift; path = Source/YPPickerVC.swift; sourceTree = "<group>"; };
+		18609F5900B0FE76BA931DD4163B24F0 /* CropMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskView.swift; path = Sources/PryntTrimmerView/Cropper/CropMaskView.swift; sourceTree = "<group>"; };
+		191F27A420970563695FB1B677396F36 /* YPGridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPGridView.swift; path = Source/Pages/Gallery/YPGridView.swift; sourceTree = "<group>"; };
+		1A106245242AC6B3F586BCCADE922ECA /* Stevia+Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Constraints.swift"; path = "Source/Stevia+Constraints.swift"; sourceTree = "<group>"; };
+		1AE24D26AFC627CC271B9ED2B7A03C2D /* Stevia+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Style.swift"; path = "Source/Stevia+Style.swift"; sourceTree = "<group>"; };
+		1C86AA9566EF17E7011CE1337B68D8A5 /* YPFilterCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPFilterCollectionViewCell.swift; path = Source/Filters/Photo/YPFilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		1CC14598D67A38B99782A454935C470E /* YPFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPFilter.swift; path = Source/Filters/Photo/YPFilter.swift; sourceTree = "<group>"; };
+		214D7CBB732747AB5D9705B6EBD73B6B /* ThumbSelectorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThumbSelectorView.swift; path = Sources/PryntTrimmerView/ThumbSelectorView.swift; sourceTree = "<group>"; };
+		214DF57DCD31F6DE58182FFC06E4B140 /* AVFileType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVFileType+Extensions.swift"; path = "Source/Helpers/Extensions/AVFileType+Extensions.swift"; sourceTree = "<group>"; };
+		21BCBEA4B5AC7FD4F6DFF7A2EC2FF28D /* Pods-LittlePink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LittlePink.release.xcconfig"; sourceTree = "<group>"; };
+		220B2991435315484D70692CED6B9838 /* Pods-LittlePink-LittlePinkUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LittlePink-LittlePinkUITests-umbrella.h"; sourceTree = "<group>"; };
+		2213A2588DC90D43977975E4FDFF785B /* PryntTrimmerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PryntTrimmerView-dummy.m"; sourceTree = "<group>"; };
+		231E858D498C9085BAECB0F0AB1A2D0D /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		2343C36F249B3BD1165B6E85769F313A /* Stevia+Baselines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Baselines.swift"; path = "Source/Stevia+Baselines.swift"; sourceTree = "<group>"; };
+		240B6E6F42F447D8B26C827FDC3C1488 /* Pods-LittlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LittlePink.debug.xcconfig"; sourceTree = "<group>"; };
+		25F20E4BD525E499C6B52A733F57C1D1 /* Pods-LittlePink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LittlePink-dummy.m"; sourceTree = "<group>"; };
+		2872259B45493C8FB3BF7720ACCF8567 /* Stevia+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Position.swift"; path = "Source/Stevia+Position.swift"; sourceTree = "<group>"; };
+		288242954F54FFAA77557591657A910E /* YPCropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPCropView.swift; path = Source/Filters/Crop/YPCropView.swift; sourceTree = "<group>"; };
+		289CB35F6AB9DE32DCDA5E773B7465E9 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		2B051B6B09E1FADE6ADEFA95969F4C8E /* bg.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = bg.lproj; path = Source/Resources/bg.lproj; sourceTree = "<group>"; };
+		2C094B44D042AE5DB3B88E9961FD3E85 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = Source/Resources/ru.lproj; sourceTree = "<group>"; };
+		2C8ECB4488FD9E57ADF05A34F25C718D /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		2CA217A11D8289A2296258753FA291BB /* Pods-LittlePink-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LittlePink-Info.plist"; sourceTree = "<group>"; };
+		3183AB77A113F3016EB3467BF4CD2BB2 /* CGRect+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Extensions.swift"; path = "Source/Helpers/Extensions/CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		31B067BB430B768B3A4684E675705B04 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = Source/Resources/de.lproj; sourceTree = "<group>"; };
+		32EFF7EFF736EE8A9852CE7F8FDA4BA5 /* YPDeviceOrientationHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPDeviceOrientationHelper.swift; path = Source/Helpers/YPDeviceOrientationHelper.swift; sourceTree = "<group>"; };
+		33F3C84839A93E6DE020475597BCBB59 /* YPAlbumView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPAlbumView.swift; path = Source/Pages/Gallery/Album/YPAlbumView.swift; sourceTree = "<group>"; };
+		34676D693CC67795E35DE2793D97FF93 /* YPImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		3542D39B58709B44BDDF34A2DC59AF34 /* SteviaLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-prefix.pch"; sourceTree = "<group>"; };
+		3643BDB5C21DE90460983AAD9A0B01E8 /* YPAlbumVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPAlbumVC.swift; path = Source/Pages/Gallery/Album/YPAlbumVC.swift; sourceTree = "<group>"; };
+		3725AF6910232E3E8BEDEA1DF8667DE0 /* Stevia+LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+LayoutAnchors.swift"; path = "Source/Stevia+LayoutAnchors.swift"; sourceTree = "<group>"; };
+		37F7BF477BFF8722EDC9D0210A0E9474 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = Source/Resources/ko.lproj; sourceTree = "<group>"; };
+		3C7D79C072F51E45FA5056CD09C1987A /* SteviaLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-umbrella.h"; sourceTree = "<group>"; };
+		3C8C355D5C270D03CCC718113075FA84 /* YPPhotoFiltersVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPPhotoFiltersVC.swift; path = Source/Filters/Photo/YPPhotoFiltersVC.swift; sourceTree = "<group>"; };
+		3D46F5C1F714A4F39410C34F73E2EC3F /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = Source/Resources/it.lproj; sourceTree = "<group>"; };
+		3E473CFCF070C17F552F3CC55BD9E564 /* LibraryMediaManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LibraryMediaManager.swift; path = Source/Pages/Gallery/LibraryMediaManager.swift; sourceTree = "<group>"; };
+		3FD71721447F05699D286717A3CC3A59 /* Stevia+Center.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Center.swift"; path = "Source/Stevia+Center.swift"; sourceTree = "<group>"; };
+		420D5E30EFD2701E1A901B8503125766 /* YPLibrarySelection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPLibrarySelection.swift; path = Source/Models/YPLibrarySelection.swift; sourceTree = "<group>"; };
+		42CE9E857A1225CB1EC7833AE959419F /* Pods-LittlePinkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LittlePinkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4410E064601215D8D7C7E9495FEBCC36 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = Source/Resources/pl.lproj; sourceTree = "<group>"; };
+		4432B801232BE4B061572D4874391DAA /* YPAlerts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPAlerts.swift; path = Source/Helpers/YPAlerts.swift; sourceTree = "<group>"; };
+		4448271C2F1B509F012908C981F0FCCC /* YPVideoProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPVideoProcessor.swift; path = Source/Helpers/YPVideoProcessor.swift; sourceTree = "<group>"; };
+		444F6EA4A3799BAA8F29EBCB00E5D060 /* YPColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPColors.swift; path = Source/Configuration/YPColors.swift; sourceTree = "<group>"; };
+		448EA97122EE475E99D210F5D9A9CDE7 /* km.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = km.lproj; path = Source/Resources/km.lproj; sourceTree = "<group>"; };
+		44BA2D0BF11D428424F018EC1F0B2A39 /* CHTCollectionViewWaterfallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-umbrella.h"; sourceTree = "<group>"; };
+		4548AACAED3F70B94A3467E7C76B9706 /* YPLibraryVC+CollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YPLibraryVC+CollectionView.swift"; path = "Source/Pages/Gallery/YPLibraryVC+CollectionView.swift"; sourceTree = "<group>"; };
+		467111183669BC7E57FCE25BD7BB981D /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHTCollectionViewWaterfallLayout.swift; path = SwiftSources/CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
+		4703D676D67A958EE25FC331A4C73B61 /* Pods-LittlePinkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LittlePinkTests-dummy.m"; sourceTree = "<group>"; };
+		4867DC1C0FB94BEA73C9E04008D2329C /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+		48F6520F8A7EA32841B89CB5B112F67F /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		4A79DA4ABC7B1010ACDE40B672B2F9D5 /* ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		4AB3B7EF9F467214B0D12994F888E864 /* PryntTrimmerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PryntTrimmerView.modulemap; sourceTree = "<group>"; };
+		4BB4D74CA9B1BCBDEB9E8AB4C935CA46 /* AVAsset+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVAsset+Extensions.swift"; path = "Source/Helpers/Extensions/AVAsset+Extensions.swift"; sourceTree = "<group>"; };
+		4CB6DA8372BC22A4F1AD696887632C84 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		4D0DAD70821198E73E47216BFB67AC56 /* pt-PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-PT.lproj"; path = "Source/Resources/pt-PT.lproj"; sourceTree = "<group>"; };
+		4D474230BFD10E2B9EDC34E6367C0424 /* YPBottomPager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPBottomPager.swift; path = Source/Pages/Gallery/BottomPager/YPBottomPager.swift; sourceTree = "<group>"; };
+		4D5C115C4D0202B29A1C9E9E12E0737D /* UINavigationBar+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationBar+Extensions.swift"; path = "Source/Helpers/Extensions/UINavigationBar+Extensions.swift"; sourceTree = "<group>"; };
+		4DF1D05DEF838EAB97B3BB55694ADC6D /* YPImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPImagePicker-dummy.m"; sourceTree = "<group>"; };
+		4E37BDAC3306B8EF1D2FE911549E3D49 /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		4F8286A58F5EC072963F81820DCF7565 /* AssetVideoScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetVideoScrollView.swift; path = Sources/PryntTrimmerView/Parents/AssetVideoScrollView.swift; sourceTree = "<group>"; };
+		50EFE1D20486FCC0C118CFAE5E03C74D /* km-KH.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "km-KH.lproj"; path = "Source/Resources/km-KH.lproj"; sourceTree = "<group>"; };
+		517DA0BC5A33C16EC9C1E1DE485599B3 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Source/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		5270AB47E8DA2374E4E824484A6B81D2 /* YPLibraryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPLibraryView.swift; path = Source/Pages/Gallery/YPLibraryView.swift; sourceTree = "<group>"; };
+		529F7AD06B582BFB586E567B1FB28AF4 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		53D21DA186023A074A1EDAD7A04E0CAC /* CHTCollectionViewWaterfallLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.release.xcconfig; sourceTree = "<group>"; };
+		53EEB70682AE2463F4078172B842D951 /* YPImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YPImagePicker-Info.plist"; sourceTree = "<group>"; };
+		53FCC9147748D5CB9CEA880B49F8958E /* YPAssetZoomableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPAssetZoomableView.swift; path = Source/Pages/Gallery/YPAssetZoomableView.swift; sourceTree = "<group>"; };
+		54DCF565D57B98D895732EC11C645C0A /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = Source/Resources/ro.lproj; sourceTree = "<group>"; };
+		56D395D038908425C95F9C804FC32ACB /* Bundle+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "Source/Helpers/Extensions/Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		58DC31C7ECBA6DDAA9BCA3493241D21F /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		5DBF42BE06A3BE8845E832F59F8DF7B0 /* YPImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPImagePicker.swift; path = Source/YPImagePicker.swift; sourceTree = "<group>"; };
+		5E096E08483F5F553481B6AC47BD0C63 /* CHTCollectionViewWaterfallLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHTCollectionViewWaterfallLayout; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE0442180A8A691199468C4E5D1E087 /* YPPermissionCheckable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPPermissionCheckable.swift; path = Source/Helpers/Permissions/YPPermissionCheckable.swift; sourceTree = "<group>"; };
+		5FE3BC344862E24E1CB82ED7AD7CB45E /* Stevia+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Size.swift"; path = "Source/Stevia+Size.swift"; sourceTree = "<group>"; };
+		6029CCB4B3DBA8AD9BB655E3250CCCD6 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.lproj; path = Source/Resources/sv.lproj; sourceTree = "<group>"; };
+		613A8F4F099E1F44A028E5E6E1221972 /* YPImagePickerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPImagePickerConfiguration.swift; path = Source/Configuration/YPImagePickerConfiguration.swift; sourceTree = "<group>"; };
+		641DFD0FCF0286E5C3506EF662EEDDCA /* Pods-LittlePink-LittlePinkUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LittlePink-LittlePinkUITests"; path = Pods_LittlePink_LittlePinkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C4791C9B9BC5AB5B513C4871C5EB1F /* YPMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPMenuItem.swift; path = Source/Pages/Gallery/BottomPager/YPMenuItem.swift; sourceTree = "<group>"; };
+		68F078629C04F60FC24E10EAB4275C9C /* VideoCropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCropView.swift; path = Sources/PryntTrimmerView/Cropper/VideoCropView.swift; sourceTree = "<group>"; };
+		6A905420B7B61E66B936E3DB3DB1DC28 /* AVCaptureSession+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVCaptureSession+Extensions.swift"; path = "Source/Helpers/Extensions/AVCaptureSession+Extensions.swift"; sourceTree = "<group>"; };
+		6ABFF53029C9A31BC04ED053096B589B /* YPImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPImagePicker.debug.xcconfig; sourceTree = "<group>"; };
+		6BB3857607DE0D94E32DDB5E3483BE05 /* YPFiltersView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPFiltersView.swift; path = Source/Filters/Photo/YPFiltersView.swift; sourceTree = "<group>"; };
+		6C88037B1E4836EF7CBEA7D70ECAC667 /* YPImageSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPImageSize.swift; path = Source/Configuration/YPImageSize.swift; sourceTree = "<group>"; };
+		6E078E6952847C82EE6460C266CAE771 /* PryntTrimmerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PryntTrimmerView.release.xcconfig; sourceTree = "<group>"; };
+		6F001E752638EBB7C92BA1457858AFA1 /* Pods-LittlePink */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LittlePink"; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4F8211B017C8A70604A8C190BD9A00 /* Pods-LittlePink-LittlePinkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LittlePink-LittlePinkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		704279D8AF254C7597F9ABC2F158C5D2 /* YPPermissionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPPermissionManager.swift; path = Source/Helpers/Permissions/YPPermissionManager.swift; sourceTree = "<group>"; };
+		7060D9DD0440D2C6A0612DFBA87938BA /* YPLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPLog.swift; path = Source/Models/YPLog.swift; sourceTree = "<group>"; };
+		70C77AA0EA056DD6A41EE5D485D46A1B /* YPImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		7169F360C0495283A8A86661F3A16530 /* YPVideoFiltersVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPVideoFiltersVC.swift; path = Source/Filters/Video/YPVideoFiltersVC.swift; sourceTree = "<group>"; };
+		717BA262BBDB5937A6D53AF34C4F20F0 /* YPTrimError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPTrimError.swift; path = Source/Models/YPTrimError.swift; sourceTree = "<group>"; };
+		71A15D586A901664BFACD303726846E7 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = Source/Resources/ja.lproj; sourceTree = "<group>"; };
+		72F5463F6936984147FCBDDFDE73FB0C /* Pods-LittlePink-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LittlePink-acknowledgements.plist"; sourceTree = "<group>"; };
+		74907138FFDDEE4224C08708E5B0E04A /* Stevia+Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Fill.swift"; path = "Source/Stevia+Fill.swift"; sourceTree = "<group>"; };
+		755423C9551192D1882E51A80AF74992 /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		770246CE5E561273581D49BD73BBE615 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = Source/Resources/nl.lproj; sourceTree = "<group>"; };
+		78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip-XLPagerTabStrip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "XLPagerTabStrip-XLPagerTabStrip"; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E119C74DC657A5E9D694227CFAAE91 /* AVPlayer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVPlayer+Extensions.swift"; path = "Source/Helpers/Extensions/AVPlayer+Extensions.swift"; sourceTree = "<group>"; };
+		7A168F685DC00092A6671350FA253C01 /* YPPhotoCaptureHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPPhotoCaptureHelper.swift; path = Source/Pages/Photo/YPPhotoCaptureHelper.swift; sourceTree = "<group>"; };
+		7AFD3ECDC41B942A685CA4C4468CFBBD /* Stevia+GetConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+GetConstraint.swift"; path = "Source/Stevia+GetConstraint.swift"; sourceTree = "<group>"; };
+		7D43C0DF5EB39FDAA23AABB5DAD85387 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Source/Resources/en.lproj; sourceTree = "<group>"; };
+		7D7516FEDFF07EE2B25FE13DBBD0F090 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = Source/Resources/vi.lproj; sourceTree = "<group>"; };
+		803241ED99855B02FD27E42DE7866C60 /* NSFileManager+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Extensions.swift"; path = "Source/Helpers/Extensions/NSFileManager+Extensions.swift"; sourceTree = "<group>"; };
+		810D9B677C517D71D55E3E3F446F542F /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		810DDFDE79F9F4C9AB7789B76B8836D6 /* Pods-LittlePink-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LittlePink-umbrella.h"; sourceTree = "<group>"; };
+		835E4DD345FFC13824DE4A6C9EE1BC56 /* YPPickerScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPPickerScreen.swift; path = Source/Configuration/YPPickerScreen.swift; sourceTree = "<group>"; };
+		842D6A1B2D44F6D5D9EB0AC222ACF19F /* YPImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPImagePicker.release.xcconfig; sourceTree = "<group>"; };
+		854DB74EC8668B8ACCA6CFE0AF0DC42F /* YPLibraryVC+PanGesture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YPLibraryVC+PanGesture.swift"; path = "Source/Pages/Gallery/YPLibraryVC+PanGesture.swift"; sourceTree = "<group>"; };
+		8624AF6028F2E866DC1F581D64EA6684 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = Source/Resources/tr.lproj; sourceTree = "<group>"; };
+		86B404B29821597821DA1F35AE19938A /* YPVideoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPVideoView.swift; path = Source/Filters/Video/YPVideoView.swift; sourceTree = "<group>"; };
+		89B3E7471CF97094D19925BF2DB64113 /* PHFetchResult+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PHFetchResult+Extensions.swift"; path = "Source/Helpers/Extensions/PHFetchResult+Extensions.swift"; sourceTree = "<group>"; };
+		8A6E8FBC6D4AAB46D27FF26707AF42AB /* Pods-LittlePink-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LittlePink-frameworks.sh"; sourceTree = "<group>"; };
+		8DA2032FE6D1EF5344A9B85840B986A1 /* SteviaLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteviaLayout.release.xcconfig; sourceTree = "<group>"; };
+		8DD7393E98D70A9B0D3C4ED12B9DD9BF /* PryntTrimmerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PryntTrimmerView-Info.plist"; sourceTree = "<group>"; };
+		8E68A8030D52E5A11D751551A626055E /* YPFonts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPFonts.swift; path = Source/Configuration/YPFonts.swift; sourceTree = "<group>"; };
+		8F1A0422D40FDD7F872D4C34B6333AEB /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		8F27C1715119B92CCD7717C3FB9154F7 /* CHTCollectionViewWaterfallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-prefix.pch"; sourceTree = "<group>"; };
+		91911D532C377FCD99786992C9AC2831 /* Pods-LittlePink-LittlePinkUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LittlePink-LittlePinkUITests-Info.plist"; sourceTree = "<group>"; };
+		91F3103F9D9C9FD736407967C2DD925A /* VideoScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoScrollView.swift; path = Sources/PryntTrimmerView/Cropper/VideoScrollView.swift; sourceTree = "<group>"; };
+		92499E2A326EDFFC1C0F07E65B8E1882 /* Stevia+Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Content.swift"; path = "Source/Stevia+Content.swift"; sourceTree = "<group>"; };
+		93427466D6FC9AFBC4244DE016B319A9 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Extensions.swift"; path = "Source/Helpers/Extensions/UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
+		945CB9A9C10268837DC7ADB52F281915 /* PryntTrimmerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PryntTrimmerView-prefix.pch"; sourceTree = "<group>"; };
+		947516BF6D26A8BFCBC08F351E44D33E /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = Source/Resources/ar.lproj; sourceTree = "<group>"; };
+		968EEBE1D518FA4E7F716348F1B75BFD /* XLPagerTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.release.xcconfig; sourceTree = "<group>"; };
+		98C8907C057ADFE1659414E1668B8E48 /* YPBottomPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPBottomPagerView.swift; path = Source/Pages/Gallery/BottomPager/YPBottomPagerView.swift; sourceTree = "<group>"; };
+		9AE9D832580F2F3EBA3FDA736C0CF969 /* CHTCollectionViewWaterfallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHTCollectionViewWaterfallLayout.modulemap; sourceTree = "<group>"; };
+		9C138138A4CCBFA832E915C898D1B9AF /* Stevia+DoubleDash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+DoubleDash.swift"; path = "Source/Stevia+DoubleDash.swift"; sourceTree = "<group>"; };
+		9CADE7DDD46B824260DD7B4C8A0F0065 /* AVMutableComposition+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVMutableComposition+Extensions.swift"; path = "Source/Helpers/Extensions/AVMutableComposition+Extensions.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF87A2F93374BAF0958264BF3E171D5 /* YPAssetViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPAssetViewContainer.swift; path = Source/Pages/Gallery/YPAssetViewContainer.swift; sourceTree = "<group>"; };
+		9E54D45B4123347C13978BE207CC245E /* Stevia+Percentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Percentage.swift"; path = "Source/Stevia+Percentage.swift"; sourceTree = "<group>"; };
+		9F145206BDB3F2EC86CFF506645DFB19 /* YPAlbumsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPAlbumsManager.swift; path = Source/Pages/Gallery/Album/YPAlbumsManager.swift; sourceTree = "<group>"; };
+		A12DF2C4B23CE20DC81E62FFAF8C7C83 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		A280417C1A577282A25130B4C8110E13 /* YPError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPError.swift; path = Source/Models/YPError.swift; sourceTree = "<group>"; };
+		A75C741C35F89CE6F8D16F941AB6234F /* XLPagerTabStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.debug.xcconfig; sourceTree = "<group>"; };
+		A91C3FF8AA658F0839349FDDA0C19BEB /* YPAlbum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPAlbum.swift; path = Source/Pages/Gallery/Album/YPAlbum.swift; sourceTree = "<group>"; };
+		A988CDB0B03BFDAE95649E1A85B37763 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Extensions.swift"; path = "Source/Helpers/Extensions/CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		A9F7C53807576210BCC4EF2999B06B0C /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nb.lproj; path = Source/Resources/nb.lproj; sourceTree = "<group>"; };
+		AA2BCD9B718356958FF05838313A4AF5 /* PryntTrimmerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PryntTrimmerView-umbrella.h"; sourceTree = "<group>"; };
+		AB39363854592538396DFBA89A4E149E /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		AB4AFB72FF3214E776975FC2C3672EDB /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		ABE286241B5DBB07408EF94CF04ADBEE /* Pods-LittlePink.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LittlePink.modulemap"; sourceTree = "<group>"; };
+		ADBD06B8004E7541375E87774859F26E /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = Source/Resources/fr.lproj; sourceTree = "<group>"; };
+		AFBEBFAEFCBB0585BFA56818AC3B1028 /* CHTCollectionViewWaterfallLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHTCollectionViewWaterfallLayout-Info.plist"; sourceTree = "<group>"; };
+		AFFC8483B141B4C6B77C71D9FF76FB4D /* AVCaptureDevice+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVCaptureDevice+Extensions.swift"; path = "Source/Helpers/Extensions/AVCaptureDevice+Extensions.swift"; sourceTree = "<group>"; };
+		B0DB2E9E6B5CEF17F7F175964DE89FD5 /* fa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fa.lproj; path = Source/Resources/fa.lproj; sourceTree = "<group>"; };
+		B1B5E71AA3068228BE15BEE9A47698DA /* SteviaLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SteviaLayout-dummy.m"; sourceTree = "<group>"; };
+		B39B442EE1B460AE4696D6C3B86E15A6 /* YPCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPCameraView.swift; path = Source/Pages/Photo/YPCameraView.swift; sourceTree = "<group>"; };
+		B4226C0383B98F14E00711F1DE88F45C /* Pods-LittlePink-LittlePinkUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LittlePink-LittlePinkUITests.modulemap"; sourceTree = "<group>"; };
+		B4A4221A3086F64E108919EEC128EECD /* YPVideoCaptureHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPVideoCaptureHelper.swift; path = Source/Pages/Video/YPVideoCaptureHelper.swift; sourceTree = "<group>"; };
+		BDBAEB153F5364813DC2C24BD3EF83AE /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = th.lproj; path = Source/Resources/th.lproj; sourceTree = "<group>"; };
+		BF0B7762B47AE7DFC8A2FB2704629959 /* YPVideoFiltersVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = YPVideoFiltersVC.xib; path = Source/Filters/Video/YPVideoFiltersVC.xib; sourceTree = "<group>"; };
+		C2BB7A9102065CCEA2D88BB1AC52FB50 /* Pods-LittlePinkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LittlePinkTests.modulemap"; sourceTree = "<group>"; };
+		C34462080BFB3EF6F5CBA52C87BCD894 /* YPPagerMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPPagerMenu.swift; path = Source/Pages/Gallery/BottomPager/YPPagerMenu.swift; sourceTree = "<group>"; };
+		C6EA2F838756E9E74C7258BBBF9BFF41 /* PryntTrimmerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PryntTrimmerView.swift; path = Sources/PryntTrimmerView/Trimmer/PryntTrimmerView.swift; sourceTree = "<group>"; };
+		C785B63263BEF7419A1F7188F4C519EE /* SteviaLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SteviaLayout.modulemap; sourceTree = "<group>"; };
+		C9CBC09FDEE7570A00B39551162A79B3 /* PHCachingImageManager+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PHCachingImageManager+Extensions.swift"; path = "Source/Helpers/Extensions/PHCachingImageManager+Extensions.swift"; sourceTree = "<group>"; };
+		CAE9AEC06E7938E9E42938A9266F047C /* Stevia+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Hierarchy.swift"; path = "Source/Stevia+Hierarchy.swift"; sourceTree = "<group>"; };
+		CB606F1200AF24998F98776D35D344FE /* Pods-LittlePink-LittlePinkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LittlePink-LittlePinkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBBF84554C98B7FCA127C3B011AA36DA /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = da.lproj; path = Source/Resources/da.lproj; sourceTree = "<group>"; };
+		CC6A32FB3C43DEBE55E933750EF96F85 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.lproj; path = Source/Resources/cs.lproj; sourceTree = "<group>"; };
+		CF34FB223CC6A81C27D3561F118C5C73 /* Pods-LittlePink-LittlePinkUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LittlePink-LittlePinkUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D09DB48D8145BFA029AAEA61818EC68B /* PryntTrimmerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PryntTrimmerView; path = PryntTrimmerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1545FD281AC3930A73E8A599C9374BC /* YPFlashMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPFlashMode.swift; path = Source/Models/YPFlashMode.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D26D68EE6F223CC7EC9884BEEA2EFEE3 /* Pods-LittlePinkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LittlePinkTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D381AD7EC9127CA975CA50A262918A4D /* SteviaLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteviaLayout.debug.xcconfig; sourceTree = "<group>"; };
+		D3C13264637AFFB0E6EF976EF83D2249 /* YPLibraryViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPLibraryViewCell.swift; path = Source/Pages/Gallery/YPLibraryViewCell.swift; sourceTree = "<group>"; };
+		D6065A62910D1CA7D2BE6E5A31D47DF7 /* PryntTrimmerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PryntTrimmerView.debug.xcconfig; sourceTree = "<group>"; };
+		D6FF371B7028957C7DA552E10D3ED75E /* YPImagePicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YPImagePicker; path = YPImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73FD36EEE2C1648F4B5DFB94B51FDB2 /* Stevia+Equation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Equation.swift"; path = "Source/Stevia+Equation.swift"; sourceTree = "<group>"; };
+		D96A565D64F3C571CE59849239DF48C2 /* YPVideoCaptureVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPVideoCaptureVC.swift; path = Source/Pages/Video/YPVideoCaptureVC.swift; sourceTree = "<group>"; };
+		D9DF1D63E7782729B571114019BDCADC /* YPDragDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPDragDirection.swift; path = Source/Models/YPDragDirection.swift; sourceTree = "<group>"; };
+		D9EAA195496A312E427874ABB0659F46 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "Source/Helpers/Extensions/UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		DBC9D6A65EF06A67FDB47DF506320B08 /* Pods-LittlePink-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LittlePink-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC7930423AE67A4BAE2D3623EAAC9FC5 /* XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		DE90CE8A0DA0F3A5364FCDD4803AD3EC /* SteviaLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SteviaLayout; path = Stevia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1EB719D00E91E836483BD1C04ECDD9 /* YPLibraryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = YPLibraryView.xib; path = Source/Pages/Gallery/YPLibraryView.xib; sourceTree = "<group>"; };
+		E05F11697D9C53D39D1B6DD4A861EC9C /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = Source/Resources/es.lproj; sourceTree = "<group>"; };
+		E16F64FFB276277AECE5F7B4628FAB8A /* CHTCollectionViewWaterfallLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.debug.xcconfig; sourceTree = "<group>"; };
+		E1D47459096E5338F54DA6BCE5108BCA /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		E21BA7B611F831D497075C09CA304916 /* YPLibraryViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPLibraryViewDelegate.swift; path = Source/Pages/Gallery/YPLibraryViewDelegate.swift; sourceTree = "<group>"; };
+		E28A7731DB26D2EB62D3827E18CF1254 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Source/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		E3C353318E32AF95F4C47D6EC10801C2 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extensions.swift"; path = "Source/Helpers/Extensions/UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		E7A931CBDB6AA8C152A7365E40FAF123 /* Pods-LittlePinkTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LittlePinkTests-umbrella.h"; sourceTree = "<group>"; };
+		E7CBDC23ABCF055193A2F4F176C884DE /* Pods-LittlePink-LittlePinkUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LittlePink-LittlePinkUITests-dummy.m"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB55E8E1AF177D4CAB8E5AB6B355A691 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = Source/Resources/id.lproj; sourceTree = "<group>"; };
+		EB6D64DD7D2DF50766C948105A0DAFDE /* YPWordings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPWordings.swift; path = Source/Configuration/YPWordings.swift; sourceTree = "<group>"; };
+		EFB20635F3B9448B4775783A1BB4E232 /* HandlerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandlerView.swift; path = Sources/PryntTrimmerView/Trimmer/HandlerView.swift; sourceTree = "<group>"; };
+		F07E0466CAB3EA94FF269A4B292F38F5 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28A6F1E42FB41558366F520B3954174 /* CIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+Extensions.swift"; path = "Source/Helpers/Extensions/CIImage+Extensions.swift"; sourceTree = "<group>"; };
+		F2A01DE6446C3782EEF5694253BCEF7A /* YPHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPHelper.swift; path = Source/Helpers/YPHelper.swift; sourceTree = "<group>"; };
+		F2B00146C4E9EC1DD36C440A42327F0B /* Pods-LittlePinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LittlePinkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3CFB091790A1AD1F77F5FE7F6DC99E9 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Source/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		F4C65CA2E1367CE80A618895661F5FFD /* YPLibrary+LibraryChange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YPLibrary+LibraryChange.swift"; path = "Source/Pages/Gallery/YPLibrary+LibraryChange.swift"; sourceTree = "<group>"; };
+		F55F1F4EA452371B92C2F56B95051BE6 /* Pods-LittlePinkTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LittlePinkTests"; path = Pods_LittlePinkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6186FAB0D9B66AB0275543710833C8D /* YPSelectionsGalleryCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPSelectionsGalleryCell.swift; path = Source/SelectionsGallery/YPSelectionsGalleryCell.swift; sourceTree = "<group>"; };
+		F7302704E6C46CD8B83B38C7820C7B65 /* YPCameraVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPCameraVC.swift; path = Source/Pages/Photo/YPCameraVC.swift; sourceTree = "<group>"; };
+		F7ACF801059BA8E9797774EA500A18D0 /* SteviaLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SteviaLayout-Info.plist"; sourceTree = "<group>"; };
+		F82B1068F15907BB5D5C4C206EFF2920 /* Stevia+FlexibleMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+FlexibleMargin.swift"; path = "Source/Stevia+FlexibleMargin.swift"; sourceTree = "<group>"; };
+		F86A88AF277D5F77EC7689E0FFACAEB9 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Extensions.swift"; path = "Source/Helpers/Extensions/UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		FA54A155305544C60AD6EB926FD1B167 /* Pods-LittlePink-LittlePinkUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LittlePink-LittlePinkUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA5988CA4D6B7D008E41F5D9596A7CB6 /* YPMediaItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPMediaItem.swift; path = Source/Models/YPMediaItem.swift; sourceTree = "<group>"; };
+		FB1A8265F7DD127A51143EE262662EDC /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		FB2D52836EDC547F1CDEA207B0400FE5 /* Stevia+Stacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Stacks.swift"; path = "Source/Stevia+Stacks.swift"; sourceTree = "<group>"; };
+		FC8D5E314EE73289AF4B427FB3EE17E9 /* YPCropVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YPCropVC.swift; path = Source/Filters/Crop/YPCropVC.swift; sourceTree = "<group>"; };
+		FF8BEA944EBD7A80BA9667445861A7BB /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C4E340BD41D4B641005E602297AC122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19CB9A154246789DEF0DC3A541AA444 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21073F947C05602E8E9AA0FF81681440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2259BF6E5F599ED2E19F3B5A534F12EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4086D9ECE457107851EC140A7D5B42D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7A7DDD1F238195DF869D50F6EB300C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF557DA327F5360DF6546CC7040D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944BBF1B3E027766BC191935DA92543C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F947496710891F71557DADA1C49F53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499740DB06FC804E4BA23732A9230E32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7131FF0DD1AB6A8F874ADA574039ED34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DD1D4760AAAA7E70964371E3045262 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EE8E996F047DF1A3B868AA79180916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBFA96E13B47ECED0B9164D8FE19ABE /* Foundation.framework in Frameworks */,
+				7D6533AA7E911EC19BE804F1E35F84B8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FB118D2C6714F2C03A408A056B25EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7143658ED4C610590FDE589F45567880 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A602D308910A2A0918DEE8CE36525C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6D2B847EE809C72BF42E47D5E60641 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C8ECB4488FD9E57ADF05A34F25C718D /* ButtonCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B2A8743273BAC777F011F73FBB5145 /* SteviaLayout */ = {
+			isa = PBXGroup;
+			children = (
+				02E8AA64DD44A5A3FD560F2052F5FC93 /* Stevia+Alignment.swift */,
+				2343C36F249B3BD1165B6E85769F313A /* Stevia+Baselines.swift */,
+				3FD71721447F05699D286717A3CC3A59 /* Stevia+Center.swift */,
+				1A106245242AC6B3F586BCCADE922ECA /* Stevia+Constraints.swift */,
+				92499E2A326EDFFC1C0F07E65B8E1882 /* Stevia+Content.swift */,
+				9C138138A4CCBFA832E915C898D1B9AF /* Stevia+DoubleDash.swift */,
+				D73FD36EEE2C1648F4B5DFB94B51FDB2 /* Stevia+Equation.swift */,
+				74907138FFDDEE4224C08708E5B0E04A /* Stevia+Fill.swift */,
+				F82B1068F15907BB5D5C4C206EFF2920 /* Stevia+FlexibleMargin.swift */,
+				7AFD3ECDC41B942A685CA4C4468CFBBD /* Stevia+GetConstraint.swift */,
+				CAE9AEC06E7938E9E42938A9266F047C /* Stevia+Hierarchy.swift */,
+				3725AF6910232E3E8BEDEA1DF8667DE0 /* Stevia+LayoutAnchors.swift */,
+				0468F77B1DE4C89DCBD949514E125386 /* Stevia+Notifications.swift */,
+				062E73AFA1A302D4C9A00499CF3A5BE6 /* Stevia+Operators.swift */,
+				9E54D45B4123347C13978BE207CC245E /* Stevia+Percentage.swift */,
+				2872259B45493C8FB3BF7720ACCF8567 /* Stevia+Position.swift */,
+				5FE3BC344862E24E1CB82ED7AD7CB45E /* Stevia+Size.swift */,
+				FB2D52836EDC547F1CDEA207B0400FE5 /* Stevia+Stacks.swift */,
+				1AE24D26AFC627CC271B9ED2B7A03C2D /* Stevia+Style.swift */,
+				69967DC5C90A3787BF9563B5CB796320 /* Support Files */,
+			);
+			name = SteviaLayout;
+			path = SteviaLayout;
+			sourceTree = "<group>";
+		};
+		2E0C0356B6F073FE14008D97E94AA34C /* Pods-LittlePink */ = {
+			isa = PBXGroup;
+			children = (
+				ABE286241B5DBB07408EF94CF04ADBEE /* Pods-LittlePink.modulemap */,
+				DBC9D6A65EF06A67FDB47DF506320B08 /* Pods-LittlePink-acknowledgements.markdown */,
+				72F5463F6936984147FCBDDFDE73FB0C /* Pods-LittlePink-acknowledgements.plist */,
+				25F20E4BD525E499C6B52A733F57C1D1 /* Pods-LittlePink-dummy.m */,
+				8A6E8FBC6D4AAB46D27FF26707AF42AB /* Pods-LittlePink-frameworks.sh */,
+				2CA217A11D8289A2296258753FA291BB /* Pods-LittlePink-Info.plist */,
+				810DDFDE79F9F4C9AB7789B76B8836D6 /* Pods-LittlePink-umbrella.h */,
+				240B6E6F42F447D8B26C827FDC3C1488 /* Pods-LittlePink.debug.xcconfig */,
+				21BCBEA4B5AC7FD4F6DFF7A2EC2FF28D /* Pods-LittlePink.release.xcconfig */,
+			);
+			name = "Pods-LittlePink";
+			path = "Target Support Files/Pods-LittlePink";
+			sourceTree = "<group>";
+		};
+		31C212293EA9934C87A9F1BCE34057E6 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				810D9B677C517D71D55E3E3F446F542F /* BarPagerTabStripViewController.swift */,
+				FF8BEA944EBD7A80BA9667445861A7BB /* BarView.swift */,
+				58DC31C7ECBA6DDAA9BCA3493241D21F /* BaseButtonBarPagerTabStripViewController.swift */,
+				4CB6DA8372BC22A4F1AD696887632C84 /* ButtonBarPagerTabStripViewController.swift */,
+				48F6520F8A7EA32841B89CB5B112F67F /* ButtonBarView.swift */,
+				A12DF2C4B23CE20DC81E62FFAF8C7C83 /* ButtonBarViewCell.swift */,
+				AB39363854592538396DFBA89A4E149E /* FXPageControl.h */,
+				07E79C4AF2ADC5723BD169233215E5E6 /* FXPageControl.m */,
+				8F1A0422D40FDD7F872D4C34B6333AEB /* IndicatorInfo.swift */,
+				F07E0466CAB3EA94FF269A4B292F38F5 /* PagerTabStripBehaviour.swift */,
+				529F7AD06B582BFB586E567B1FB28AF4 /* PagerTabStripError.swift */,
+				289CB35F6AB9DE32DCDA5E773B7465E9 /* PagerTabStripViewController.swift */,
+				FB1A8265F7DD127A51143EE262662EDC /* SegmentedPagerTabStripViewController.swift */,
+				4E37BDAC3306B8EF1D2FE911549E3D49 /* SwipeDirection.swift */,
+				231E858D498C9085BAECB0F0AB1A2D0D /* TwitterPagerTabStripViewController.swift */,
+				0D6D2B847EE809C72BF42E47D5E60641 /* Resources */,
+				4A513C056675E9EEE7ED58A07364343B /* Support Files */,
+			);
+			name = XLPagerTabStrip;
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		34DF98963213A4CA7E4869D15A6ED14A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C06FBAA3A7C2808142770743C578933C /* CHTCollectionViewWaterfallLayout */,
+				E286FE77AAF32A9D8F679774FFA9BFDC /* PryntTrimmerView */,
+				17B2A8743273BAC777F011F73FBB5145 /* SteviaLayout */,
+				31C212293EA9934C87A9F1BCE34057E6 /* XLPagerTabStrip */,
+				90E09AC5252D838D90577871CB70A633 /* YPImagePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A513C056675E9EEE7ED58A07364343B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A79DA4ABC7B1010ACDE40B672B2F9D5 /* ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist */,
+				E1D47459096E5338F54DA6BCE5108BCA /* XLPagerTabStrip.modulemap */,
+				AB4AFB72FF3214E776975FC2C3672EDB /* XLPagerTabStrip-dummy.m */,
+				DC7930423AE67A4BAE2D3623EAAC9FC5 /* XLPagerTabStrip-Info.plist */,
+				4867DC1C0FB94BEA73C9E04008D2329C /* XLPagerTabStrip-prefix.pch */,
+				755423C9551192D1882E51A80AF74992 /* XLPagerTabStrip-umbrella.h */,
+				A75C741C35F89CE6F8D16F941AB6234F /* XLPagerTabStrip.debug.xcconfig */,
+				968EEBE1D518FA4E7F716348F1B75BFD /* XLPagerTabStrip.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		69967DC5C90A3787BF9563B5CB796320 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C785B63263BEF7419A1F7188F4C519EE /* SteviaLayout.modulemap */,
+				B1B5E71AA3068228BE15BEE9A47698DA /* SteviaLayout-dummy.m */,
+				F7ACF801059BA8E9797774EA500A18D0 /* SteviaLayout-Info.plist */,
+				3542D39B58709B44BDDF34A2DC59AF34 /* SteviaLayout-prefix.pch */,
+				3C7D79C072F51E45FA5056CD09C1987A /* SteviaLayout-umbrella.h */,
+				D381AD7EC9127CA975CA50A262918A4D /* SteviaLayout.debug.xcconfig */,
+				8DA2032FE6D1EF5344A9B85840B986A1 /* SteviaLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SteviaLayout";
+			sourceTree = "<group>";
+		};
+		6A9A5576DF2AC9203EB3B5C433AB904C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				947516BF6D26A8BFCBC08F351E44D33E /* ar.lproj */,
+				517DA0BC5A33C16EC9C1E1DE485599B3 /* Assets.xcassets */,
+				2B051B6B09E1FADE6ADEFA95969F4C8E /* bg.lproj */,
+				CC6A32FB3C43DEBE55E933750EF96F85 /* cs.lproj */,
+				CBBF84554C98B7FCA127C3B011AA36DA /* da.lproj */,
+				31B067BB430B768B3A4684E675705B04 /* de.lproj */,
+				7D43C0DF5EB39FDAA23AABB5DAD85387 /* en.lproj */,
+				E05F11697D9C53D39D1B6DD4A861EC9C /* es.lproj */,
+				B0DB2E9E6B5CEF17F7F175964DE89FD5 /* fa.lproj */,
+				ADBD06B8004E7541375E87774859F26E /* fr.lproj */,
+				EB55E8E1AF177D4CAB8E5AB6B355A691 /* id.lproj */,
+				3D46F5C1F714A4F39410C34F73E2EC3F /* it.lproj */,
+				71A15D586A901664BFACD303726846E7 /* ja.lproj */,
+				448EA97122EE475E99D210F5D9A9CDE7 /* km.lproj */,
+				50EFE1D20486FCC0C118CFAE5E03C74D /* km-KH.lproj */,
+				37F7BF477BFF8722EDC9D0210A0E9474 /* ko.lproj */,
+				A9F7C53807576210BCC4EF2999B06B0C /* nb.lproj */,
+				770246CE5E561273581D49BD73BBE615 /* nl.lproj */,
+				4410E064601215D8D7C7E9495FEBCC36 /* pl.lproj */,
+				066B82B28D5809F8528EE2E352B3CA9D /* pt-BR.lproj */,
+				4D0DAD70821198E73E47216BFB67AC56 /* pt-PT.lproj */,
+				54DCF565D57B98D895732EC11C645C0A /* ro.lproj */,
+				2C094B44D042AE5DB3B88E9961FD3E85 /* ru.lproj */,
+				6029CCB4B3DBA8AD9BB655E3250CCCD6 /* sv.lproj */,
+				BDBAEB153F5364813DC2C24BD3EF83AE /* th.lproj */,
+				8624AF6028F2E866DC1F581D64EA6684 /* tr.lproj */,
+				7D7516FEDFF07EE2B25FE13DBBD0F090 /* vi.lproj */,
+				DF1EB719D00E91E836483BD1C04ECDD9 /* YPLibraryView.xib */,
+				BF0B7762B47AE7DFC8A2FB2704629959 /* YPVideoFiltersVC.xib */,
+				E28A7731DB26D2EB62D3827E18CF1254 /* zh-Hans.lproj */,
+				F3CFB091790A1AD1F77F5FE7F6DC99E9 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F699EE3400CBD48C8F40756A88BED3C /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				467111183669BC7E57FCE25BD7BB981D /* CHTCollectionViewWaterfallLayout.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		888740B2D87C8C55D413102406FA8306 /* Pods-LittlePink-LittlePinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4226C0383B98F14E00711F1DE88F45C /* Pods-LittlePink-LittlePinkUITests.modulemap */,
+				FA54A155305544C60AD6EB926FD1B167 /* Pods-LittlePink-LittlePinkUITests-acknowledgements.markdown */,
+				CF34FB223CC6A81C27D3561F118C5C73 /* Pods-LittlePink-LittlePinkUITests-acknowledgements.plist */,
+				E7CBDC23ABCF055193A2F4F176C884DE /* Pods-LittlePink-LittlePinkUITests-dummy.m */,
+				0F5ACAF0FB2BD5E1D0B01F392AA0CDD0 /* Pods-LittlePink-LittlePinkUITests-frameworks.sh */,
+				91911D532C377FCD99786992C9AC2831 /* Pods-LittlePink-LittlePinkUITests-Info.plist */,
+				220B2991435315484D70692CED6B9838 /* Pods-LittlePink-LittlePinkUITests-umbrella.h */,
+				CB606F1200AF24998F98776D35D344FE /* Pods-LittlePink-LittlePinkUITests.debug.xcconfig */,
+				6F4F8211B017C8A70604A8C190BD9A00 /* Pods-LittlePink-LittlePinkUITests.release.xcconfig */,
+			);
+			name = "Pods-LittlePink-LittlePinkUITests";
+			path = "Target Support Files/Pods-LittlePink-LittlePinkUITests";
+			sourceTree = "<group>";
+		};
+		90E09AC5252D838D90577871CB70A633 /* YPImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4BB4D74CA9B1BCBDEB9E8AB4C935CA46 /* AVAsset+Extensions.swift */,
+				AFFC8483B141B4C6B77C71D9FF76FB4D /* AVCaptureDevice+Extensions.swift */,
+				6A905420B7B61E66B936E3DB3DB1DC28 /* AVCaptureSession+Extensions.swift */,
+				214DF57DCD31F6DE58182FFC06E4B140 /* AVFileType+Extensions.swift */,
+				03B23D5F639B6400F38558EADF14D660 /* AVFoundation+Extensions.swift */,
+				9CADE7DDD46B824260DD7B4C8A0F0065 /* AVMutableComposition+Extensions.swift */,
+				78E119C74DC657A5E9D694227CFAAE91 /* AVPlayer+Extensions.swift */,
+				56D395D038908425C95F9C804FC32ACB /* Bundle+Extensions.swift */,
+				A988CDB0B03BFDAE95649E1A85B37763 /* CGFloat+Extensions.swift */,
+				3183AB77A113F3016EB3467BF4CD2BB2 /* CGRect+Extensions.swift */,
+				F28A6F1E42FB41558366F520B3954174 /* CIImage+Extensions.swift */,
+				0708104E4D837460ADA9032EE71586B2 /* IndexSet+Extensions.swift */,
+				3E473CFCF070C17F552F3CC55BD9E564 /* LibraryMediaManager.swift */,
+				803241ED99855B02FD27E42DE7866C60 /* NSFileManager+Extensions.swift */,
+				C9CBC09FDEE7570A00B39551162A79B3 /* PHCachingImageManager+Extensions.swift */,
+				89B3E7471CF97094D19925BF2DB64113 /* PHFetchResult+Extensions.swift */,
+				93427466D6FC9AFBC4244DE016B319A9 /* UIBarButtonItem+Extensions.swift */,
+				04D293FB4966F47F8AD5AE4F2A60B50B /* UIButton+Extensions.swift */,
+				E3C353318E32AF95F4C47D6EC10801C2 /* UICollectionView+Extensions.swift */,
+				D9EAA195496A312E427874ABB0659F46 /* UIColor+Extensions.swift */,
+				F86A88AF277D5F77EC7689E0FFACAEB9 /* UIImage+Extensions.swift */,
+				4D5C115C4D0202B29A1C9E9E12E0737D /* UINavigationBar+Extensions.swift */,
+				024184B09CC270FD8D6AD4BC13F89529 /* URL+Extensions.swift */,
+				A91C3FF8AA658F0839349FDDA0C19BEB /* YPAlbum.swift */,
+				07FAD4921CF0988B92B5C66C74982F06 /* YPAlbumCell.swift */,
+				9F145206BDB3F2EC86CFF506645DFB19 /* YPAlbumsManager.swift */,
+				3643BDB5C21DE90460983AAD9A0B01E8 /* YPAlbumVC.swift */,
+				33F3C84839A93E6DE020475597BCBB59 /* YPAlbumView.swift */,
+				4432B801232BE4B061572D4874391DAA /* YPAlerts.swift */,
+				9DF87A2F93374BAF0958264BF3E171D5 /* YPAssetViewContainer.swift */,
+				53FCC9147748D5CB9CEA880B49F8958E /* YPAssetZoomableView.swift */,
+				4D474230BFD10E2B9EDC34E6367C0424 /* YPBottomPager.swift */,
+				98C8907C057ADFE1659414E1668B8E48 /* YPBottomPagerView.swift */,
+				F7302704E6C46CD8B83B38C7820C7B65 /* YPCameraVC.swift */,
+				B39B442EE1B460AE4696D6C3B86E15A6 /* YPCameraView.swift */,
+				444F6EA4A3799BAA8F29EBCB00E5D060 /* YPColors.swift */,
+				FC8D5E314EE73289AF4B427FB3EE17E9 /* YPCropVC.swift */,
+				288242954F54FFAA77557591657A910E /* YPCropView.swift */,
+				32EFF7EFF736EE8A9852CE7F8FDA4BA5 /* YPDeviceOrientationHelper.swift */,
+				D9DF1D63E7782729B571114019BDCADC /* YPDragDirection.swift */,
+				A280417C1A577282A25130B4C8110E13 /* YPError.swift */,
+				1CC14598D67A38B99782A454935C470E /* YPFilter.swift */,
+				1C86AA9566EF17E7011CE1337B68D8A5 /* YPFilterCollectionViewCell.swift */,
+				6BB3857607DE0D94E32DDB5E3483BE05 /* YPFiltersView.swift */,
+				D1545FD281AC3930A73E8A599C9374BC /* YPFlashMode.swift */,
+				8E68A8030D52E5A11D751551A626055E /* YPFonts.swift */,
+				191F27A420970563695FB1B677396F36 /* YPGridView.swift */,
+				F2A01DE6446C3782EEF5694253BCEF7A /* YPHelper.swift */,
+				0060259DD465943C0A34E4AA406A362A /* YPIcons.swift */,
+				5DBF42BE06A3BE8845E832F59F8DF7B0 /* YPImagePicker.swift */,
+				613A8F4F099E1F44A028E5E6E1221972 /* YPImagePickerConfiguration.swift */,
+				6C88037B1E4836EF7CBEA7D70ECAC667 /* YPImageSize.swift */,
+				F4C65CA2E1367CE80A618895661F5FFD /* YPLibrary+LibraryChange.swift */,
+				420D5E30EFD2701E1A901B8503125766 /* YPLibrarySelection.swift */,
+				00A6F6316CD35178A4AA6747C707475D /* YPLibraryVC.swift */,
+				4548AACAED3F70B94A3467E7C76B9706 /* YPLibraryVC+CollectionView.swift */,
+				854DB74EC8668B8ACCA6CFE0AF0DC42F /* YPLibraryVC+PanGesture.swift */,
+				5270AB47E8DA2374E4E824484A6B81D2 /* YPLibraryView.swift */,
+				D3C13264637AFFB0E6EF976EF83D2249 /* YPLibraryViewCell.swift */,
+				E21BA7B611F831D497075C09CA304916 /* YPLibraryViewDelegate.swift */,
+				0A493EB04920F91702103CAFA4525B65 /* YPLoaders.swift */,
+				0116192C66948B16D27233B6334C8222 /* YPLoadingView.swift */,
+				7060D9DD0440D2C6A0612DFBA87938BA /* YPLog.swift */,
+				FA5988CA4D6B7D008E41F5D9596A7CB6 /* YPMediaItem.swift */,
+				65C4791C9B9BC5AB5B513C4871C5EB1F /* YPMenuItem.swift */,
+				C34462080BFB3EF6F5CBA52C87BCD894 /* YPPagerMenu.swift */,
+				5FE0442180A8A691199468C4E5D1E087 /* YPPermissionCheckable.swift */,
+				0898B8A798DD5B5BFAF4578115B15957 /* YPPermissionDeniedPopup.swift */,
+				704279D8AF254C7597F9ABC2F158C5D2 /* YPPermissionManager.swift */,
+				7A168F685DC00092A6671350FA253C01 /* YPPhotoCaptureHelper.swift */,
+				3C8C355D5C270D03CCC718113075FA84 /* YPPhotoFiltersVC.swift */,
+				08AEC83F98CCC71587F723E2B0928859 /* YPPhotoSaver.swift */,
+				835E4DD345FFC13824DE4A6C9EE1BC56 /* YPPickerScreen.swift */,
+				1776FB8364AAB9976AE6A48825F1E3FE /* YPPickerVC.swift */,
+				F6186FAB0D9B66AB0275543710833C8D /* YPSelectionsGalleryCell.swift */,
+				13D48067F2260989DDCA4A100CDE013D /* YPSelectionsGalleryVC.swift */,
+				0B0D213CDF0916DD54E1C497C4028726 /* YPSelectionsGalleryView.swift */,
+				717BA262BBDB5937A6D53AF34C4F20F0 /* YPTrimError.swift */,
+				B4A4221A3086F64E108919EEC128EECD /* YPVideoCaptureHelper.swift */,
+				D96A565D64F3C571CE59849239DF48C2 /* YPVideoCaptureVC.swift */,
+				7169F360C0495283A8A86661F3A16530 /* YPVideoFiltersVC.swift */,
+				4448271C2F1B509F012908C981F0FCCC /* YPVideoProcessor.swift */,
+				86B404B29821597821DA1F35AE19938A /* YPVideoView.swift */,
+				EB6D64DD7D2DF50766C948105A0DAFDE /* YPWordings.swift */,
+				6A9A5576DF2AC9203EB3B5C433AB904C /* Resources */,
+				D51188FCBA06D7B29A170AD2A708B90B /* Support Files */,
+			);
+			name = YPImagePicker;
+			path = YPImagePicker;
+			sourceTree = "<group>";
+		};
+		B2E5932A6A941AA2C444E7082937FE0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E0C0356B6F073FE14008D97E94AA34C /* Pods-LittlePink */,
+				888740B2D87C8C55D413102406FA8306 /* Pods-LittlePink-LittlePinkUITests */,
+				E7485CF27FCBAD7E4FE723D35CC2873D /* Pods-LittlePinkTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BAB07223E050F3515961F2E165A62604 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB3B7EF9F467214B0D12994F888E864 /* PryntTrimmerView.modulemap */,
+				2213A2588DC90D43977975E4FDFF785B /* PryntTrimmerView-dummy.m */,
+				8DD7393E98D70A9B0D3C4ED12B9DD9BF /* PryntTrimmerView-Info.plist */,
+				945CB9A9C10268837DC7ADB52F281915 /* PryntTrimmerView-prefix.pch */,
+				AA2BCD9B718356958FF05838313A4AF5 /* PryntTrimmerView-umbrella.h */,
+				D6065A62910D1CA7D2BE6E5A31D47DF7 /* PryntTrimmerView.debug.xcconfig */,
+				6E078E6952847C82EE6460C266CAE771 /* PryntTrimmerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PryntTrimmerView";
+			sourceTree = "<group>";
+		};
+		C06FBAA3A7C2808142770743C578933C /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D9BAA4CCB6B13305A5DA86A998239EEC /* Support Files */,
+				7F699EE3400CBD48C8F40756A88BED3C /* Swift */,
+			);
+			name = CHTCollectionViewWaterfallLayout;
+			path = CHTCollectionViewWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				34DF98963213A4CA7E4869D15A6ED14A /* Pods */,
+				F81DF920507E96A8ABB53644DA302AF0 /* Products */,
+				B2E5932A6A941AA2C444E7082937FE0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D51188FCBA06D7B29A170AD2A708B90B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01AA7CFC0A9D1D5519E35A4B23A2183B /* YPImagePicker.modulemap */,
+				4DF1D05DEF838EAB97B3BB55694ADC6D /* YPImagePicker-dummy.m */,
+				53EEB70682AE2463F4078172B842D951 /* YPImagePicker-Info.plist */,
+				70C77AA0EA056DD6A41EE5D485D46A1B /* YPImagePicker-prefix.pch */,
+				34676D693CC67795E35DE2793D97FF93 /* YPImagePicker-umbrella.h */,
+				6ABFF53029C9A31BC04ED053096B589B /* YPImagePicker.debug.xcconfig */,
+				842D6A1B2D44F6D5D9EB0AC222ACF19F /* YPImagePicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YPImagePicker";
+			sourceTree = "<group>";
+		};
+		D9BAA4CCB6B13305A5DA86A998239EEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AE9D832580F2F3EBA3FDA736C0CF969 /* CHTCollectionViewWaterfallLayout.modulemap */,
+				0B8C82FC813B33A1A8EE155B0CFF076A /* CHTCollectionViewWaterfallLayout-dummy.m */,
+				AFBEBFAEFCBB0585BFA56818AC3B1028 /* CHTCollectionViewWaterfallLayout-Info.plist */,
+				8F27C1715119B92CCD7717C3FB9154F7 /* CHTCollectionViewWaterfallLayout-prefix.pch */,
+				44BA2D0BF11D428424F018EC1F0B2A39 /* CHTCollectionViewWaterfallLayout-umbrella.h */,
+				E16F64FFB276277AECE5F7B4628FAB8A /* CHTCollectionViewWaterfallLayout.debug.xcconfig */,
+				53D21DA186023A074A1EDAD7A04E0CAC /* CHTCollectionViewWaterfallLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHTCollectionViewWaterfallLayout";
+			sourceTree = "<group>";
+		};
+		E286FE77AAF32A9D8F679774FFA9BFDC /* PryntTrimmerView */ = {
+			isa = PBXGroup;
+			children = (
+				4F8286A58F5EC072963F81820DCF7565 /* AssetVideoScrollView.swift */,
+				1529F557D0C6CECBA4D32E57DCD9188D /* AVAssetTimeSelector.swift */,
+				18609F5900B0FE76BA931DD4163B24F0 /* CropMaskView.swift */,
+				EFB20635F3B9448B4775783A1BB4E232 /* HandlerView.swift */,
+				C6EA2F838756E9E74C7258BBBF9BFF41 /* PryntTrimmerView.swift */,
+				214D7CBB732747AB5D9705B6EBD73B6B /* ThumbSelectorView.swift */,
+				68F078629C04F60FC24E10EAB4275C9C /* VideoCropView.swift */,
+				91F3103F9D9C9FD736407967C2DD925A /* VideoScrollView.swift */,
+				BAB07223E050F3515961F2E165A62604 /* Support Files */,
+			);
+			name = PryntTrimmerView;
+			path = PryntTrimmerView;
+			sourceTree = "<group>";
+		};
+		E7485CF27FCBAD7E4FE723D35CC2873D /* Pods-LittlePinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2BB7A9102065CCEA2D88BB1AC52FB50 /* Pods-LittlePinkTests.modulemap */,
+				42CE9E857A1225CB1EC7833AE959419F /* Pods-LittlePinkTests-acknowledgements.markdown */,
+				D26D68EE6F223CC7EC9884BEEA2EFEE3 /* Pods-LittlePinkTests-acknowledgements.plist */,
+				4703D676D67A958EE25FC331A4C73B61 /* Pods-LittlePinkTests-dummy.m */,
+				06CA865633B03FC4F31F0B9F404D4775 /* Pods-LittlePinkTests-Info.plist */,
+				E7A931CBDB6AA8C152A7365E40FAF123 /* Pods-LittlePinkTests-umbrella.h */,
+				F2B00146C4E9EC1DD36C440A42327F0B /* Pods-LittlePinkTests.debug.xcconfig */,
+				0F9D6F63C9014A5709BF865DD9DED089 /* Pods-LittlePinkTests.release.xcconfig */,
+			);
+			name = "Pods-LittlePinkTests";
+			path = "Target Support Files/Pods-LittlePinkTests";
+			sourceTree = "<group>";
+		};
+		F81DF920507E96A8ABB53644DA302AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E096E08483F5F553481B6AC47BD0C63 /* CHTCollectionViewWaterfallLayout */,
+				6F001E752638EBB7C92BA1457858AFA1 /* Pods-LittlePink */,
+				641DFD0FCF0286E5C3506EF662EEDDCA /* Pods-LittlePink-LittlePinkUITests */,
+				F55F1F4EA452371B92C2F56B95051BE6 /* Pods-LittlePinkTests */,
+				D09DB48D8145BFA029AAEA61818EC68B /* PryntTrimmerView */,
+				DE90CE8A0DA0F3A5364FCDD4803AD3EC /* SteviaLayout */,
+				F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip */,
+				78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip-XLPagerTabStrip */,
+				D6FF371B7028957C7DA552E10D3ED75E /* YPImagePicker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04267ED9DE74C3E47CCF6ED75A64DB61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E0E731CC816AD64B8A8611833F1775 /* YPImagePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7BCEAEA06149C27C44DED9804CBD16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A943FE1D200ADFB15B1F055CBBC370 /* Pods-LittlePink-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E705E79A51C9067C52E96C16EA4AE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410E76809C0FCCDECA1CFDA9623F2B74 /* PryntTrimmerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2C7972671FB52B7118207FC3FA22AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCECDE88CA51F7FB01DD9E782A509FC /* Pods-LittlePink-LittlePinkUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7292FEE1319F8AB3074DEA42DA32AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7A26205AE8190BA854C961DE12965D /* SteviaLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8191242AA48BFFE434DBD482BF9A134B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B517BA5209325B9ABBCB3C63971CE3E /* Pods-LittlePinkTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE924D08B8FD14C35D45F5F54BDB988 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A8B42879CE277A31532F1966DD6594 /* CHTCollectionViewWaterfallLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66348442698A568AEC5FD4516FBA17F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2503B430D9C2E1C021A0BD48742EF153 /* FXPageControl.h in Headers */,
+				A0F6419E0B2954CD17B8C0281E245A35 /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		031EC6716B0AE84A37919C3814AA103F /* YPImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502B77311BD2F550E427ACCCB7483334 /* Build configuration list for PBXNativeTarget "YPImagePicker" */;
+			buildPhases = (
+				04267ED9DE74C3E47CCF6ED75A64DB61 /* Headers */,
+				983ED5F50BC51D71D80841C63504E791 /* Sources */,
+				7131FF0DD1AB6A8F874ADA574039ED34 /* Frameworks */,
+				48554698F04CF7988D3B9FBCC3656B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0E5D1C61732A80440C5307607750E47 /* PBXTargetDependency */,
+				A11D156B3F2557053F73786EF2B70A8C /* PBXTargetDependency */,
+			);
+			name = YPImagePicker;
+			productName = YPImagePicker;
+			productReference = D6FF371B7028957C7DA552E10D3ED75E /* YPImagePicker */;
+			productType = "com.apple.product-type.framework";
+		};
+		27E74A974FA70436F50B357CE1355256 /* Pods-LittlePink-LittlePinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70735126339258B2D8334521607865E /* Build configuration list for PBXNativeTarget "Pods-LittlePink-LittlePinkUITests" */;
+			buildPhases = (
+				4F2C7972671FB52B7118207FC3FA22AD /* Headers */,
+				5BBC514B5B421810475091CDEF92FEDB /* Sources */,
+				4086D9ECE457107851EC140A7D5B42D3 /* Frameworks */,
+				A8C5B854287D55F7C18BB7850E411E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7F952FF4C86D39FC75DDAE01A05C1D /* PBXTargetDependency */,
+				CD3F5DB124ED8F36AE35BF2268B0834A /* PBXTargetDependency */,
+				6034D5A302F5204EA475AB7DFCB2C1D3 /* PBXTargetDependency */,
+				1D5ADAD3672709A69070E9EFAC8D1F8F /* PBXTargetDependency */,
+				1C4D7C57288A09EC1D9C393B60B2E0CE /* PBXTargetDependency */,
+			);
+			name = "Pods-LittlePink-LittlePinkUITests";
+			productName = Pods_LittlePink_LittlePinkUITests;
+			productReference = 641DFD0FCF0286E5C3506EF662EEDDCA /* Pods-LittlePink-LittlePinkUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		40D185DC913D045063CEAD5E6B1504E7 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5A2128A366D5987843E4744A5DF2FE /* Build configuration list for PBXNativeTarget "CHTCollectionViewWaterfallLayout" */;
+			buildPhases = (
+				CEE924D08B8FD14C35D45F5F54BDB988 /* Headers */,
+				01A573381C24B8042C3F82A39804BB0B /* Sources */,
+				21073F947C05602E8E9AA0FF81681440 /* Frameworks */,
+				BA3184723B49B6A63C26488F3B29B580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHTCollectionViewWaterfallLayout;
+			productName = CHTCollectionViewWaterfallLayout;
+			productReference = 5E096E08483F5F553481B6AC47BD0C63 /* CHTCollectionViewWaterfallLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		4285BE751D5EBA97DE901537003DF80C /* Pods-LittlePink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A80E53EBBCCFFCDC9E2BB7B9B3FE2AC /* Build configuration list for PBXNativeTarget "Pods-LittlePink" */;
+			buildPhases = (
+				3F7BCEAEA06149C27C44DED9804CBD16 /* Headers */,
+				CB4F0F4589C4258AD38A48DB4D545AE9 /* Sources */,
+				44AF557DA327F5360DF6546CC7040D03 /* Frameworks */,
+				F7E186E7D628DE3B176077BF174BEB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF66B892D6627F3CA5FACB4E57987FE /* PBXTargetDependency */,
+				FE0241DA1E73BEE57134D487F9B56CC5 /* PBXTargetDependency */,
+				06B0904E38B5B398ED15905F4AD312B2 /* PBXTargetDependency */,
+				F0B7C07C88DA517FE42C887ABD340DB8 /* PBXTargetDependency */,
+				C923F6242648085C776BCD48460F5EED /* PBXTargetDependency */,
+			);
+			name = "Pods-LittlePink";
+			productName = Pods_LittlePink;
+			productReference = 6F001E752638EBB7C92BA1457858AFA1 /* Pods-LittlePink */;
+			productType = "com.apple.product-type.framework";
+		};
+		492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4432B0A8F268F1BFA2FD89A61424A3AE /* Build configuration list for PBXNativeTarget "PryntTrimmerView" */;
+			buildPhases = (
+				48E705E79A51C9067C52E96C16EA4AE3 /* Headers */,
+				41EFB99306947BC5554A26E8E552AACF /* Sources */,
+				98FB118D2C6714F2C03A408A056B25EB /* Frameworks */,
+				F3209604D98BB1D47C7F25F34EFFDB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PryntTrimmerView;
+			productName = PryntTrimmerView;
+			productReference = D09DB48D8145BFA029AAEA61818EC68B /* PryntTrimmerView */;
+			productType = "com.apple.product-type.framework";
+		};
+		99665C08DB9D156211594F894DF677CE /* Pods-LittlePinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C6D78A54E28E6DE52C8C544AC22F1E /* Build configuration list for PBXNativeTarget "Pods-LittlePinkTests" */;
+			buildPhases = (
+				8191242AA48BFFE434DBD482BF9A134B /* Headers */,
+				76ACDAF9D7B3DC74AA231335FBFFD1E9 /* Sources */,
+				0C4E340BD41D4B641005E602297AC122 /* Frameworks */,
+				DA345D53F178EB69DEC3255A01DB87F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB233B150A133D0B7DC238626859C88 /* PBXTargetDependency */,
+			);
+			name = "Pods-LittlePinkTests";
+			productName = Pods_LittlePinkTests;
+			productReference = F55F1F4EA452371B92C2F56B95051BE6 /* Pods-LittlePinkTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7294569241636E3A894A2E1C159817AC /* Build configuration list for PBXNativeTarget "SteviaLayout" */;
+			buildPhases = (
+				7E7292FEE1319F8AB3074DEA42DA32AB /* Headers */,
+				73B0D32489BFED18A9E8CEE8A211A697 /* Sources */,
+				6F947496710891F71557DADA1C49F53F /* Frameworks */,
+				7D56AC25B743D83F8C3F01BD55998FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteviaLayout;
+			productName = Stevia;
+			productReference = DE90CE8A0DA0F3A5364FCDD4803AD3EC /* SteviaLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AEAB62D0C8259FBAA0ABDFDEEEBA70 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				F66348442698A568AEC5FD4516FBA17F /* Headers */,
+				CF9E1B8B8B34AA37A4D1FBE8D842BE22 /* Sources */,
+				91EE8E996F047DF1A3B868AA79180916 /* Frameworks */,
+				0B6237BBE97DD6B6E4D1F36BD7D8F60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B87DA2D568C4BAB66155138A45F26B7A /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA572AFF91B013EF72C4560D39A5B24 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				87D93BEF159AD3DF55775BFB702F440B /* Sources */,
+				A9A602D308910A2A0918DEE8CE36525C /* Frameworks */,
+				3C6195DAF5A5EEB41A3E4848EA2BAACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = XLPagerTabStrip;
+			productReference = 78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip-XLPagerTabStrip */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				bg,
+				cs,
+				da,
+				de,
+				en,
+				es,
+				fa,
+				fr,
+				id,
+				it,
+				ja,
+				km,
+				"km-KH",
+				ko,
+				nb,
+				nl,
+				pl,
+				"pt-BR",
+				"pt-PT",
+				ro,
+				ru,
+				sv,
+				th,
+				tr,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F81DF920507E96A8ABB53644DA302AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D185DC913D045063CEAD5E6B1504E7 /* CHTCollectionViewWaterfallLayout */,
+				4285BE751D5EBA97DE901537003DF80C /* Pods-LittlePink */,
+				27E74A974FA70436F50B357CE1355256 /* Pods-LittlePink-LittlePinkUITests */,
+				99665C08DB9D156211594F894DF677CE /* Pods-LittlePinkTests */,
+				492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */,
+				CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */,
+				DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */,
+				EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */,
+				031EC6716B0AE84A37919C3814AA103F /* YPImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B6237BBE97DD6B6E4D1F36BD7D8F60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B06F1AB828E639BDEE2022CB881734A /* XLPagerTabStrip-XLPagerTabStrip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6195DAF5A5EEB41A3E4848EA2BAACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC3F4C88224D52C57A05E0AA837D270 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48554698F04CF7988D3B9FBCC3656B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117AEBDDC7C4513ADD52C679F73DE4FF /* ar.lproj in Resources */,
+				A5B89E2140FA135EE7A6BF73D38D8E3A /* Assets.xcassets in Resources */,
+				EE359141EC4E2A97FDE8DD19C22AE779 /* bg.lproj in Resources */,
+				17F43D337EF9CC8A617B7ECB5534EC1B /* cs.lproj in Resources */,
+				368CE087A067F0111384F463A77FAA96 /* da.lproj in Resources */,
+				286461FCEE6A504B44099D7A3DB6CE9E /* de.lproj in Resources */,
+				FCB89ED6FE3B27CEFF4619463FD0A8A4 /* en.lproj in Resources */,
+				7CF0FC820F457F617CA5B2B15B7D06F9 /* es.lproj in Resources */,
+				E0483E6B38C5846672B0A64C9F15963F /* fa.lproj in Resources */,
+				6C1EC60D0BCF62A797A2E36D91AF01A0 /* fr.lproj in Resources */,
+				A69B44D838E63CC9943FBCE228C07AE4 /* id.lproj in Resources */,
+				53B81CFCB67FD2E0C1BEA9190BA79F65 /* it.lproj in Resources */,
+				A0D2E9B27E5FB250FC604F8C595019F1 /* ja.lproj in Resources */,
+				F0D114F3197ACD72BCF0D4921DCEBBA5 /* km.lproj in Resources */,
+				CEB22ED2AC722D60205D1DB35C9649F9 /* km-KH.lproj in Resources */,
+				EC71BCCCC0469ABC38328635FBD2FF22 /* ko.lproj in Resources */,
+				3AF0828C679A70363619B23F25A4DA04 /* nb.lproj in Resources */,
+				8C04EF27CB55A56872339745CF13AEDB /* nl.lproj in Resources */,
+				1D6289E3B50B2193DF4303710CA494CF /* pl.lproj in Resources */,
+				AA265F19A9175814EE9D20216D5C4CB9 /* pt-BR.lproj in Resources */,
+				7BAC73412BD39D2071B1E05C5D3265EE /* pt-PT.lproj in Resources */,
+				75F27DFFF4A92C44277084DDCD6DF97D /* ro.lproj in Resources */,
+				0279BF6F2DE1F4367AC70E54B4058ABA /* ru.lproj in Resources */,
+				A6037197A1428F38288BF3D61EB6141C /* sv.lproj in Resources */,
+				54F3AEA8DEC112BC9B57F6ECCCC4C0EB /* th.lproj in Resources */,
+				FFED2DB83A8FA273C033C1109BC90340 /* tr.lproj in Resources */,
+				87F724F90946388388FE4B9E36E9B1D4 /* vi.lproj in Resources */,
+				3D3D1D76BEAF34FCB9DE0C133F540C44 /* YPLibraryView.xib in Resources */,
+				4C22149DD47CD02824FE8BB28CF7727D /* YPVideoFiltersVC.xib in Resources */,
+				ED2AFEC08C9F045FBB1F867EC1BC1D78 /* zh-Hans.lproj in Resources */,
+				4DD5885941546BF213524ABE1FCA32B0 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D56AC25B743D83F8C3F01BD55998FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C5B854287D55F7C18BB7850E411E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3184723B49B6A63C26488F3B29B580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA345D53F178EB69DEC3255A01DB87F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3209604D98BB1D47C7F25F34EFFDB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E186E7D628DE3B176077BF174BEB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A573381C24B8042C3F82A39804BB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B70516852BD067E0B569A265E1A53 /* CHTCollectionViewWaterfallLayout.swift in Sources */,
+				EF3DF3B2840BE02F6E6CADEDF4317D14 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EFB99306947BC5554A26E8E552AACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A44219F4F0FC351F4B18F25F00003CE /* AssetVideoScrollView.swift in Sources */,
+				D42666C01AED00E509F7A0EEC274FC29 /* AVAssetTimeSelector.swift in Sources */,
+				83FB07BCBDA31CA0915642BA9B58A41A /* CropMaskView.swift in Sources */,
+				8268CBB289118B63830E3698D0BCF7BD /* HandlerView.swift in Sources */,
+				B6743E57926B36B9330AA1C193105AB2 /* PryntTrimmerView.swift in Sources */,
+				EFEAADC57D308C080F488C57B7C653BE /* PryntTrimmerView-dummy.m in Sources */,
+				1BCC1949F045258AB0BBA3155214808D /* ThumbSelectorView.swift in Sources */,
+				69B68AD3FE8162AA8D74546C89224118 /* VideoCropView.swift in Sources */,
+				42F92AB18880E24EEA45CB3CFE8A1F24 /* VideoScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBC514B5B421810475091CDEF92FEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1FDBECA8DEE06562639BBD744BC882 /* Pods-LittlePink-LittlePinkUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B0D32489BFED18A9E8CEE8A211A697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311C3D57615E20522F2B816D0C77CCE3 /* Stevia+Alignment.swift in Sources */,
+				FD650A0FE031EFDE9E79A706CDFB1461 /* Stevia+Baselines.swift in Sources */,
+				F7D920DDA483BF38B1EC2A21EA363DC4 /* Stevia+Center.swift in Sources */,
+				95A0D64480A774F7BE5F5A798C1492FD /* Stevia+Constraints.swift in Sources */,
+				31B7CD329462A3773F372D382E155F1E /* Stevia+Content.swift in Sources */,
+				0ED61E628F29E492DE69AC60DE634EFE /* Stevia+DoubleDash.swift in Sources */,
+				0BCA889F7FF8B97FBAC423B586D1AC8C /* Stevia+Equation.swift in Sources */,
+				B51B1E697CCB5CD3192E093EFC3F6384 /* Stevia+Fill.swift in Sources */,
+				32FE3124A45351AABE19EFE9A6A74C45 /* Stevia+FlexibleMargin.swift in Sources */,
+				9B2D01E565B84641D1FFABDB8DBB783E /* Stevia+GetConstraint.swift in Sources */,
+				F86C2A2AFB966C3BFF5866BC97509E84 /* Stevia+Hierarchy.swift in Sources */,
+				12B7C3C0A692129CACF27A8188D62829 /* Stevia+LayoutAnchors.swift in Sources */,
+				948FD7DC39A3C252A0237279EF945C3C /* Stevia+Notifications.swift in Sources */,
+				7C2507EED9CF62943A43AEBD135A3683 /* Stevia+Operators.swift in Sources */,
+				B2FD86230CE7CBC4F1DCF3787E15BC9E /* Stevia+Percentage.swift in Sources */,
+				B26B56114E52905EBF3947B5AF7C3B0F /* Stevia+Position.swift in Sources */,
+				6B577A8A8C8A9F1556667CAF3BA1DFA6 /* Stevia+Size.swift in Sources */,
+				7CE3CB2754E69F69D9D815E2139DB306 /* Stevia+Stacks.swift in Sources */,
+				86FFDF1646F2BF827AAC505853101C18 /* Stevia+Style.swift in Sources */,
+				FA86BBE01A629F9461503C0AF054E47B /* SteviaLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ACDAF9D7B3DC74AA231335FBFFD1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D95C8BE9E39668D775DFDF93572D9B3 /* Pods-LittlePinkTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D93BEF159AD3DF55775BFB702F440B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983ED5F50BC51D71D80841C63504E791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063A685E3FDBA1CD85925F6AF5E07FF9 /* AVAsset+Extensions.swift in Sources */,
+				15C23E13AA9DF750A5C42A614B58923B /* AVCaptureDevice+Extensions.swift in Sources */,
+				3EC8FA79E44D7A30740614D3EB2C70AC /* AVCaptureSession+Extensions.swift in Sources */,
+				C294B7F00BDB95848DCD66513C273CB7 /* AVFileType+Extensions.swift in Sources */,
+				8FC52A6A02AA76A102985011AB6703FE /* AVFoundation+Extensions.swift in Sources */,
+				E760788E2392A0BFB4875CDA650BEBCA /* AVMutableComposition+Extensions.swift in Sources */,
+				F76656744C030C0F05B53A8C6388E1F2 /* AVPlayer+Extensions.swift in Sources */,
+				18BF77A1E17A6732FD583DEA562F4612 /* Bundle+Extensions.swift in Sources */,
+				A483389A0E37CF430224BFE77EE42E33 /* CGFloat+Extensions.swift in Sources */,
+				482F3B884C1C3886048A135082BAACE1 /* CGRect+Extensions.swift in Sources */,
+				7D6B4DEA21B65F441428F145D2B7A6D0 /* CIImage+Extensions.swift in Sources */,
+				F324715D2D41F637337B6BC94C88DAD7 /* IndexSet+Extensions.swift in Sources */,
+				6A65B8782A3736015A769CF37F3E8372 /* LibraryMediaManager.swift in Sources */,
+				84B58BEF39F952F8014335D9AB46874D /* NSFileManager+Extensions.swift in Sources */,
+				C4BA6D57348E1AEAAA624F66859447EA /* PHCachingImageManager+Extensions.swift in Sources */,
+				6615820457303D46BAA9A2C70EEB4182 /* PHFetchResult+Extensions.swift in Sources */,
+				E2BC50DA3EABAFE4DD6EBE14119691DA /* UIBarButtonItem+Extensions.swift in Sources */,
+				67C55EDDCF27833787FC294954C8191A /* UIButton+Extensions.swift in Sources */,
+				4088B7326845A93BF3407E899E67E0FF /* UICollectionView+Extensions.swift in Sources */,
+				1000ACC97983245C9853269F9A49CD42 /* UIColor+Extensions.swift in Sources */,
+				F585D4F34DE8325378A316DF397D8467 /* UIImage+Extensions.swift in Sources */,
+				935BAC1B6EC1EA920687F068610AF9AF /* UINavigationBar+Extensions.swift in Sources */,
+				76FEF8EFCCDFE3BCDA75A8B6EB049E6D /* URL+Extensions.swift in Sources */,
+				6A4ADAEF664397EB58BC3E36FB8FB333 /* YPAlbum.swift in Sources */,
+				50244DFE30E45EDFF1B311D1929F1F80 /* YPAlbumCell.swift in Sources */,
+				4A66AEE4EBCDDC8A24FB4DAE758783BE /* YPAlbumsManager.swift in Sources */,
+				0082E1ACE44243425205A150E43C78C7 /* YPAlbumVC.swift in Sources */,
+				7690B53A9C8711A0F7D620760C25993E /* YPAlbumView.swift in Sources */,
+				4FEF18030E88C9A0A165FE1426E4135F /* YPAlerts.swift in Sources */,
+				CBEEEAC4F5B09A27ADB3A0B28D734392 /* YPAssetViewContainer.swift in Sources */,
+				66FA0893BC64415965DE8904438A95E6 /* YPAssetZoomableView.swift in Sources */,
+				AA6260F7E6D70C387BC99D181082F75E /* YPBottomPager.swift in Sources */,
+				FAE18E910F3DDCDE7095DD009343D4AA /* YPBottomPagerView.swift in Sources */,
+				495FEE51715DA3BD66D1070BBBB07BBE /* YPCameraVC.swift in Sources */,
+				4CF1772030D9AD7AEDE67C5403A12348 /* YPCameraView.swift in Sources */,
+				7672CE50C94EF52D25032A8293BA17D6 /* YPColors.swift in Sources */,
+				CE6F49134BDD9F7322C34F70D31E8D73 /* YPCropVC.swift in Sources */,
+				8C0D6EAE40F58914CF7729C31C571F7D /* YPCropView.swift in Sources */,
+				F988DAFE91072A2A9BF3EEF8617D671D /* YPDeviceOrientationHelper.swift in Sources */,
+				0CE99A7C09DA39254559642D078A62F8 /* YPDragDirection.swift in Sources */,
+				DEA165B6ACCCC74A8A8C21036853AC3C /* YPError.swift in Sources */,
+				27DBDF1EB7BFE1C34806D26D95B8BF67 /* YPFilter.swift in Sources */,
+				C160AB4705E40C6C2197C7757D7E1B13 /* YPFilterCollectionViewCell.swift in Sources */,
+				4B981BFFCE25334B63B7DC1D891312AE /* YPFiltersView.swift in Sources */,
+				D5A633EF27194650622A2DE3FAF5DE8D /* YPFlashMode.swift in Sources */,
+				054A6601A5A8275DC73A700EE335D4BF /* YPFonts.swift in Sources */,
+				884271EE96EE59D27CE15BE379FE0FAF /* YPGridView.swift in Sources */,
+				45481AA03CBFB7D1EBBFB659B6F7CCBC /* YPHelper.swift in Sources */,
+				601EE5C2F1B721FABBBF3715FED2D470 /* YPIcons.swift in Sources */,
+				41792255F0563C9001C53A4566FA6D66 /* YPImagePicker.swift in Sources */,
+				8A08A6DD50A708947407D00A60A9BB72 /* YPImagePicker-dummy.m in Sources */,
+				B791EE83A35D57D5FF2696BAB9A66EE5 /* YPImagePickerConfiguration.swift in Sources */,
+				C1ACCC1BE1B2B89CA60A894A1125C704 /* YPImageSize.swift in Sources */,
+				760203943D829BFA1D0606EF66CF8BB3 /* YPLibrary+LibraryChange.swift in Sources */,
+				07392E6D87C116916EDF3912930F5C7E /* YPLibrarySelection.swift in Sources */,
+				7FC105E8DC038A490DF2F86DDCD2B66F /* YPLibraryVC.swift in Sources */,
+				A88CDA9FBEFDB1C327089BF6F035F72C /* YPLibraryVC+CollectionView.swift in Sources */,
+				CDB3C74579A90AFEE34149E2CBC81C64 /* YPLibraryVC+PanGesture.swift in Sources */,
+				908CFB9B6773A79A782532FA2CD40D41 /* YPLibraryView.swift in Sources */,
+				DEFDF541D1C25C44E152CA7F02F54B59 /* YPLibraryViewCell.swift in Sources */,
+				E0E7774AB0CE0CF65838348788C90B97 /* YPLibraryViewDelegate.swift in Sources */,
+				EF2C68C13DF442E4C2241D9DC2A1118D /* YPLoaders.swift in Sources */,
+				064ADECF3E34F08C5AD8FE4D903BABA3 /* YPLoadingView.swift in Sources */,
+				B3E81600A12AA36C02A85263866CF38F /* YPLog.swift in Sources */,
+				1C371C9CC9A0CFC8447EE3DDE7F3BEF3 /* YPMediaItem.swift in Sources */,
+				DA49EE3BB14665318CA969F77C5B2839 /* YPMenuItem.swift in Sources */,
+				E4F453DE0781BD565804397E8502F5F2 /* YPPagerMenu.swift in Sources */,
+				B0F8C8B08E5B552B0C1CD644D4639935 /* YPPermissionCheckable.swift in Sources */,
+				CDC84FABB38072CAE31E334E947D0D92 /* YPPermissionDeniedPopup.swift in Sources */,
+				DDDBBD829234FF57A30810F340C52D06 /* YPPermissionManager.swift in Sources */,
+				9B7E71F5F29A209ED1C7DCA8D1782CC1 /* YPPhotoCaptureHelper.swift in Sources */,
+				F64C39BABBBD60F3B5FEE1EC10E23900 /* YPPhotoFiltersVC.swift in Sources */,
+				BF6AF5846B5DF59AE0CE31C0FE83DC55 /* YPPhotoSaver.swift in Sources */,
+				68816292F4660DF48C34629F746947E1 /* YPPickerScreen.swift in Sources */,
+				56FC44403EC0F4EB339945AB5DC0FEB1 /* YPPickerVC.swift in Sources */,
+				05F496C6B78E2637D9DEA9FBEA5C6022 /* YPSelectionsGalleryCell.swift in Sources */,
+				EBBBBFFA845FE424D18D260FD156636B /* YPSelectionsGalleryVC.swift in Sources */,
+				0C95C886CFC1DCF70C848DE5DE74D125 /* YPSelectionsGalleryView.swift in Sources */,
+				7D6AAE94CDF803A5F4265E5382379664 /* YPTrimError.swift in Sources */,
+				DBDF1136B55B5085CE5C63057EE209D5 /* YPVideoCaptureHelper.swift in Sources */,
+				1A4660EC309EF0512B242E482C943624 /* YPVideoCaptureVC.swift in Sources */,
+				E29229C716842EE13B13F57996AF8916 /* YPVideoFiltersVC.swift in Sources */,
+				D7F0115723FEF0AE3680701459FF9974 /* YPVideoProcessor.swift in Sources */,
+				D289AFE088E875F0E1A85DAB305CD138 /* YPVideoView.swift in Sources */,
+				5F9B5AD65D239BF28D407A94E7A843FA /* YPWordings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4F0F4589C4258AD38A48DB4D545AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BC99DC82A29F04B3E42A3893FAF163 /* Pods-LittlePink-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9E1B8B8B34AA37A4D1FBE8D842BE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751F9B759A15AA6709BE458E9DC6F2BF /* BarPagerTabStripViewController.swift in Sources */,
+				985E86035328E060DC3DBDC430B05938 /* BarView.swift in Sources */,
+				840F5F3A1DC99104C70DDDE418DB9672 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				031BE281773927DC4C370A915A43426E /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				6886B48E5FB83C0A729545A5D0A2DDA9 /* ButtonBarView.swift in Sources */,
+				302B68E8CC775312CDD15CCD5FF5D1B8 /* ButtonBarViewCell.swift in Sources */,
+				12A297ECFCF5AACB2E9461CC23336BCF /* FXPageControl.m in Sources */,
+				1D581A3F8EB36D9CA7812DE6BA797185 /* IndicatorInfo.swift in Sources */,
+				9E363928539AD4823DB6032750FD59CF /* PagerTabStripBehaviour.swift in Sources */,
+				4BED578A718C912B74C420BD4EB831D2 /* PagerTabStripError.swift in Sources */,
+				FB443D851AF1305E9A0BF2898095C098 /* PagerTabStripViewController.swift in Sources */,
+				05951171482DA12CC8CC190BBDAF0140 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				359240A6CC6FB0C4BCD065DF41F0FC98 /* SwipeDirection.swift in Sources */,
+				629DF7E0F7B1573C0FB2D1ADC256D494 /* TwitterPagerTabStripViewController.swift in Sources */,
+				C3AE035DDC4F70A808846616E02E9063 /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06B0904E38B5B398ED15905F4AD312B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SteviaLayout;
+			target = CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */;
+			targetProxy = 17767A5A351D003B07DBFDA234DEC458 /* PBXContainerItemProxy */;
+		};
+		1C4D7C57288A09EC1D9C393B60B2E0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPImagePicker;
+			target = 031EC6716B0AE84A37919C3814AA103F /* YPImagePicker */;
+			targetProxy = F20CCC0602E58A770E4F7B57B64D22B6 /* PBXContainerItemProxy */;
+		};
+		1D5ADAD3672709A69070E9EFAC8D1F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */;
+			targetProxy = D58D4DE10D12FF66379D3A116A89018E /* PBXContainerItemProxy */;
+		};
+		3E7F952FF4C86D39FC75DDAE01A05C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			target = 40D185DC913D045063CEAD5E6B1504E7 /* CHTCollectionViewWaterfallLayout */;
+			targetProxy = D568D771E1B4AC2E1299011E28A89AC7 /* PBXContainerItemProxy */;
+		};
+		6034D5A302F5204EA475AB7DFCB2C1D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SteviaLayout;
+			target = CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */;
+			targetProxy = 7AACAF37B21C9C0ABF729A437F0DF355 /* PBXContainerItemProxy */;
+		};
+		8AB233B150A133D0B7DC238626859C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LittlePink";
+			target = 4285BE751D5EBA97DE901537003DF80C /* Pods-LittlePink */;
+			targetProxy = E4900A6CDC18165D3DCC561A468A0BBB /* PBXContainerItemProxy */;
+		};
+		8AF66B892D6627F3CA5FACB4E57987FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			target = 40D185DC913D045063CEAD5E6B1504E7 /* CHTCollectionViewWaterfallLayout */;
+			targetProxy = CEFE03E6BE3B40811A5030EF1871028C /* PBXContainerItemProxy */;
+		};
+		A11D156B3F2557053F73786EF2B70A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SteviaLayout;
+			target = CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */;
+			targetProxy = AC62F7CDA5458D3F8542378B2EF25E48 /* PBXContainerItemProxy */;
+		};
+		B0E5D1C61732A80440C5307607750E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PryntTrimmerView;
+			target = 492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */;
+			targetProxy = 638550838334CC5EF5552AEE291DFBB1 /* PBXContainerItemProxy */;
+		};
+		B87DA2D568C4BAB66155138A45F26B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 1FDB8130FB7B1EF9B8EF1EE007B9F2CD /* PBXContainerItemProxy */;
+		};
+		C923F6242648085C776BCD48460F5EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPImagePicker;
+			target = 031EC6716B0AE84A37919C3814AA103F /* YPImagePicker */;
+			targetProxy = 88AC44854FEC42EA6C41D4E8B0CDA236 /* PBXContainerItemProxy */;
+		};
+		CD3F5DB124ED8F36AE35BF2268B0834A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PryntTrimmerView;
+			target = 492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */;
+			targetProxy = 725FA3543B29B9A4861409F0BB1EF528 /* PBXContainerItemProxy */;
+		};
+		F0B7C07C88DA517FE42C887ABD340DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */;
+			targetProxy = 147D2A31214EB4DFC183C8B91E7E2328 /* PBXContainerItemProxy */;
+		};
+		FE0241DA1E73BEE57134D487F9B56CC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PryntTrimmerView;
+			target = 492A3F539D36426FFCED62F4F58F688B /* PryntTrimmerView */;
+			targetProxy = 8386284125A30A94E5A18C048E6A841E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06C0FE1E429C7D7EA02D8C2370B6CE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA2032FE6D1EF5344A9B85840B986A1 /* SteviaLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SteviaLayout/SteviaLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SteviaLayout/SteviaLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SteviaLayout/SteviaLayout.modulemap";
+				PRODUCT_MODULE_NAME = Stevia;
+				PRODUCT_NAME = Stevia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E90AA6A06AC3B2204C0E7E86E8C320E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968EEBE1D518FA4E7F716348F1B75BFD /* XLPagerTabStrip.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_MODULE_NAME = XLPagerTabStrip;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FCB0A67480D355163A08665D977CCE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB606F1200AF24998F98776D35D344FE /* Pods-LittlePink-LittlePinkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LittlePink-LittlePinkUITests/Pods-LittlePink-LittlePinkUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LittlePink-LittlePinkUITests/Pods-LittlePink-LittlePinkUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3010ED3156ED7A1CD7B75D7F4C5B1F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D21DA186023A074A1EDAD7A04E0CAC /* CHTCollectionViewWaterfallLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
+				PRODUCT_MODULE_NAME = CHTCollectionViewWaterfallLayout;
+				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3466D0971CDF8A7DF43991215E7C6415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968EEBE1D518FA4E7F716348F1B75BFD /* XLPagerTabStrip.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				IBSC_MODULE = XLPagerTabStrip;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4693416890C50AF8A8181AD36BFEB9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6065A62910D1CA7D2BE6E5A31D47DF7 /* PryntTrimmerView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PryntTrimmerView/PryntTrimmerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView.modulemap";
+				PRODUCT_MODULE_NAME = PryntTrimmerView;
+				PRODUCT_NAME = PryntTrimmerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F51662B9015C6A0716367CCE018A971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BCBEA4B5AC7FD4F6DFF7A2EC2FF28D /* Pods-LittlePink.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LittlePink/Pods-LittlePink-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LittlePink/Pods-LittlePink.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89A4822A2578C346B048326F0285A1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842D6A1B2D44F6D5D9EB0AC222ACF19F /* YPImagePicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YPImagePicker/YPImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YPImagePicker/YPImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YPImagePicker/YPImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = YPImagePicker;
+				PRODUCT_NAME = YPImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B4033120912425821E638CE4B8D0DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16F64FFB276277AECE5F7B4628FAB8A /* CHTCollectionViewWaterfallLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
+				PRODUCT_MODULE_NAME = CHTCollectionViewWaterfallLayout;
+				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B7E7F93CE2D8C7F5975347B275A74D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75C741C35F89CE6F8D16F941AB6234F /* XLPagerTabStrip.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				IBSC_MODULE = XLPagerTabStrip;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BAB26038BD692002AB4AB1545CE729F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ABFF53029C9A31BC04ED053096B589B /* YPImagePicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YPImagePicker/YPImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YPImagePicker/YPImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YPImagePicker/YPImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = YPImagePicker;
+				PRODUCT_NAME = YPImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD7BCDB863A9974DEC4BC0F17572E173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B00146C4E9EC1DD36C440A42327F0B /* Pods-LittlePinkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LittlePinkTests/Pods-LittlePinkTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LittlePinkTests/Pods-LittlePinkTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C57FF16DEDD428E64618594EFD759D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9D6F63C9014A5709BF865DD9DED089 /* Pods-LittlePinkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LittlePinkTests/Pods-LittlePinkTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LittlePinkTests/Pods-LittlePinkTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB571D0290B427310A493D846978F025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E078E6952847C82EE6460C266CAE771 /* PryntTrimmerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PryntTrimmerView/PryntTrimmerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PryntTrimmerView/PryntTrimmerView.modulemap";
+				PRODUCT_MODULE_NAME = PryntTrimmerView;
+				PRODUCT_NAME = PryntTrimmerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D910C73A83D3FAF35534950C26F062C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240B6E6F42F447D8B26C827FDC3C1488 /* Pods-LittlePink.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LittlePink/Pods-LittlePink-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LittlePink/Pods-LittlePink.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF87FF1DE3CB4747D5811A193C3CD533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D381AD7EC9127CA975CA50A262918A4D /* SteviaLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SteviaLayout/SteviaLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SteviaLayout/SteviaLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SteviaLayout/SteviaLayout.modulemap";
+				PRODUCT_MODULE_NAME = Stevia;
+				PRODUCT_NAME = Stevia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F10D6C3AD6A774EA2AF04622A2068ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4F8211B017C8A70604A8C190BD9A00 /* Pods-LittlePink-LittlePinkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LittlePink-LittlePinkUITests/Pods-LittlePink-LittlePinkUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LittlePink-LittlePinkUITests/Pods-LittlePink-LittlePinkUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1A3D2A4AB6EAB9F0503E49A9B3E69F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75C741C35F89CE6F8D16F941AB6234F /* XLPagerTabStrip.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_MODULE_NAME = XLPagerTabStrip;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4432B0A8F268F1BFA2FD89A61424A3AE /* Build configuration list for PBXNativeTarget "PryntTrimmerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4693416890C50AF8A8181AD36BFEB9DB /* Debug */,
+				CB571D0290B427310A493D846978F025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502B77311BD2F550E427ACCCB7483334 /* Build configuration list for PBXNativeTarget "YPImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB26038BD692002AB4AB1545CE729F2 /* Debug */,
+				89A4822A2578C346B048326F0285A1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA572AFF91B013EF72C4560D39A5B24 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E7F93CE2D8C7F5975347B275A74D99 /* Debug */,
+				3466D0971CDF8A7DF43991215E7C6415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A80E53EBBCCFFCDC9E2BB7B9B3FE2AC /* Build configuration list for PBXNativeTarget "Pods-LittlePink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D910C73A83D3FAF35534950C26F062C8 /* Debug */,
+				5F51662B9015C6A0716367CCE018A971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7294569241636E3A894A2E1C159817AC /* Build configuration list for PBXNativeTarget "SteviaLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF87FF1DE3CB4747D5811A193C3CD533 /* Debug */,
+				06C0FE1E429C7D7EA02D8C2370B6CE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70735126339258B2D8334521607865E /* Build configuration list for PBXNativeTarget "Pods-LittlePink-LittlePinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCB0A67480D355163A08665D977CCE4 /* Debug */,
+				F10D6C3AD6A774EA2AF04622A2068ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9AEAB62D0C8259FBAA0ABDFDEEEBA70 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A3D2A4AB6EAB9F0503E49A9B3E69F4 /* Debug */,
+				1E90AA6A06AC3B2204C0E7E86E8C320E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C6D78A54E28E6DE52C8C544AC22F1E /* Build configuration list for PBXNativeTarget "Pods-LittlePinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7BCDB863A9974DEC4BC0F17572E173 /* Debug */,
+				C57FF16DEDD428E64618594EFD759D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5A2128A366D5987843E4744A5DF2FE /* Build configuration list for PBXNativeTarget "CHTCollectionViewWaterfallLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4033120912425821E638CE4B8D0DA4 /* Debug */,
+				3010ED3156ED7A1CD7B75D7F4C5B1F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

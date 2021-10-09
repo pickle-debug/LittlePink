@@ -24,7 +24,7 @@ class WaterfallVC: UICollectionViewController {
         layout.minimumColumnSpacing = kWaterfallPadding
         layout.minimumInteritemSpacing = kWaterfallPadding
         layout.sectionInset = UIEdgeInsets(top: 0, left: kWaterfallPadding, bottom: kWaterfallPadding, right: kWaterfallPadding)
-        layout.itemRenderDirection
+//        layout.itemRenderDirection
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
