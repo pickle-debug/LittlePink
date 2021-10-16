@@ -14,9 +14,10 @@ let kNearByVCID = "NearByVCID"
 let kDiscoveryVCID = "DiscoveryVCID"
 let kWaterfallVCID = "WaterfallVCID"
 let kNoteEditVCID = "NoteEditVCID"
-//MARK: CellID
+//MARK: Cell相关的ID
 let kWaterfallCellID = "WaterfallCellID"
-
+let kPhotoCellID = "PhotoCellID"
+let kPhotoFooterID = "PhotoFooterID"
 
 
 //MARK: -业务逻辑相关

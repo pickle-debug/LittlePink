@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vja-ex-n0C">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BIH-f6-4OE">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <accessibilityOverrides isEnabled="YES"/>
     <dependencies>
@@ -51,17 +51,83 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgn-eu-hlW">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgn-eu-hlW">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6EU-Ww-vUp">
-                                        <rect key="frame" x="51" y="73" width="240" height="128"/>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wH9-gl-J37">
+                                        <rect key="frame" x="16" y="16" width="382" height="90"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </view>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="90" id="4da-8e-k0n"/>
+                                        </constraints>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Toa-h7-FYd">
+                                            <size key="itemSize" width="90" height="90"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="90" height="90"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="8" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCellID" id="n9F-jR-4wN" customClass="PhotoCell" customModule="LittlePink" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="VMM-bU-Nyq">
+                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="8JH-Tx-1W9">
+                                                            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="8JH-Tx-1W9" firstAttribute="leading" secondItem="VMM-bU-Nyq" secondAttribute="leading" id="A9r-6x-Fdt"/>
+                                                        <constraint firstAttribute="trailing" secondItem="8JH-Tx-1W9" secondAttribute="trailing" id="ACr-ka-TUH"/>
+                                                        <constraint firstItem="8JH-Tx-1W9" firstAttribute="top" secondItem="VMM-bU-Nyq" secondAttribute="top" id="Q9e-0j-beF"/>
+                                                        <constraint firstAttribute="bottom" secondItem="8JH-Tx-1W9" secondAttribute="bottom" id="b2B-6h-QXL"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </collectionViewCellContentView>
+                                                <connections>
+                                                    <outlet property="imageView" destination="8JH-Tx-1W9" id="edr-df-RtS"/>
+                                                </connections>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="PhotoFooterID" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="" id="vfF-cW-Ufe" customClass="PhotoFooter" customModule="LittlePink" customModuleProvider="target">
+                                            <rect key="frame" x="98" y="0.0" width="90" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ng-m1-tIM">
+                                                    <rect key="frame" x="8" y="8" width="74" height="74"/>
+                                                    <color key="tintColor" systemColor="systemGray2Color"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title="">
+                                                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="4Ng-m1-tIM" firstAttribute="top" secondItem="vfF-cW-Ufe" secondAttribute="topMargin" id="MGF-62-zIi"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="4Ng-m1-tIM" secondAttribute="bottom" id="cah-gT-1Oc"/>
+                                                <constraint firstItem="4Ng-m1-tIM" firstAttribute="leading" secondItem="vfF-cW-Ufe" secondAttribute="leadingMargin" id="e6v-D7-dzS"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="4Ng-m1-tIM" secondAttribute="trailing" id="rZL-Xi-lWu"/>
+                                            </constraints>
+                                            <connections>
+                                                <outlet property="addPhotoBtn" destination="4Ng-m1-tIM" id="Jeb-1o-knM"/>
+                                            </connections>
+                                        </collectionReusableView>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BIH-f6-4OE" id="CHg-cQ-OcO"/>
+                                            <outlet property="delegate" destination="BIH-f6-4OE" id="M8a-Zh-ZXG"/>
+                                        </connections>
+                                    </collectionView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="6EU-Ww-vUp" firstAttribute="width" secondItem="vFG-Ix-hnh" secondAttribute="width" id="drE-64-buA"/>
-                                    <constraint firstItem="6EU-Ww-vUp" firstAttribute="height" secondItem="vFG-Ix-hnh" secondAttribute="height" id="xpV-UE-94B"/>
+                                    <constraint firstItem="wH9-gl-J37" firstAttribute="leading" secondItem="vFG-Ix-hnh" secondAttribute="leading" constant="16" id="5gp-Yv-dAT"/>
+                                    <constraint firstItem="vFG-Ix-hnh" firstAttribute="trailing" secondItem="wH9-gl-J37" secondAttribute="trailing" constant="16" id="9te-dL-bXO"/>
+                                    <constraint firstItem="wH9-gl-J37" firstAttribute="top" secondItem="vFG-Ix-hnh" secondAttribute="top" constant="16" id="uV1-0l-NDu"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="374-oD-uf7"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="vFG-Ix-hnh"/>
@@ -76,6 +142,9 @@
                             <constraint firstItem="wgn-eu-hlW" firstAttribute="leading" secondItem="fVP-S7-5wr" secondAttribute="leading" id="Xeh-m4-S7n"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="photoCollectionview" destination="wH9-gl-J37" id="5rf-LT-Fxp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TJe-kP-O5q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -346,16 +415,21 @@
         </scene>
     </scenes>
     <resources>
+        <image name="10" width="1080" height="832"/>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="message.fill" catalog="system" width="128" height="113"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="plus.rectangle.fill" catalog="system" width="128" height="93"/>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
