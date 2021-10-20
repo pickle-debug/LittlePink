@@ -51,14 +51,18 @@ class TabBarC: UITabBarController, UITabBarControllerDelegate{
                 if cancelled {
                     print("用户按了左上角的取消")
                 }
-//                if let photo = items.singlePhoto {
-//                    print(photo.fromCamera) // Image source (camera or library)
-//                    print(photo.image) // Final image selected by the user
-//                    print(photo.originalImage) // original image selected by the user, unfiltered
-//                }
-                picker.dismiss(animated: true, completion: nil)
+                for item in items {
+                    switch item {
+                    case let .photo(photo):
+                        print(photo)
+                    case .video(let video):
+                        print(video)
+                    }
+                }
+                
+                picker.dismiss(animated: true)
             }
-            present(picker, animated: true, completion: nil)
+            present(picker, animated: true)
 
             
             return false

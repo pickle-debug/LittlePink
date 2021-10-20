@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0414FB82272032210020AC6F /* testvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0414FB81272030C10020AC6F /* testvideo.mp4 */; };
+		0414FB86272043E10020AC6F /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */; };
 		345CB61801CF0E316AC356F4 /* Pods_LittlePink_LittlePinkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B2EE4C973FA20E24C3BC85 /* Pods_LittlePink_LittlePinkUITests.framework */; };
 		9E0F83CD4A59E00147123A61 /* Pods_LittlePinkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD7811867BC962C68964A06 /* Pods_LittlePinkTests.framework */; };
 		E9028BF3637B9A4CE08F11D2 /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1705E08AD1D56FB4756982 /* Pods_LittlePink.framework */; };
@@ -55,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0414FB81272030C10020AC6F /* testvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = testvideo.mp4; path = ../../../../Downloads/testvideo.mp4; sourceTree = "<group>"; };
+		0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
+		045961F8271E736A00F94760 /* LittlePink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittlePink-Bridging-Header.h"; sourceTree = "<group>"; };
 		0C1705E08AD1D56FB4756982 /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCBF4B3D150A5F443FF1A9F /* Pods-LittlePink-LittlePinkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-LittlePinkUITests.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink-LittlePinkUITests/Pods-LittlePink-LittlePinkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E7363C28783981C4A664924 /* Pods-LittlePinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePinkTests.debug.xcconfig"; path = "Target Support Files/Pods-LittlePinkTests/Pods-LittlePinkTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +132,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040F8920271D58DE00A790AE /* NoteEdit */ = {
+			isa = PBXGroup;
+			children = (
+				F84A5120270E8FCD004BB2ED /* NoteEditVC.swift */,
+				0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */,
+				F88970FA271A944500DFA0C1 /* PhotoCell.swift */,
+				F8216395271AD3E300212A53 /* PhotoFooter.swift */,
+			);
+			path = NoteEdit;
+			sourceTree = "<group>";
+		};
 		6A458CC978D6FFDE219DD2A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,13 +214,13 @@
 		F8A5A3A526FF22A2000446D3 /* LittlePink */ = {
 			isa = PBXGroup;
 			children = (
+				0414FB81272030C10020AC6F /* testvideo.mp4 */,
+				045961F8271E736A00F94760 /* LittlePink-Bridging-Header.h */,
 				F8AB2466270AD5440082458F /* TabBarC.swift */,
 				F8A5A3A626FF22A2000446D3 /* AppDelegate.swift */,
 				F8A5A3A826FF22A2000446D3 /* SceneDelegate.swift */,
 				F8A5A3AC26FF22A2000446D3 /* Main.storyboard */,
-				F84A5120270E8FCD004BB2ED /* NoteEditVC.swift */,
-				F88970FA271A944500DFA0C1 /* PhotoCell.swift */,
-				F8216395271AD3E300212A53 /* PhotoFooter.swift */,
+				040F8920271D58DE00A790AE /* NoteEdit */,
 				F8000CF927048E9C00A7DC4C /* Home */,
 				F8AB244C270A9F590082458F /* Waterfall */,
 				F8AB244D270A9F6A0082458F /* Common */,
@@ -345,7 +361,7 @@
 				};
 			};
 			buildConfigurationList = F8A5A39E26FF22A2000446D3 /* Build configuration list for PBXProject "LittlePink" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -373,6 +389,7 @@
 				F8A5A3D926FF588B000446D3 /* .gitignore in Resources */,
 				F8AB2461270AB9A90082458F /* InfoPlist.strings in Resources */,
 				F8AB245E270AB51C0082458F /* Localizable.strings in Resources */,
+				0414FB82272032210020AC6F /* testvideo.mp4 in Resources */,
 				F8A5A3B326FF22B8000446D3 /* LaunchScreen.storyboard in Resources */,
 				F8AB244F270AA0870082458F /* README.md in Resources */,
 				F8A5A3B026FF22B8000446D3 /* Assets.xcassets in Resources */,
@@ -504,6 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0414FB86272043E10020AC6F /* NoteEditVC-DragDrop.swift in Sources */,
 				F88970FB271A944500DFA0C1 /* PhotoCell.swift in Sources */,
 				F8000CF427048BA700A7DC4C /* DiscoveryVC.swift in Sources */,
 				F8AB2447270494490082458F /* HomeVC.swift in Sources */,
@@ -737,6 +755,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.heself.LittlePink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LittlePink/LittlePink-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -769,6 +788,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.heself.LittlePink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LittlePink/LittlePink-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

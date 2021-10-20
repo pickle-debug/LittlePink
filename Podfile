@@ -9,7 +9,9 @@ target 'LittlePink' do
   pod 'XLPagerTabStrip', '~>9.0'
   pod 'CHTCollectionViewWaterfallLayout/Swift'
   pod 'YPImagePicker'
-
+  pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'SKPhotoBrowser'
+  
   target 'LittlePinkTests' do
     inherit! :search_paths
     # Pods for testing

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BIH-f6-4OE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BIH-f6-4OE">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
-    <accessibilityOverrides isEnabled="YES"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -54,7 +53,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgn-eu-hlW">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wH9-gl-J37">
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wH9-gl-J37">
                                         <rect key="frame" x="16" y="16" width="382" height="90"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -95,24 +94,27 @@
                                                 </connections>
                                             </collectionViewCell>
                                         </cells>
-                                        <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="PhotoFooterID" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="" id="vfF-cW-Ufe" customClass="PhotoFooter" customModule="LittlePink" customModuleProvider="target">
+                                        <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="PhotoFooterID" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="PhotoFooterID" id="vfF-cW-Ufe" customClass="PhotoFooter" customModule="LittlePink" customModuleProvider="target">
                                             <rect key="frame" x="98" y="0.0" width="90" height="90"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ng-m1-tIM">
-                                                    <rect key="frame" x="8" y="8" width="74" height="74"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ng-m1-tIM">
+                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="tintColor" systemColor="systemGray2Color"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title="">
-                                                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
-                                                    </buttonConfiguration>
+                                                    <state key="normal" image="plus" catalog="system"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="4Ng-m1-tIM" firstAttribute="top" secondItem="vfF-cW-Ufe" secondAttribute="topMargin" id="MGF-62-zIi"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="4Ng-m1-tIM" secondAttribute="bottom" id="cah-gT-1Oc"/>
-                                                <constraint firstItem="4Ng-m1-tIM" firstAttribute="leading" secondItem="vfF-cW-Ufe" secondAttribute="leadingMargin" id="e6v-D7-dzS"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="4Ng-m1-tIM" secondAttribute="trailing" id="rZL-Xi-lWu"/>
+                                                <constraint firstAttribute="bottom" secondItem="4Ng-m1-tIM" secondAttribute="bottom" id="8Pa-8k-msu"/>
+                                                <constraint firstAttribute="trailing" secondItem="4Ng-m1-tIM" secondAttribute="trailing" id="ciJ-xy-jEm"/>
+                                                <constraint firstItem="4Ng-m1-tIM" firstAttribute="leading" secondItem="vfF-cW-Ufe" secondAttribute="leading" id="tVZ-jd-BOT"/>
+                                                <constraint firstItem="4Ng-m1-tIM" firstAttribute="top" secondItem="vfF-cW-Ufe" secondAttribute="top" id="xzN-ZG-dmk"/>
                                             </constraints>
                                             <connections>
                                                 <outlet property="addPhotoBtn" destination="4Ng-m1-tIM" id="Jeb-1o-knM"/>
@@ -121,6 +123,8 @@
                                         <connections>
                                             <outlet property="dataSource" destination="BIH-f6-4OE" id="CHg-cQ-OcO"/>
                                             <outlet property="delegate" destination="BIH-f6-4OE" id="M8a-Zh-ZXG"/>
+                                            <outlet property="dragDelegate" destination="BIH-f6-4OE" id="1e1-oc-rCu"/>
+                                            <outlet property="dropDelegate" destination="BIH-f6-4OE" id="kYc-RY-wMF"/>
                                         </connections>
                                     </collectionView>
                                 </subviews>
@@ -415,7 +419,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="10" width="1080" height="832"/>
+        <image name="10" width="690" height="690"/>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="message.fill" catalog="system" width="128" height="113"/>
