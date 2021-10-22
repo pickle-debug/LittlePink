@@ -7,6 +7,10 @@
 
 import UIKit
 
+extension UITextField {
+    var unwarppedText: String { text ?? "" }
+}
+
 extension UIView{
     @IBInspectable
     var radius: CGFloat{
@@ -33,6 +37,16 @@ extension UIViewController {
         hud.hide(animated: true, afterDelay: 2)
         
     }
+    
+    func hideKeyboardWhenTappedAround(){
+        let tap = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    @objc func dismissKeyboard(){
+        view.endEditing(true)
+    }
+    
 }
 
 extension Bundle{

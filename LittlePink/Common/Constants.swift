@@ -30,3 +30,6 @@ let kChannels = ["推荐","旅行","运动健身","娱乐","家居家装","职�
 let kMaxCameraZoomFactor: CGFloat = 5
 let kMaxPhotoCounts = 9
 let kSpacingBetweenItems: CGFloat = 2
+
+//笔记
+let kMaxNoteTitleCount = 20

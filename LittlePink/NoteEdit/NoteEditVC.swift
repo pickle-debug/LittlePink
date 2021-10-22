@@ -29,6 +29,8 @@ class NoteEditVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         photoCollectionview.dragInteractionEnabled = true //开启拖放交互
+        hideKeyboardWhenTappedAround()
+        titleCountLabel.text = "\(kMaxNoteTitleCount)"
     }
     
     @IBAction func TFEditBegin(_ sender: Any) {
@@ -36,6 +38,27 @@ class NoteEditVC: UIViewController {
     }
     @IBAction func TFEditEnd(_ sender: Any) {
         titleCountLabel.isHidden = true
+    }
+    @IBAction func TFEndOnExit(_ sender: Any) {
+    }
+    @IBAction func TFEditChanged(_ sender: Any) {
+        titleCountLabel.text = "\(kMaxNoteTitleCount - titleTextField.unwarppedText.count)"
+    }
+    
+}
+
+extension NoteEditVC: UITextFieldDelegate{
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        let isExced = range.location >= kMaxNoteTitleCount || (textField.unwarppedText.count + string.count) > kMaxNoteTitleCount
+        
+        if isExced {
+            showTextHUD("标题最多可输入\(kMaxNoteTitleCount)字")
+        }
+//        if range.location >= kMaxNoteTitleCount || (textField.unwarppedText.count + string.count) > kMaxNoteTitleCount{
+//            return false
+//        }
+        return !isExced
     }
     
 }
