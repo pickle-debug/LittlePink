@@ -58,4 +58,15 @@ extension Bundle{
                 return Bundle.main.infoDictionary!["CFBundleDisplayName"] as! String
             }
     }
+    
+    //static能修饰class/struct/enum的计算属性,存储属性,类型方法;class能修饰类的计算属性和方法
+    //static修饰的类方法不能继承,class修饰的类方法可以继承
+    //在protocol中要使用static
+    
+    static func loadView<T>(fromNib name: String, with type: T.Type) -> T{ //<T>泛型 static 静态方法
+        if let view = Bundle.main.loadNibNamed(name , owner: nil, options: nil)?.first as? T{
+            return view
+        }
+        fatalError("加载\(type)类型的view失败了")
+    }
 }

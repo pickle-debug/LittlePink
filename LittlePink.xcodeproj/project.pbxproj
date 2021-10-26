@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040026AB27266C1800A7A469 /* NoteEditVC-Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040026AA27266C1800A7A469 /* NoteEditVC-Config.swift */; };
+		040026AD2726AD7A00A7A469 /* TextViewIAView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040026AC2726AD7A00A7A469 /* TextViewIAView.xib */; };
+		040026AF2726ADD300A7A469 /* TextViewIAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040026AE2726ADD300A7A469 /* TextViewIAView.swift */; };
 		0414FB82272032210020AC6F /* testvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0414FB81272030C10020AC6F /* testvideo.mp4 */; };
 		0414FB86272043E10020AC6F /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */; };
 		041824252721E7F0000FB84B /* NoteEditVC-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */; };
@@ -58,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040026AA27266C1800A7A469 /* NoteEditVC-Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-Config.swift"; sourceTree = "<group>"; };
+		040026AC2726AD7A00A7A469 /* TextViewIAView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewIAView.xib; sourceTree = "<group>"; };
+		040026AE2726ADD300A7A469 /* TextViewIAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewIAView.swift; sourceTree = "<group>"; };
 		0414FB81272030C10020AC6F /* testvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = testvideo.mp4; path = ../../../../Downloads/testvideo.mp4; sourceTree = "<group>"; };
 		0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
 		041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-CollectionView.swift"; sourceTree = "<group>"; };
@@ -138,10 +144,13 @@
 			isa = PBXGroup;
 			children = (
 				F84A5120270E8FCD004BB2ED /* NoteEditVC.swift */,
+				040026AA27266C1800A7A469 /* NoteEditVC-Config.swift */,
 				041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */,
 				0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */,
 				F88970FA271A944500DFA0C1 /* PhotoCell.swift */,
 				F8216395271AD3E300212A53 /* PhotoFooter.swift */,
+				040026AE2726ADD300A7A469 /* TextViewIAView.swift */,
+				040026AC2726AD7A00A7A469 /* TextViewIAView.xib */,
 			);
 			path = NoteEdit;
 			sourceTree = "<group>";
@@ -394,6 +403,7 @@
 				F8AB245E270AB51C0082458F /* Localizable.strings in Resources */,
 				0414FB82272032210020AC6F /* testvideo.mp4 in Resources */,
 				F8A5A3B326FF22B8000446D3 /* LaunchScreen.storyboard in Resources */,
+				040026AD2726AD7A00A7A469 /* TextViewIAView.xib in Resources */,
 				F8AB244F270AA0870082458F /* README.md in Resources */,
 				F8A5A3B026FF22B8000446D3 /* Assets.xcassets in Resources */,
 				F8A5A3AE26FF22A2000446D3 /* Main.storyboard in Resources */,
@@ -528,12 +538,14 @@
 				041824252721E7F0000FB84B /* NoteEditVC-CollectionView.swift in Sources */,
 				F88970FB271A944500DFA0C1 /* PhotoCell.swift in Sources */,
 				F8000CF427048BA700A7DC4C /* DiscoveryVC.swift in Sources */,
+				040026AF2726ADD300A7A469 /* TextViewIAView.swift in Sources */,
 				F8AB2447270494490082458F /* HomeVC.swift in Sources */,
 				F8000CF627048BC200A7DC4C /* NearByVC.swift in Sources */,
 				F8AB244B270599D80082458F /* WaterfallCell.swift in Sources */,
 				F8000CF227048B8500A7DC4C /* FollowVC.swift in Sources */,
 				F8000CF827048D4200A7DC4C /* Constants.swift in Sources */,
 				F84A5121270E8FCD004BB2ED /* NoteEditVC.swift in Sources */,
+				040026AB27266C1800A7A469 /* NoteEditVC-Config.swift in Sources */,
 				F8A5A3A726FF22A2000446D3 /* AppDelegate.swift in Sources */,
 				F84A511D270B1CA5004BB2ED /* Extensions.swift in Sources */,
 				F8AB2467270AD5440082458F /* TabBarC.swift in Sources */,
