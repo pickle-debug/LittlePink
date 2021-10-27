@@ -14,16 +14,21 @@ let kNearByVCID = "NearByVCID"
 let kDiscoveryVCID = "DiscoveryVCID"
 let kWaterfallVCID = "WaterfallVCID"
 let kNoteEditVCID = "NoteEditVCID"
+let kChannelTableVCID = "ChannelTableVCID"
 //MARK: Cell相关的ID
 let kWaterfallCellID = "WaterfallCellID"
 let kPhotoCellID = "PhotoCellID"
 let kPhotoFooterID = "PhotoFooterID"
+let kSubChannelCellID = "SubChannelCellID"
+
+//MARK: - 资源文件相关
+let mainColor = UIColor(named: "main")!
 
 
 //MARK: -业务逻辑相关
 //瀑布流
 let kWaterfallPadding: CGFloat = 4
-let kChannels = ["推荐","旅行","运动健身","娱乐","家居家装","职场","才艺","美妆","美食","萌宠"]
+let kChannels = ["推荐","旅行","娱乐","才艺","美状","穿搭","美食","萌宠"]
 
 
 //YPImagePicker
@@ -36,7 +41,7 @@ let kMaxNoteTitleCount = 20
 let kMaxNoteTextCount = 1000
 
 //话题
-let kSubChannels = [
+let kAllSubChannels = [
     ["穿神马是神马", "就快瘦到50斤啦", "花5个小时修的靓图", "网红店入坑记"],
     ["魔都名媛会会长", "爬行西藏", "无边泳池只要9块9"],
     ["小鲜肉的魔幻剧", "国产动画雄起"],
