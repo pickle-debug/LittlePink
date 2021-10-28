@@ -9,7 +9,8 @@ import UIKit
 import XLPagerTabStrip
 
 class ChannelVC: ButtonBarPagerTabStripViewController {
-    
+
+    var PVDelegate: ChannelVCDelegate?
 
     override func viewDidLoad() {
         settings.style.selectedBarHeight = 2

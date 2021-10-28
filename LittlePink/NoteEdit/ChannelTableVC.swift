@@ -33,6 +33,17 @@ class ChannelTableVC: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let channelVC = parent as! ChannelVC
+        channelVC.PVDelegate?.updateChannel(channel: channel, subChannel: subChannels[indexPath.row])
+//        print(presentingViewController)
+        //根据present及dismiss机制,子视图控制器的presentingViewController和父视图控制器一样(这里为NoteEditVC)
+        //故这里用dismiss就等于是在父视图控制器中直接用dismiss
+        
+        dismiss(animated: true)
+    }
+    
 
      
 

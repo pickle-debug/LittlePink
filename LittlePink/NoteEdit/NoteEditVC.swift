@@ -12,8 +12,11 @@ class NoteEditVC: UIViewController {
     var photos = [
         UIImage(named:"1")!,UIImage(named: "2")!
     ]
+    //    var videoURL: URL = Bundle.main.url(forResource: "testvideo", withExtension: ".mp4")!
     var videoURL: URL?
-//    var videoURL: URL = Bundle.main.url(forResource: "testvideo", withExtension: ".mp4")!
+    
+    var channel = ""
+    var subChannel = ""
     
     
     @IBOutlet weak var photoCollectionview: UICollectionView!
@@ -21,6 +24,9 @@ class NoteEditVC: UIViewController {
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var titleCountLabel: UILabel!
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var channelIcon: UIImageView!
+    @IBOutlet weak var channelLabel: UILabel!
+    @IBOutlet weak var channelPlaceholderLabel: UILabel!
     
     
     var photoCount:Int{ photos.count }
@@ -53,7 +59,13 @@ class NoteEditVC: UIViewController {
     }
     
 }
-    //待做
+    //待做(存草稿和发布笔记前判断当前用户输入的正文文本数量,看是否大于最大可输入量)
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let channelVC = segue.destination as? ChannelVC{
+            channelVC.PVDelegate = self
+        }
+    }
 }
 
 extension NoteEditVC: UITextViewDelegate{
@@ -62,6 +74,20 @@ extension NoteEditVC: UITextViewDelegate{
         guard textView.markedTextRange == nil else { return }
         
         textViewIAView.currentTextCount = textView.text.count
+    }
+}
+
+extension NoteEditVC: ChannelVCDelegate{
+    func updateChannel(channel: String, subChannel: String) {
+        //数据
+        self.channel = channel
+        self.subChannel = subChannel
+        //UI
+        channelLabel.text = subChannel
+        channelIcon.tintColor = blueColor
+        channelLabel.textColor = blueColor
+        channelPlaceholderLabel.isHidden = true
+
     }
 }
 

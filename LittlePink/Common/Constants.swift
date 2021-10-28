@@ -23,6 +23,7 @@ let kSubChannelCellID = "SubChannelCellID"
 
 //MARK: - 资源文件相关
 let mainColor = UIColor(named: "main")!
+let blueColor = UIColor(named: "blue")!
 
 
 //MARK: -业务逻辑相关
