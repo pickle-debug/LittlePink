@@ -33,9 +33,6 @@
 		F8A5A3AE26FF22A2000446D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A5A3AC26FF22A2000446D3 /* Main.storyboard */; };
 		F8A5A3B026FF22B8000446D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A5A3AF26FF22B8000446D3 /* Assets.xcassets */; };
 		F8A5A3B326FF22B8000446D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A5A3B126FF22B8000446D3 /* LaunchScreen.storyboard */; };
-		F8A5A3BE26FF22B8000446D3 /* LittlePinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A3BD26FF22B8000446D3 /* LittlePinkTests.swift */; };
-		F8A5A3C826FF22B8000446D3 /* LittlePinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A3C726FF22B8000446D3 /* LittlePinkUITests.swift */; };
-		F8A5A3CA26FF22B8000446D3 /* LittlePinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A3C926FF22B8000446D3 /* LittlePinkUITestsLaunchTests.swift */; };
 		F8A5A3D926FF588B000446D3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F8A5A3D826FF588B000446D3 /* .gitignore */; };
 		F8AB2447270494490082458F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB2446270494490082458F /* HomeVC.swift */; };
 		F8AB2449270590F20082458F /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB2448270590F20082458F /* WaterfallVC.swift */; };
@@ -102,10 +99,7 @@
 		F8A5A3B226FF22B8000446D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8A5A3B426FF22B8000446D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8A5A3B926FF22B8000446D3 /* LittlePinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittlePinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A5A3BD26FF22B8000446D3 /* LittlePinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkTests.swift; sourceTree = "<group>"; };
 		F8A5A3C326FF22B8000446D3 /* LittlePinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittlePinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A5A3C726FF22B8000446D3 /* LittlePinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkUITests.swift; sourceTree = "<group>"; };
-		F8A5A3C926FF22B8000446D3 /* LittlePinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F8A5A3D826FF588B000446D3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F8AB2446270494490082458F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F8AB2448270590F20082458F /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
@@ -216,8 +210,6 @@
 				F8AB244E270AA0870082458F /* README.md */,
 				F8A5A3D826FF588B000446D3 /* .gitignore */,
 				F8A5A3A526FF22A2000446D3 /* LittlePink */,
-				F8A5A3BC26FF22B8000446D3 /* LittlePinkTests */,
-				F8A5A3C626FF22B8000446D3 /* LittlePinkUITests */,
 				F8A5A3A426FF22A2000446D3 /* Products */,
 				6C89A4EBC6312EE745799966 /* Pods */,
 				6A458CC978D6FFDE219DD2A5 /* Frameworks */,
@@ -254,23 +246,6 @@
 				F8A5A3B426FF22B8000446D3 /* Info.plist */,
 			);
 			path = LittlePink;
-			sourceTree = "<group>";
-		};
-		F8A5A3BC26FF22B8000446D3 /* LittlePinkTests */ = {
-			isa = PBXGroup;
-			children = (
-				F8A5A3BD26FF22B8000446D3 /* LittlePinkTests.swift */,
-			);
-			path = LittlePinkTests;
-			sourceTree = "<group>";
-		};
-		F8A5A3C626FF22B8000446D3 /* LittlePinkUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F8A5A3C726FF22B8000446D3 /* LittlePinkUITests.swift */,
-				F8A5A3C926FF22B8000446D3 /* LittlePinkUITestsLaunchTests.swift */,
-			);
-			path = LittlePinkUITests;
 			sourceTree = "<group>";
 		};
 		F8AB244C270A9F590082458F /* Waterfall */ = {
@@ -576,7 +551,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A5A3BE26FF22B8000446D3 /* LittlePinkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,8 +558,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A5A3CA26FF22B8000446D3 /* LittlePinkUITestsLaunchTests.swift in Sources */,
-				F8A5A3C826FF22B8000446D3 /* LittlePinkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
