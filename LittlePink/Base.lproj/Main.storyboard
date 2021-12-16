@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BIH-f6-4OE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Efe-71-ADy">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -338,14 +338,44 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="374-oD-uf7"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="vFG-Ix-hnh"/>
                             </scrollView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="K57-2F-Ngx">
+                                <rect key="frame" x="16" y="818" width="382" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtp-9F-7L4">
+                                        <rect key="frame" x="0.0" y="0.0" width="66" height="44"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                        <state key="normal" title="存草稿">
+                                            <color key="titleColor" systemColor="secondaryLabelColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXv-xc-Dg4">
+                                        <rect key="frame" x="82" y="0.0" width="300" height="44"/>
+                                        <color key="backgroundColor" name="main"/>
+                                        <state key="normal" title="发布笔记">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                                <real key="value" value="22"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Fvf-iB-78v"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fVP-S7-5wr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="fVP-S7-5wr" firstAttribute="bottom" secondItem="K57-2F-Ngx" secondAttribute="bottom" id="Bhn-V1-qE4"/>
+                            <constraint firstItem="fVP-S7-5wr" firstAttribute="trailing" secondItem="K57-2F-Ngx" secondAttribute="trailing" constant="16" id="Lgc-Zk-Ds8"/>
                             <constraint firstItem="wgn-eu-hlW" firstAttribute="top" secondItem="fVP-S7-5wr" secondAttribute="top" id="LrE-t3-vHV"/>
                             <constraint firstAttribute="bottom" secondItem="wgn-eu-hlW" secondAttribute="bottom" id="MpR-85-o7C"/>
                             <constraint firstItem="wgn-eu-hlW" firstAttribute="trailing" secondItem="fVP-S7-5wr" secondAttribute="trailing" id="Pml-pY-nAc"/>
                             <constraint firstItem="wgn-eu-hlW" firstAttribute="leading" secondItem="fVP-S7-5wr" secondAttribute="leading" id="Xeh-m4-S7n"/>
+                            <constraint firstItem="K57-2F-Ngx" firstAttribute="leading" secondItem="fVP-S7-5wr" secondAttribute="leading" constant="16" id="uja-wB-wx7"/>
                         </constraints>
                     </view>
                     <connections>
@@ -537,6 +567,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Post" image="plus.rectangle.fill" catalog="system" id="AVF-n5-epu"/>
+                    <connections>
+                        <segue destination="BIH-f6-4OE" kind="modal" modalPresentationStyle="fullScreen" id="Tr4-Ae-NRW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GJv-lu-SsT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -580,6 +613,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXk-fM-FDj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-577" y="873"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="9RG-b7-2Wj">
+            <objects>
+                <viewController id="Efe-71-ADy" customClass="LoginVC" customModule="LittlePink" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pNG-Ma-bfy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zqH-Gd-Y7x"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J3W-ou-ioI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3281" y="862"/>
         </scene>
         <!--FollowVC-->
         <scene sceneID="56q-9c-cVh">

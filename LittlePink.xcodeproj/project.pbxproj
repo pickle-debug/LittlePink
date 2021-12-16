@@ -13,6 +13,9 @@
 		0414FB82272032210020AC6F /* testvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0414FB81272030C10020AC6F /* testvideo.mp4 */; };
 		0414FB86272043E10020AC6F /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */; };
 		041824252721E7F0000FB84B /* NoteEditVC-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */; };
+		0440F35F2769CF460082FEB7 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F35E2769CF460082FEB7 /* MeVC.swift */; };
+		0440F3622769CF910082FEB7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F3612769CF910082FEB7 /* LoginVC.swift */; };
+		0440F3642769D0D60082FEB7 /* LoginVC-LocalLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F3632769D0D60082FEB7 /* LoginVC-LocalLogin.swift */; };
 		047C0DF72729361600CAA153 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C0DF62729361600CAA153 /* ChannelVC.swift */; };
 		047C0DF9272937CA00CAA153 /* ChannelTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */; };
 		04CEE588272A50780080B4F1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE587272A50780080B4F1 /* Protocols.swift */; };
@@ -68,6 +71,9 @@
 		0414FB81272030C10020AC6F /* testvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = testvideo.mp4; path = ../../../../Downloads/testvideo.mp4; sourceTree = "<group>"; };
 		0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
 		041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-CollectionView.swift"; sourceTree = "<group>"; };
+		0440F35E2769CF460082FEB7 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		0440F3612769CF910082FEB7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0440F3632769D0D60082FEB7 /* LoginVC-LocalLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC-LocalLogin.swift"; sourceTree = "<group>"; };
 		045961F8271E736A00F94760 /* LittlePink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittlePink-Bridging-Header.h"; sourceTree = "<group>"; };
 		047C0DF62729361600CAA153 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableVC.swift; sourceTree = "<group>"; };
@@ -160,6 +166,15 @@
 			path = NoteEdit;
 			sourceTree = "<group>";
 		};
+		0440F3602769CF7B0082FEB7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0440F3612769CF910082FEB7 /* LoginVC.swift */,
+				0440F3632769D0D60082FEB7 /* LoginVC-LocalLogin.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		6A458CC978D6FFDE219DD2A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +244,8 @@
 		F8A5A3A526FF22A2000446D3 /* LittlePink */ = {
 			isa = PBXGroup;
 			children = (
+				0440F3602769CF7B0082FEB7 /* Login */,
+				0440F35E2769CF460082FEB7 /* MeVC.swift */,
 				0414FB81272030C10020AC6F /* testvideo.mp4 */,
 				045961F8271E736A00F94760 /* LittlePink-Bridging-Header.h */,
 				F8AB2466270AD5440082458F /* TabBarC.swift */,
@@ -525,11 +542,13 @@
 				041824252721E7F0000FB84B /* NoteEditVC-CollectionView.swift in Sources */,
 				F88970FB271A944500DFA0C1 /* PhotoCell.swift in Sources */,
 				04CEE588272A50780080B4F1 /* Protocols.swift in Sources */,
+				0440F3642769D0D60082FEB7 /* LoginVC-LocalLogin.swift in Sources */,
 				F8000CF427048BA700A7DC4C /* DiscoveryVC.swift in Sources */,
 				047C0DF72729361600CAA153 /* ChannelVC.swift in Sources */,
 				040026AF2726ADD300A7A469 /* TextViewIAView.swift in Sources */,
 				F8AB2447270494490082458F /* HomeVC.swift in Sources */,
 				F8000CF627048BC200A7DC4C /* NearByVC.swift in Sources */,
+				0440F3622769CF910082FEB7 /* LoginVC.swift in Sources */,
 				F8AB244B270599D80082458F /* WaterfallCell.swift in Sources */,
 				F8000CF227048B8500A7DC4C /* FollowVC.swift in Sources */,
 				F8000CF827048D4200A7DC4C /* Constants.swift in Sources */,
@@ -537,6 +556,7 @@
 				040026AB27266C1800A7A469 /* NoteEditVC-Config.swift in Sources */,
 				047C0DF9272937CA00CAA153 /* ChannelTableVC.swift in Sources */,
 				F8A5A3A726FF22A2000446D3 /* AppDelegate.swift in Sources */,
+				0440F35F2769CF460082FEB7 /* MeVC.swift in Sources */,
 				F84A511D270B1CA5004BB2ED /* Extensions.swift in Sources */,
 				F8AB2467270AD5440082458F /* TabBarC.swift in Sources */,
 				F8A5A3A926FF22A2000446D3 /* SceneDelegate.swift in Sources */,

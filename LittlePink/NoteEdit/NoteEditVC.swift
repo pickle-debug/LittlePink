@@ -18,9 +18,8 @@ class NoteEditVC: UIViewController {
     var channel = ""
     var subChannel = ""
     
-    
+    let locationManager = CLLocationManager()
     @IBOutlet weak var photoCollectionview: UICollectionView!
-    
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var titleCountLabel: UILabel!
     @IBOutlet weak var textView: UITextView!

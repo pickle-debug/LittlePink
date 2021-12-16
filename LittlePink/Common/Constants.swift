@@ -52,4 +52,8 @@ let kAllSubChannels = [
     ["装x西餐厅", "网红店打卡"],
     ["我的猫儿子", "我的猫女儿", "我的兔兔"]
 ]
+//高德
+let kAMapApiKey = "70356717b0fa521f5efee81bd0b2e1fc"
 
+//极光
+let kJAppKey = "f30ddfa0afa2759304da2d33"
