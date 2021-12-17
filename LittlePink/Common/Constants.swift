@@ -20,6 +20,7 @@ let kWaterfallCellID = "WaterfallCellID"
 let kPhotoCellID = "PhotoCellID"
 let kPhotoFooterID = "PhotoFooterID"
 let kSubChannelCellID = "SubChannelCellID"
+let kPOICellID = "POICellID"
 
 //MARK: - 资源文件相关
 let mainColor = UIColor(named: "main")!
@@ -54,6 +55,8 @@ let kAllSubChannels = [
 ]
 //高德
 let kAMapApiKey = "70356717b0fa521f5efee81bd0b2e1fc"
+
+let kNoPOIPH = "未知地点"
 
 //极光
 let kJAppKey = "f30ddfa0afa2759304da2d33"

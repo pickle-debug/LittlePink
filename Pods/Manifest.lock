@@ -2,6 +2,8 @@ PODS:
   - AMapFoundation (1.6.9)
   - AMapLocation (2.8.0):
     - AMapFoundation (~> 1.6.9)
+  - AMapSearch (8.1.0):
+    - AMapFoundation (~> 1.6.9)
   - CHTCollectionViewWaterfallLayout/Swift (0.9.8)
   - JCore (3.1.0)
   - JVerification (2.7.6):
@@ -18,6 +20,7 @@ PODS:
 
 DEPENDENCIES:
   - AMapLocation
+  - AMapSearch
   - CHTCollectionViewWaterfallLayout/Swift
   - JVerification
   - KMPlaceholderTextView (~> 1.4.0)
@@ -30,6 +33,7 @@ SPEC REPOS:
   trunk:
     - AMapFoundation
     - AMapLocation
+    - AMapSearch
     - CHTCollectionViewWaterfallLayout
     - JCore
     - JVerification
@@ -44,6 +48,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AMapFoundation: 8d8ecbb0b2e9ce5487995360d26c885d94642bfd
   AMapLocation: 5ef44a1117be7dc541cb7a7d43d03c5ee91e4387
+  AMapSearch: 5c1cc07429f04b9cc76438fcb2411c66fdbbb178
   CHTCollectionViewWaterfallLayout: 5f241d2480ab4939aa0d1ad4981de9eef1fbe60d
   JCore: 4029befb2497adc36b2496e2cfd6b24d9f671784
   JVerification: ec6df3457b1caf572149a01cff106cc85b8d1f1f
@@ -55,6 +60,6 @@ SPEC CHECKSUMS:
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
   YPImagePicker: 1463a19a36244e209dcb03c30e63559c5afa9602
 
-PODFILE CHECKSUM: c46efe926590cc21676e486022cde308042c89bf
+PODFILE CHECKSUM: b3f265df372134139cb6401fa87cba580b677bca
 
 COCOAPODS: 1.11.2

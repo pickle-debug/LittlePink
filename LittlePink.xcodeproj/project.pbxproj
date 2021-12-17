@@ -16,6 +16,9 @@
 		0440F35F2769CF460082FEB7 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F35E2769CF460082FEB7 /* MeVC.swift */; };
 		0440F3622769CF910082FEB7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F3612769CF910082FEB7 /* LoginVC.swift */; };
 		0440F3642769D0D60082FEB7 /* LoginVC-LocalLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F3632769D0D60082FEB7 /* LoginVC-LocalLogin.swift */; };
+		045E5C1C276C4D0E00AAEACA /* POICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5C1B276C4D0E00AAEACA /* POICell.swift */; };
+		045E5C1E276C70DD00AAEACA /* POIVC-Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5C1D276C70DD00AAEACA /* POIVC-Config.swift */; };
+		045E5C20276C715800AAEACA /* POIVC-Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5C1F276C715800AAEACA /* POIVC-Location.swift */; };
 		047C0DF72729361600CAA153 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C0DF62729361600CAA153 /* ChannelVC.swift */; };
 		047C0DF9272937CA00CAA153 /* ChannelTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */; };
 		04CEE588272A50780080B4F1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE587272A50780080B4F1 /* Protocols.swift */; };
@@ -75,6 +78,9 @@
 		0440F3612769CF910082FEB7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0440F3632769D0D60082FEB7 /* LoginVC-LocalLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC-LocalLogin.swift"; sourceTree = "<group>"; };
 		045961F8271E736A00F94760 /* LittlePink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittlePink-Bridging-Header.h"; sourceTree = "<group>"; };
+		045E5C1B276C4D0E00AAEACA /* POICell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = POICell.swift; path = /Users/mac/Documents/Code/LittlePink/LittlePink/NoteEdit/POICell.swift; sourceTree = "<absolute>"; };
+		045E5C1D276C70DD00AAEACA /* POIVC-Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIVC-Config.swift"; sourceTree = "<group>"; };
+		045E5C1F276C715800AAEACA /* POIVC-Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIVC-Location.swift"; sourceTree = "<group>"; };
 		047C0DF62729361600CAA153 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableVC.swift; sourceTree = "<group>"; };
 		04CEE587272A50780080B4F1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
@@ -162,6 +168,9 @@
 				047C0DF62729361600CAA153 /* ChannelVC.swift */,
 				047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */,
 				04CEE58B272A6B2E0080B4F1 /* POIVC.swift */,
+				045E5C1F276C715800AAEACA /* POIVC-Location.swift */,
+				045E5C1D276C70DD00AAEACA /* POIVC-Config.swift */,
+				045E5C1B276C4D0E00AAEACA /* POICell.swift */,
 			);
 			path = NoteEdit;
 			sourceTree = "<group>";
@@ -543,9 +552,11 @@
 				F88970FB271A944500DFA0C1 /* PhotoCell.swift in Sources */,
 				04CEE588272A50780080B4F1 /* Protocols.swift in Sources */,
 				0440F3642769D0D60082FEB7 /* LoginVC-LocalLogin.swift in Sources */,
+				045E5C1E276C70DD00AAEACA /* POIVC-Config.swift in Sources */,
 				F8000CF427048BA700A7DC4C /* DiscoveryVC.swift in Sources */,
 				047C0DF72729361600CAA153 /* ChannelVC.swift in Sources */,
 				040026AF2726ADD300A7A469 /* TextViewIAView.swift in Sources */,
+				045E5C1C276C4D0E00AAEACA /* POICell.swift in Sources */,
 				F8AB2447270494490082458F /* HomeVC.swift in Sources */,
 				F8000CF627048BC200A7DC4C /* NearByVC.swift in Sources */,
 				0440F3622769CF910082FEB7 /* LoginVC.swift in Sources */,
@@ -561,6 +572,7 @@
 				F8AB2467270AD5440082458F /* TabBarC.swift in Sources */,
 				F8A5A3A926FF22A2000446D3 /* SceneDelegate.swift in Sources */,
 				04CEE58C272A6B2E0080B4F1 /* POIVC.swift in Sources */,
+				045E5C20276C715800AAEACA /* POIVC-Location.swift in Sources */,
 				F8AB2449270590F20082458F /* WaterfallVC.swift in Sources */,
 				F8AB246B270ADEED0082458F /* PostVC.swift in Sources */,
 				F8216396271AD3E300212A53 /* PhotoFooter.swift in Sources */,
