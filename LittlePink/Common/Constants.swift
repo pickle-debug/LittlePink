@@ -57,6 +57,8 @@ let kAllSubChannels = [
 let kAMapApiKey = "70356717b0fa521f5efee81bd0b2e1fc"
 
 let kNoPOIPH = "未知地点"
+let kPOIsInitArr = [["不显示位置", ""]]
+let kPOIsOffset = 20
 
 //极光
 let kJAppKey = "f30ddfa0afa2759304da2d33"

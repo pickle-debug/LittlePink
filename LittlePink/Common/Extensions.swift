@@ -7,6 +7,12 @@
 
 import UIKit
 
+extension String{
+    var isBlank: Bool{
+        self.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+}
+
 extension Optional where Wrapped == String{ //对String？的扩展
     var unwrappedText: String { self ?? "" }
     

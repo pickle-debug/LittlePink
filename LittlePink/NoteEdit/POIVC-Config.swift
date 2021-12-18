@@ -12,9 +12,9 @@ extension POIVC{
         
         //定位
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-
         locationManager.locationTimeout = 5
-
         locationManager.reGeocodeTimeout = 5
+        
+        tableView.mj_footer = footer
     }
 }

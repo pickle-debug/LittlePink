@@ -751,7 +751,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="QzN-rk-zzg"/>
                                 </constraints>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="eSv-l7-1h6" id="a8g-wk-eT0"/>
+                                </connections>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9g9-4u-eEF">
                                 <rect key="frame" x="0.0" y="113" width="414" height="783"/>
@@ -822,6 +825,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="searchBar" destination="2qK-9Q-Gbz" id="3pr-AU-FZ3"/>
                         <outlet property="tableView" destination="9g9-4u-eEF" id="csh-TY-gct"/>
                     </connections>
                 </viewController>
