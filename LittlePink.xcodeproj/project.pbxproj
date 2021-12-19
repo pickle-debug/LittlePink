@@ -10,6 +10,7 @@
 		040026AB27266C1800A7A469 /* NoteEditVC-Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040026AA27266C1800A7A469 /* NoteEditVC-Config.swift */; };
 		040026AD2726AD7A00A7A469 /* TextViewIAView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040026AC2726AD7A00A7A469 /* TextViewIAView.xib */; };
 		040026AF2726ADD300A7A469 /* TextViewIAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040026AE2726ADD300A7A469 /* TextViewIAView.swift */; };
+		0409B0DB276F0593001D3C82 /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0409B0D9276F0593001D3C82 /* LittlePink.xcdatamodeld */; };
 		0414FB82272032210020AC6F /* testvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0414FB81272030C10020AC6F /* testvideo.mp4 */; };
 		0414FB86272043E10020AC6F /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */; };
 		041824252721E7F0000FB84B /* NoteEditVC-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */; };
@@ -23,6 +24,7 @@
 		047C0DF9272937CA00CAA153 /* ChannelTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */; };
 		04CEE588272A50780080B4F1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE587272A50780080B4F1 /* Protocols.swift */; };
 		04CEE58C272A6B2E0080B4F1 /* POIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE58B272A6B2E0080B4F1 /* POIVC.swift */; };
+		04D2AC95276E956A00098E88 /* POIVC-keywordsSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2AC94276E956A00098E88 /* POIVC-keywordsSearch.swift */; };
 		345CB61801CF0E316AC356F4 /* Pods_LittlePink_LittlePinkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B2EE4C973FA20E24C3BC85 /* Pods_LittlePink_LittlePinkUITests.framework */; };
 		9E0F83CD4A59E00147123A61 /* Pods_LittlePinkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD7811867BC962C68964A06 /* Pods_LittlePinkTests.framework */; };
 		E9028BF3637B9A4CE08F11D2 /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1705E08AD1D56FB4756982 /* Pods_LittlePink.framework */; };
@@ -71,6 +73,7 @@
 		040026AA27266C1800A7A469 /* NoteEditVC-Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-Config.swift"; sourceTree = "<group>"; };
 		040026AC2726AD7A00A7A469 /* TextViewIAView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewIAView.xib; sourceTree = "<group>"; };
 		040026AE2726ADD300A7A469 /* TextViewIAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewIAView.swift; sourceTree = "<group>"; };
+		0409B0DA276F0593001D3C82 /* LittlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink.xcdatamodel; sourceTree = "<group>"; };
 		0414FB81272030C10020AC6F /* testvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = testvideo.mp4; path = ../../../../Downloads/testvideo.mp4; sourceTree = "<group>"; };
 		0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
 		041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-CollectionView.swift"; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 		047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableVC.swift; sourceTree = "<group>"; };
 		04CEE587272A50780080B4F1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		04CEE58B272A6B2E0080B4F1 /* POIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIVC.swift; sourceTree = "<group>"; };
+		04D2AC94276E956A00098E88 /* POIVC-keywordsSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIVC-keywordsSearch.swift"; sourceTree = "<group>"; };
 		0C1705E08AD1D56FB4756982 /* Pods_LittlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCBF4B3D150A5F443FF1A9F /* Pods-LittlePink-LittlePinkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-LittlePinkUITests.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink-LittlePinkUITests/Pods-LittlePink-LittlePinkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E7363C28783981C4A664924 /* Pods-LittlePinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePinkTests.debug.xcconfig"; path = "Target Support Files/Pods-LittlePinkTests/Pods-LittlePinkTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +172,7 @@
 				047C0DF62729361600CAA153 /* ChannelVC.swift */,
 				047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */,
 				04CEE58B272A6B2E0080B4F1 /* POIVC.swift */,
+				04D2AC94276E956A00098E88 /* POIVC-keywordsSearch.swift */,
 				045E5C1F276C715800AAEACA /* POIVC-Location.swift */,
 				045E5C1D276C70DD00AAEACA /* POIVC-Config.swift */,
 				045E5C1B276C4D0E00AAEACA /* POICell.swift */,
@@ -260,6 +265,7 @@
 				F8AB2466270AD5440082458F /* TabBarC.swift */,
 				F8A5A3A626FF22A2000446D3 /* AppDelegate.swift */,
 				F8A5A3A826FF22A2000446D3 /* SceneDelegate.swift */,
+				0409B0D9276F0593001D3C82 /* LittlePink.xcdatamodeld */,
 				F8A5A3AC26FF22A2000446D3 /* Main.storyboard */,
 				040F8920271D58DE00A790AE /* NoteEdit */,
 				F8000CF927048E9C00A7DC4C /* Home */,
@@ -569,11 +575,13 @@
 				F8A5A3A726FF22A2000446D3 /* AppDelegate.swift in Sources */,
 				0440F35F2769CF460082FEB7 /* MeVC.swift in Sources */,
 				F84A511D270B1CA5004BB2ED /* Extensions.swift in Sources */,
+				0409B0DB276F0593001D3C82 /* LittlePink.xcdatamodeld in Sources */,
 				F8AB2467270AD5440082458F /* TabBarC.swift in Sources */,
 				F8A5A3A926FF22A2000446D3 /* SceneDelegate.swift in Sources */,
 				04CEE58C272A6B2E0080B4F1 /* POIVC.swift in Sources */,
 				045E5C20276C715800AAEACA /* POIVC-Location.swift in Sources */,
 				F8AB2449270590F20082458F /* WaterfallVC.swift in Sources */,
+				04D2AC95276E956A00098E88 /* POIVC-keywordsSearch.swift in Sources */,
 				F8AB246B270ADEED0082458F /* PostVC.swift in Sources */,
 				F8216396271AD3E300212A53 /* PhotoFooter.swift in Sources */,
 			);
@@ -970,6 +978,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0409B0D9276F0593001D3C82 /* LittlePink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0409B0DA276F0593001D3C82 /* LittlePink.xcdatamodel */,
+			);
+			currentVersion = 0409B0DA276F0593001D3C82 /* LittlePink.xcdatamodel */;
+			path = LittlePink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F8A5A39B26FF22A2000446D3 /* Project object */;
 }

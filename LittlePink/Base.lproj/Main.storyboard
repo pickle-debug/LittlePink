@@ -347,6 +347,9 @@
                                         <state key="normal" title="存草稿">
                                             <color key="titleColor" systemColor="secondaryLabelColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="saveDraftNote:" destination="BIH-f6-4OE" eventType="touchUpInside" id="Jer-5M-i7b"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXv-xc-Dg4">
                                         <rect key="frame" x="82" y="0.0" width="300" height="44"/>
@@ -359,6 +362,9 @@
                                                 <real key="value" value="22"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="postNote:" destination="BIH-f6-4OE" eventType="touchUpInside" id="qi3-7q-0Ds"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -383,6 +389,8 @@
                         <outlet property="channelLabel" destination="Zpt-cr-YkQ" id="b3c-BV-uCP"/>
                         <outlet property="channelPlaceholderLabel" destination="X1R-Cf-qe9" id="jDc-HT-Cl8"/>
                         <outlet property="photoCollectionview" destination="wH9-gl-J37" id="5rf-LT-Fxp"/>
+                        <outlet property="poiNameIcon" destination="qet-XT-Tcr" id="PaJ-nD-mak"/>
+                        <outlet property="poiNameLabel" destination="OR4-qI-iqJ" id="5f9-9S-Lrx"/>
                         <outlet property="textView" destination="DuO-rU-02v" id="joe-dO-dpu"/>
                         <outlet property="titleCountLabel" destination="FLp-Jx-Q6t" id="3b6-fY-Fip"/>
                         <outlet property="titleTextField" destination="DUo-mF-7bR" id="JVQ-zc-fS9"/>
@@ -760,7 +768,7 @@
                                 <rect key="frame" x="0.0" y="113" width="414" height="783"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="POICellID" id="9t8-PX-8EX" customClass="POICell" customModule="LittlePink" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="POICellID" id="9t8-PX-8EX" customClass="POICell" customModule="LittlePink" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="24.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9t8-PX-8EX" id="81p-jL-438">
@@ -790,6 +798,7 @@
                                                 <constraint firstItem="RNC-G4-SeH" firstAttribute="leading" secondItem="81p-jL-438" secondAttribute="leadingMargin" id="WsG-IU-BN3"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="tintColor" name="main"/>
                                         <connections>
                                             <outlet property="addressLabel" destination="6zP-2M-8TF" id="nIs-er-MjU"/>
                                             <outlet property="nameLabel" destination="fYU-VB-aOa" id="1Bc-LT-mRE"/>

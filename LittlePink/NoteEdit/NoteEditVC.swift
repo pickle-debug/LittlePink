@@ -17,6 +17,7 @@ class NoteEditVC: UIViewController {
     
     var channel = ""
     var subChannel = ""
+    var poiName = ""
     
     let locationManager = CLLocationManager()
     @IBOutlet weak var photoCollectionview: UICollectionView!
@@ -26,6 +27,8 @@ class NoteEditVC: UIViewController {
     @IBOutlet weak var channelIcon: UIImageView!
     @IBOutlet weak var channelLabel: UILabel!
     @IBOutlet weak var channelPlaceholderLabel: UILabel!
+    @IBOutlet weak var poiNameLabel: UILabel!
+    @IBOutlet weak var poiNameIcon: UIImageView!
     
     
     var photoCount:Int{ photos.count }
@@ -50,6 +53,7 @@ class NoteEditVC: UIViewController {
         if titleTextField.unwarppedText.count > kMaxNoteTitleCount {
             titleTextField.text = String(titleTextField.unwarppedText.prefix(kMaxNoteTitleCount))
             showTextHUD("标题最多可输入\(kMaxNoteTitleCount)字")
+            //用户粘贴文本后的光标位置,默认会跑到粘贴文本的前面,此处改为末尾
             DispatchQueue.main.async {
                 let end = self.titleTextField.endOfDocument
                 self.titleTextField.selectedTextRange = self.titleTextField.textRange(from: end, to: end)
@@ -59,10 +63,19 @@ class NoteEditVC: UIViewController {
     
 }
     //待做(存草稿和发布笔记前判断当前用户输入的正文文本数量,看是否大于最大可输入量)
+    @IBAction func saveDraftNote(_ sender: Any) {
+        
+    }
+    @IBAction func postNote(_ sender: Any) {
+    
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let channelVC = segue.destination as? ChannelVC{
             channelVC.PVDelegate = self
+        }else if let poiVC = segue.destination as? POIVC{
+            poiVC.delegate = self
+            poiVC.poiName = poiName
         }
     }
 }
@@ -82,11 +95,30 @@ extension NoteEditVC: ChannelVCDelegate{
         self.channel = channel
         self.subChannel = subChannel
         //UI
-        channelLabel.text = subChannel
         channelIcon.tintColor = blueColor
+        channelLabel.text = subChannel
         channelLabel.textColor = blueColor
         channelPlaceholderLabel.isHidden = true
 
+    }
+}
+//MARK: - POIVCDelegate
+extension NoteEditVC: POIVCDelegate{
+    func updatePOIName(_ poiName: String) {
+        if poiName == kPOIsInitArr[0][0]{
+            self.poiName = ""
+            poiNameIcon.tintColor = .label
+            poiNameLabel.text = "添加地点"
+            poiNameLabel.textColor = .label
+        }
+        else{
+            //数据
+            self.poiName = poiName
+            //UI
+            poiNameIcon.tintColor = blueColor
+            poiNameLabel.text = poiName
+            poiNameLabel.textColor = blueColor
+        }
     }
 }
 

@@ -49,8 +49,8 @@ extension POIVC{
                 POIVC.longitude = location.coordinate.longitude
                 
                 //MARK: 检索周边POI
-                POIVC.footer.setRefreshingTarget(POIVC, refreshingAction: #selector(POIVC.aroundSearchPullToRefresh))
-                POIVC.mapSearch?.aMapPOIAroundSearch(POIVC.aroundSearchRequest)
+                POIVC.setAroundSearchFooter()
+                POIVC.makeAroundSearch()
             }
             
             if let reGeocode = reGeocode {
@@ -75,11 +75,23 @@ extension POIVC{
     }
     
 }
-
+//MARK: - 一般函数
+extension POIVC{
+   private func makeAroundSearch(_ page: Int = 1){
+        aroundSearchRequest.page = page
+        mapSearch?.aMapPOIAroundSearch(aroundSearchRequest)
+    }
+    func setAroundSearchFooter(){
+        footer.resetNoMoreData()
+        footer.setRefreshingTarget(self, refreshingAction: #selector(aroundSearchPullToRefresh))
+    }
+}
+//MARK: - 监听
 extension POIVC{
     @objc private func aroundSearchPullToRefresh(){
         
-        
-        footer.endRefreshing {}
+        currentAroundPage += 1
+        makeAroundSearch(currentAroundPage)
+        endRefreshing(currentAroundPage)
     }
 }

@@ -15,3 +15,7 @@ protocol ChannelVCDelegate {
     func updateChannel(channel: String, subChannel: String)
 
 }
+
+protocol POIVCDelegate {
+    func updatePOIName(_ poiName: String)
+}
