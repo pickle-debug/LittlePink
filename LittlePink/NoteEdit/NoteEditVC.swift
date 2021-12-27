@@ -12,9 +12,8 @@ class NoteEditVC: UIViewController {
     var photos = [
         UIImage(named:"1")!,UIImage(named: "2")!
     ]
-    //    var videoURL: URL = Bundle.main.url(forResource: "testvideo", withExtension: ".mp4")!
+    //var videoURL: URL? = Bundle.main.url(forResource: "TV", withExtension: "mp4")
     var videoURL: URL?
-    
     var channel = ""
     var subChannel = ""
     var poiName = ""
@@ -50,21 +49,52 @@ class NoteEditVC: UIViewController {
     }
     @IBAction func TFEditChanged(_ sender: Any) {
         guard titleTextField.markedTextRange == nil else { return }
-        if titleTextField.unwarppedText.count > kMaxNoteTitleCount {
-            titleTextField.text = String(titleTextField.unwarppedText.prefix(kMaxNoteTitleCount))
+        if titleTextField.unwrappedText.count > kMaxNoteTitleCount {
+            titleTextField.text = String(titleTextField.unwrappedText.prefix(kMaxNoteTitleCount))
             showTextHUD("标题最多可输入\(kMaxNoteTitleCount)字")
             //用户粘贴文本后的光标位置,默认会跑到粘贴文本的前面,此处改为末尾
             DispatchQueue.main.async {
                 let end = self.titleTextField.endOfDocument
                 self.titleTextField.selectedTextRange = self.titleTextField.textRange(from: end, to: end)
             }
-        titleCountLabel.text = "\(kMaxNoteTitleCount - titleTextField.unwarppedText.count)"
+        titleCountLabel.text = "\(kMaxNoteTitleCount - titleTextField.unwrappedText.count)"
     }
     
 }
     //待做(存草稿和发布笔记前判断当前用户输入的正文文本数量,看是否大于最大可输入量)
     @IBAction func saveDraftNote(_ sender: Any) {
+        guard textViewIAView.currentTextCount <= kMaxNoteTextCount else {
+            showTextHUD("正文最多输入\(kMaxNoteTextCount)字")
+            return
+        }
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
         
+        let draftNote = DraftNote(context: context)
+        
+        if isVideo{
+            draftNote.video = try? Data(contentsOf: videoURL!)
+        }
+        //封面图片
+        draftNote.coverPhoto = photos[0].jpeg(.high)
+        //所有图片
+        var photos: [Data] = []
+        for photo in self.photos{
+            if let pngData = photo.pngData(){
+            photos.append(pngData)
+            }
+        }
+        draftNote.photos = try? JSONEncoder().encode(photos)
+        
+        draftNote.isVideo = isVideo
+        draftNote.title = titleTextField.exactText
+        draftNote.text = textView.exactText
+        draftNote.channel = channel
+        draftNote.subChannel = subChannel
+        draftNote.poiName = poiName
+        draftNote.updateAt = Date()
+        
+        appDelegate.saveContext()
     }
     @IBAction func postNote(_ sender: Any) {
     
@@ -72,6 +102,7 @@ class NoteEditVC: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let channelVC = segue.destination as? ChannelVC{
+            view.endEditing(true)
             channelVC.PVDelegate = self
         }else if let poiVC = segue.destination as? POIVC{
             poiVC.delegate = self
@@ -126,12 +157,12 @@ extension NoteEditVC: POIVCDelegate{
 //extension NoteEditVC: UITextFieldDelegate{
 //    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
 //
-//        let isExced = range.location >= kMaxNoteTitleCount || (textField.unwarppedText.count + string.count) > kMaxNoteTitleCount
+//        let isExced = range.location >= kMaxNoteTitleCount || (textField.unwrappedText.count + string.count) > kMaxNoteTitleCount
 //
 //        if isExced {
 //            showTextHUD("标题最多可输入\(kMaxNoteTitleCount)字")
 //        }
-////        if range.location >= kMaxNoteTitleCount || (textField.unwarppedText.count + string.count) > kMaxNoteTitleCount{
+////        if range.location >= kMaxNoteTitleCount || (textField.unwrappedText.count + string.count) > kMaxNoteTitleCount{
 ////            return false
 ////        }
 //        return !isExced

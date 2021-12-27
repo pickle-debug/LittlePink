@@ -16,6 +16,7 @@ target 'LittlePink' do
   pod 'AMapSearch'
   pod 'JVerification'
   pod 'MJRefresh'
+  pod 'DateToolsSwift'
   
   target 'LittlePinkTests' do
     inherit! :search_paths

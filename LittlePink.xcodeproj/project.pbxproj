@@ -11,7 +11,7 @@
 		040026AD2726AD7A00A7A469 /* TextViewIAView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040026AC2726AD7A00A7A469 /* TextViewIAView.xib */; };
 		040026AF2726ADD300A7A469 /* TextViewIAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040026AE2726ADD300A7A469 /* TextViewIAView.swift */; };
 		0409B0DB276F0593001D3C82 /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0409B0D9276F0593001D3C82 /* LittlePink.xcdatamodeld */; };
-		0414FB82272032210020AC6F /* testvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0414FB81272030C10020AC6F /* testvideo.mp4 */; };
+		0414FB82272032210020AC6F /* TV.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0414FB81272030C10020AC6F /* TV.mp4 */; };
 		0414FB86272043E10020AC6F /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */; };
 		041824252721E7F0000FB84B /* NoteEditVC-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */; };
 		0440F35F2769CF460082FEB7 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F35E2769CF460082FEB7 /* MeVC.swift */; };
@@ -22,6 +22,7 @@
 		045E5C20276C715800AAEACA /* POIVC-Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5C1F276C715800AAEACA /* POIVC-Location.swift */; };
 		047C0DF72729361600CAA153 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C0DF62729361600CAA153 /* ChannelVC.swift */; };
 		047C0DF9272937CA00CAA153 /* ChannelTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */; };
+		04A51257277830A100C99908 /* DraftNoteWaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A51256277830A100C99908 /* DraftNoteWaterfallCell.swift */; };
 		04CEE588272A50780080B4F1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE587272A50780080B4F1 /* Protocols.swift */; };
 		04CEE58C272A6B2E0080B4F1 /* POIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE58B272A6B2E0080B4F1 /* POIVC.swift */; };
 		04D2AC95276E956A00098E88 /* POIVC-keywordsSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2AC94276E956A00098E88 /* POIVC-keywordsSearch.swift */; };
@@ -74,7 +75,7 @@
 		040026AC2726AD7A00A7A469 /* TextViewIAView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewIAView.xib; sourceTree = "<group>"; };
 		040026AE2726ADD300A7A469 /* TextViewIAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewIAView.swift; sourceTree = "<group>"; };
 		0409B0DA276F0593001D3C82 /* LittlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink.xcdatamodel; sourceTree = "<group>"; };
-		0414FB81272030C10020AC6F /* testvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = testvideo.mp4; path = ../../../../Downloads/testvideo.mp4; sourceTree = "<group>"; };
+		0414FB81272030C10020AC6F /* TV.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TV.mp4; path = ../../../../Downloads/TV.mp4; sourceTree = "<group>"; };
 		0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
 		041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-CollectionView.swift"; sourceTree = "<group>"; };
 		0440F35E2769CF460082FEB7 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		045E5C1F276C715800AAEACA /* POIVC-Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIVC-Location.swift"; sourceTree = "<group>"; };
 		047C0DF62729361600CAA153 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		047C0DF8272937CA00CAA153 /* ChannelTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableVC.swift; sourceTree = "<group>"; };
+		04A51256277830A100C99908 /* DraftNoteWaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftNoteWaterfallCell.swift; sourceTree = "<group>"; };
 		04CEE587272A50780080B4F1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		04CEE58B272A6B2E0080B4F1 /* POIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIVC.swift; sourceTree = "<group>"; };
 		04D2AC94276E956A00098E88 /* POIVC-keywordsSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "POIVC-keywordsSearch.swift"; sourceTree = "<group>"; };
@@ -260,7 +262,7 @@
 			children = (
 				0440F3602769CF7B0082FEB7 /* Login */,
 				0440F35E2769CF460082FEB7 /* MeVC.swift */,
-				0414FB81272030C10020AC6F /* testvideo.mp4 */,
+				0414FB81272030C10020AC6F /* TV.mp4 */,
 				045961F8271E736A00F94760 /* LittlePink-Bridging-Header.h */,
 				F8AB2466270AD5440082458F /* TabBarC.swift */,
 				F8A5A3A626FF22A2000446D3 /* AppDelegate.swift */,
@@ -285,6 +287,7 @@
 			children = (
 				F8AB2448270590F20082458F /* WaterfallVC.swift */,
 				F8AB244A270599D80082458F /* WaterfallCell.swift */,
+				04A51256277830A100C99908 /* DraftNoteWaterfallCell.swift */,
 			);
 			path = Waterfall;
 			sourceTree = "<group>";
@@ -420,7 +423,7 @@
 				F8A5A3D926FF588B000446D3 /* .gitignore in Resources */,
 				F8AB2461270AB9A90082458F /* InfoPlist.strings in Resources */,
 				F8AB245E270AB51C0082458F /* Localizable.strings in Resources */,
-				0414FB82272032210020AC6F /* testvideo.mp4 in Resources */,
+				0414FB82272032210020AC6F /* TV.mp4 in Resources */,
 				F8A5A3B326FF22B8000446D3 /* LaunchScreen.storyboard in Resources */,
 				040026AD2726AD7A00A7A469 /* TextViewIAView.xib in Resources */,
 				F8AB244F270AA0870082458F /* README.md in Resources */,
@@ -553,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A51257277830A100C99908 /* DraftNoteWaterfallCell.swift in Sources */,
 				0414FB86272043E10020AC6F /* NoteEditVC-DragDrop.swift in Sources */,
 				041824252721E7F0000FB84B /* NoteEditVC-CollectionView.swift in Sources */,
 				F88970FB271A944500DFA0C1 /* PhotoCell.swift in Sources */,

@@ -46,6 +46,19 @@ extension NoteEditVC{
 //        AMapSearchAPI.updatePrivacyShow()
 //        AMapSearchAPI
 //        参考上面添加隐私
+        
+        //MARK: 文件相关
+        print(NSHomeDirectory()) //沙盒根目录,存文件时不建议直接访问根目录
+        //两种寻找文件的方法
+        //1.返回路径:NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+        //2.返回URL:FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+        
+        //path为普通字符串,而url一般长这样
+        //file:///xxx/xx.mov"(本地)/"https://xx/xx.mov"(远程)
+        
+        //关于沙盒中的Library/SplashBoard文件夹
+        //系统会缓存LaunchScreen.storyboard中的图片,即使删除App也没用,故需手动删除,迭代时需加入代码(可能还需其余优化操作):
+//        
     }
 }
 
