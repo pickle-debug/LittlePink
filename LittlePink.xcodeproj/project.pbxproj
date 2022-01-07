@@ -14,6 +14,8 @@
 		0414FB82272032210020AC6F /* TV.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0414FB81272030C10020AC6F /* TV.mp4 */; };
 		0414FB86272043E10020AC6F /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */; };
 		041824252721E7F0000FB84B /* NoteEditVC-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */; };
+		043B0913277C30530095FAF3 /* WaterfallVC-LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B0912277C30530095FAF3 /* WaterfallVC-LoadData.swift */; };
+		043B0915277C30E50095FAF3 /* WaterfallVC-Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B0914277C30E50095FAF3 /* WaterfallVC-Config.swift */; };
 		0440F35F2769CF460082FEB7 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F35E2769CF460082FEB7 /* MeVC.swift */; };
 		0440F3622769CF910082FEB7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F3612769CF910082FEB7 /* LoginVC.swift */; };
 		0440F3642769D0D60082FEB7 /* LoginVC-LocalLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440F3632769D0D60082FEB7 /* LoginVC-LocalLogin.swift */; };
@@ -78,6 +80,8 @@
 		0414FB81272030C10020AC6F /* TV.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TV.mp4; path = ../../../../Downloads/TV.mp4; sourceTree = "<group>"; };
 		0414FB85272043E10020AC6F /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
 		041824242721E7F0000FB84B /* NoteEditVC-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-CollectionView.swift"; sourceTree = "<group>"; };
+		043B0912277C30530095FAF3 /* WaterfallVC-LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterfallVC-LoadData.swift"; sourceTree = "<group>"; };
+		043B0914277C30E50095FAF3 /* WaterfallVC-Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterfallVC-Config.swift"; sourceTree = "<group>"; };
 		0440F35E2769CF460082FEB7 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		0440F3612769CF910082FEB7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0440F3632769D0D60082FEB7 /* LoginVC-LocalLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginVC-LocalLogin.swift"; sourceTree = "<group>"; };
@@ -288,6 +292,8 @@
 				F8AB2448270590F20082458F /* WaterfallVC.swift */,
 				F8AB244A270599D80082458F /* WaterfallCell.swift */,
 				04A51256277830A100C99908 /* DraftNoteWaterfallCell.swift */,
+				043B0912277C30530095FAF3 /* WaterfallVC-LoadData.swift */,
+				043B0914277C30E50095FAF3 /* WaterfallVC-Config.swift */,
 			);
 			path = Waterfall;
 			sourceTree = "<group>";
@@ -581,12 +587,14 @@
 				F84A511D270B1CA5004BB2ED /* Extensions.swift in Sources */,
 				0409B0DB276F0593001D3C82 /* LittlePink.xcdatamodeld in Sources */,
 				F8AB2467270AD5440082458F /* TabBarC.swift in Sources */,
+				043B0915277C30E50095FAF3 /* WaterfallVC-Config.swift in Sources */,
 				F8A5A3A926FF22A2000446D3 /* SceneDelegate.swift in Sources */,
 				04CEE58C272A6B2E0080B4F1 /* POIVC.swift in Sources */,
 				045E5C20276C715800AAEACA /* POIVC-Location.swift in Sources */,
 				F8AB2449270590F20082458F /* WaterfallVC.swift in Sources */,
 				04D2AC95276E956A00098E88 /* POIVC-keywordsSearch.swift in Sources */,
 				F8AB246B270ADEED0082458F /* PostVC.swift in Sources */,
+				043B0913277C30530095FAF3 /* WaterfallVC-LoadData.swift in Sources */,
 				F8216396271AD3E300212A53 /* PhotoFooter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

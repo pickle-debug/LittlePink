@@ -92,7 +92,7 @@ class NoteEditVC: UIViewController {
         draftNote.channel = channel
         draftNote.subChannel = subChannel
         draftNote.poiName = poiName
-        draftNote.updateAt = Date()
+        draftNote.updatedAt = Date()
         
         appDelegate.saveContext()
     }

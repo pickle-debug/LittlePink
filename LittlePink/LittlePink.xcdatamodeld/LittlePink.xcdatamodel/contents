@@ -9,7 +9,7 @@
         <attribute name="subChannel" attributeType="String" defaultValueString=""/>
         <attribute name="text" attributeType="String" defaultValueString=""/>
         <attribute name="title" attributeType="String" defaultValueString=""/>
-        <attribute name="updateAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="video" optional="YES" attributeType="Binary"/>
     </entity>
     <elements>
